@@ -9,7 +9,7 @@ updates:
       time: "03:00"
     open-pull-requests-limit: 5
     reviewers:
-      - "veillette"
+      - "QuadriviumPress"
     labels:
       - "dependencies"
       - "npm"
@@ -27,7 +27,7 @@ updates:
       time: "03:30"
     open-pull-requests-limit: 5
     reviewers:
-      - "veillette"
+      - "QuadriviumPress"
     labels:
       - "dependencies"
       - "python"
@@ -45,7 +45,7 @@ updates:
       time: "04:00"
     open-pull-requests-limit: 5
     reviewers:
-      - "veillette"
+      - "QuadriviumPress"
     labels:
       - "dependencies"
       - "github-actions"

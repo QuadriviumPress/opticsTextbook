@@ -12,9 +12,9 @@ project:
       interference, diffraction, polarization, lasers, and fiber optics.
   keywords: [optics, physics, education, textbook, light, lenses, lasers, fiber optics, polarization, interference, diffraction]
   authors:
-    - name: Martin Veillette
+    - name: QuadriviumPress
   license: CC-BY-SA-4.0
-  github: https://github.com/veillette/opticsTextbook/
+  github: https://github.com/QuadriviumPress/opticsTextbook/
   bibliography: doc/references.bib
   # Exclude YouTube URLs from link checking (YouTube blocks automated link checkers)
   error_rules:
@@ -62,7 +62,7 @@ project:
     - format: typst
       id: pdf
       output: exports/textbook.pdf
-      author: Martin Veillette
+      author: QuadriviumPress
       subject: Optics Textbook
       keywords: [optics, physics, education]
       parts:
@@ -90,7 +90,7 @@ project:
     # - format: docx
     #   id: docx
     #   output: exports/textbook.docx
-    #   author: Martin Veillette
+    #   author: QuadriviumPress
     #   subject: Optics Textbook
     #   keywords: [optics, physics, education]
     #   articles:
@@ -289,7 +289,7 @@ site:
       google: G-BT4TZCELT2
     hide_myst_branding: true
     repository:
-      url: https://github.com/veillette/opticsTextbook/
+      url: https://github.com/QuadriviumPress/opticsTextbook/
       branch: main
     use_edit_page_button: true
     use_repository_button: true
@@ -302,6 +302,6 @@ site:
     - title: "Contribute"
       children:
         - title: "Report Issue"
-          url: https://github.com/veillette/opticsTextbook/issues/new?labels=correction
+          url: https://github.com/QuadriviumPress/opticsTextbook/issues/new?labels=correction
         - title: "Join Project"
-          url: https://github.com/veillette/opticsTextbook/blob/main/README.md
+          url: https://github.com/QuadriviumPress/opticsTextbook/blob/main/README.md

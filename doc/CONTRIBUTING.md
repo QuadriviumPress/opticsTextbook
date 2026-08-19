@@ -176,7 +176,7 @@ Before submitting, run `npm run validate` to catch missing labels, malformed dir
 
 ## Getting Help
 
-- **Issues:** https://github.com/veillette/opticsTextbook/issues
+- **Issues:** https://github.com/QuadriviumPress/opticsTextbook/issues
 - **Discussions / Questions:** Open a discussion or comment on related issues if guidance is needed.
 - **Documentation references:**
   - [`MAINTENANCE.md`](MAINTENANCE.md)

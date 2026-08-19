@@ -3,6 +3,8 @@ tags:
   - reference
 ---
 
-# About the Author
+# About This Textbook
 
-**Martin Veillette** is a Professor of Physics at Berea College in Kentucky, where he has taught since 2007. He earned his Ph.D. in Physics from the University of California Santa Barbara in 2003, specializing in condensed matter physics. Dr. Veillette is passionate about undergraduate education and has developed several courses in optics and modern physics.
+This optics textbook is maintained by [QuadriviumPress](https://github.com/QuadriviumPress), an open-access publisher dedicated to high-quality physics and STEM educational resources.
+
+The text is adapted from the [Interactive Optics Textbook](https://books.open.tudelft.nl/home/catalog/book/232) developed at TU Delft. We acknowledge and thank the original authors for their foundational work.

@@ -96,7 +96,7 @@ GitHub Actions automatically runs when you push:
 - HTML build (must succeed)
 - External link checking
 
-View results: https://github.com/veillette/opticsTextbook/actions
+View results: https://github.com/QuadriviumPress/opticsTextbook/actions
 
 ---
 
@@ -301,7 +301,7 @@ npm run lint:fix
    ```bash
    git push
    # GitHub Actions validates everything
-   # Check: https://github.com/veillette/opticsTextbook/actions
+   # Check: https://github.com/QuadriviumPress/opticsTextbook/actions
    ```
 
 ---
@@ -365,7 +365,7 @@ npm test
 
 ### GitHub Actions build failed
 **View the error:**
-1. Go to: https://github.com/veillette/opticsTextbook/actions
+1. Go to: https://github.com/QuadriviumPress/opticsTextbook/actions
 2. Click the failed workflow
 3. Expand the "Build HTML Documentation" step
 4. Read the error message
@@ -397,7 +397,7 @@ git revert <commit-hash>
 
 ```bash
 # Clone repository (already done)
-git clone https://github.com/veillette/opticsTextbook.git
+git clone https://github.com/QuadriviumPress/opticsTextbook.git
 cd opticsTextbook
 
 # Install dependencies
@@ -524,8 +524,8 @@ See: [`MYST_CONVENTIONS.md`](MYST_CONVENTIONS.md)
 See: [`scripts/README.md`](scripts/README.md)
 
 ### For this repository
-- Issues: https://github.com/veillette/opticsTextbook/issues
-- Discussions: https://github.com/veillette/opticsTextbook/discussions
+- Issues: https://github.com/QuadriviumPress/opticsTextbook/issues
+- Discussions: https://github.com/QuadriviumPress/opticsTextbook/discussions
 
 ---
 
@@ -533,4 +533,4 @@ See: [`scripts/README.md`](scripts/README.md)
 
 **Version:** 1.0
 
-**Contact:** Martin Veillette
+**Contact:** [QuadriviumPress](https://github.com/QuadriviumPress)

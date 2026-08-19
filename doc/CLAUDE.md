@@ -668,10 +668,10 @@ Completed issues:
 
 ## Additional Resources
 
-- **Repository**: https://github.com/veillette/opticsTextbook/
-- **Live Site**: https://veillette.github.io/opticsTextbook/
-- **Issues**: https://github.com/veillette/opticsTextbook/issues
-- **Actions**: https://github.com/veillette/opticsTextbook/actions
+- **Repository**: https://github.com/QuadriviumPress/opticsTextbook/
+- **Live Site**: https://quadriviumpress.github.io/opticsTextbook/
+- **Issues**: https://github.com/QuadriviumPress/opticsTextbook/issues
+- **Actions**: https://github.com/QuadriviumPress/opticsTextbook/actions
 - **MyST Documentation**: https://mystmd.org/guide
 - **License**: CC BY-SA 4.0
 
@@ -757,7 +757,7 @@ Refer to {ref}`section:fiber-modes` for more information.
 
 ### GitHub Pages Deployment
 
-**URL:** https://veillette.github.io/opticsTextbook/
+**URL:** https://quadriviumpress.github.io/opticsTextbook/
 
 **Deployment triggers:**
 - Automatic on push to `main` branch
@@ -786,7 +786,7 @@ Refer to {ref}`section:fiber-modes` for more information.
 ### Monitoring Deployment
 
 Check deployment status:
-1. Visit: https://github.com/veillette/opticsTextbook/actions
+1. Visit: https://github.com/QuadriviumPress/opticsTextbook/actions
 2. Look for "MyST GitHub Pages Deploy" workflow
 3. Green checkmark = successful deployment
 4. Red X = failed deployment (check logs)

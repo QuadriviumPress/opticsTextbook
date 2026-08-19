@@ -29,6 +29,4 @@ This textbook is available online and can be accessed in multiple formats:
 This book is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
 This book is adapted from the Interactive Optics Textbook (https://books.open.tudelft.nl/home/catalog/book/232) developed at TU Delft. We acknowledge and thank the original authors for their foundational work, which has made this adaptation possible.
 
-*Martin Veillette*
-
 ---

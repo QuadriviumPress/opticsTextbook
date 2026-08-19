@@ -11,12 +11,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/veillette/opticsTextbook"
+    "url": "https://github.com/QuadriviumPress/opticsTextbook"
   },
   "bugs": {
-    "url": "https://github.com/veillette/opticsTextbook/issues"
+    "url": "https://github.com/QuadriviumPress/opticsTextbook/issues"
   },
-  "homepage": "https://veillette.github.io/opticsTextbook",
+  "homepage": "https://quadriviumpress.github.io/opticsTextbook",
   "license": "CC-BY-SA-4.0",
   "engines": {
     "node": ">=20.0.0",

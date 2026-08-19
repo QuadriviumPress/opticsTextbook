@@ -2,8 +2,8 @@
 
 An interactive open textbook on optics for undergraduate students in physics, electrical engineering, and related fields.
 
-[![Validate & Test](https://github.com/veillette/opticsTextbook/actions/workflows/validate.yml/badge.svg?branch=main)](https://github.com/veillette/opticsTextbook/actions/workflows/validate.yml)
-[![Deploy](https://github.com/veillette/opticsTextbook/actions/workflows/deploy-book.yml/badge.svg?branch=main)](https://github.com/veillette/opticsTextbook/actions/workflows/deploy-book.yml)
+[![Validate & Test](https://github.com/QuadriviumPress/opticsTextbook/actions/workflows/validate.yml/badge.svg?branch=main)](https://github.com/QuadriviumPress/opticsTextbook/actions/workflows/validate.yml)
+[![Deploy](https://github.com/QuadriviumPress/opticsTextbook/actions/workflows/deploy-book.yml/badge.svg?branch=main)](https://github.com/QuadriviumPress/opticsTextbook/actions/workflows/deploy-book.yml)
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 
 ![The artwork features a sleek, dark background illuminated by a central glass prism splitting a beam of white light into a vibrant rainbow spectrum. Surrounding the prism are various optical elements, including floating lenses, curved fiber optic strands, and schematic wave patterns.](img/coverTextbook.png "Cover For Optics")
@@ -39,7 +39,7 @@ To contribute to this textbook, you'll need Node.js installed. Follow these step
 
 ```bash
 # Clone the repository
-git clone https://github.com/veillette/opticsTextbook.git
+git clone https://github.com/QuadriviumPress/opticsTextbook.git
 cd opticsTextbook
 
 # Install dependencies
@@ -60,8 +60,8 @@ For detailed workflows and maintenance tasks, see the `doc/` directory:
 
 ### Need Help?
 
-- Report issues: [GitHub Issues](https://github.com/veillette/opticsTextbook/issues)
-- View workflows: [GitHub Actions](https://github.com/veillette/opticsTextbook/actions)
+- Report issues: [GitHub Issues](https://github.com/QuadriviumPress/opticsTextbook/issues)
+- View workflows: [GitHub Actions](https://github.com/QuadriviumPress/opticsTextbook/actions)
 
 ## Contributions and Acknowledgments
 
