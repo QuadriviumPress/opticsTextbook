@@ -3,7 +3,7 @@
 An interactive open textbook on optics for undergraduate students in physics, electrical engineering, and related fields.
 
 [![Validate & Test](https://github.com/QuadriviumPress/opticsTextbook/actions/workflows/validate.yml/badge.svg?branch=main)](https://github.com/QuadriviumPress/opticsTextbook/actions/workflows/validate.yml)
-[![Deploy](https://github.com/QuadriviumPress/opticsTextbook/actions/workflows/deploy-book.yml/badge.svg?branch=main)](https://github.com/QuadriviumPress/opticsTextbook/actions/workflows/deploy-book.yml)
+[![Deploy](https://github.com/QuadriviumPress/opticsTextbook/actions/workflows/deploy.yml/badge.svg?branch=main)](https://github.com/QuadriviumPress/opticsTextbook/actions/workflows/deploy.yml)
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 
 ![The artwork features a sleek, dark background illuminated by a central glass prism splitting a beam of white light into a vibrant rainbow spectrum. Surrounding the prism are various optical elements, including floating lenses, curved fiber optic strands, and schematic wave patterns.](img/coverTextbook.png "Cover For Optics")
@@ -48,6 +48,9 @@ npm install
 # Launch development server (with live reload)
 npm run start
 # Open http://localhost:3000 in your browser
+
+# Static HTML build (also runs image/export/PWA steps)
+npm run build
 ```
 
 ### Documentation

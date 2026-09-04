@@ -116,7 +116,7 @@ opticsTextbook/
 ├── myst.yml                    # MyST configuration
 ├── package.json                # npm scripts
 ├── .github/workflows/          # CI/CD workflows
-│   ├── deploy-book.yml        # GitHub Pages deployment
+│   ├── deploy.yml        # GitHub Pages deployment
 │   ├── validate.yml           # Validation checks
 │   └── link-check.yml         # Weekly link validation
 ├── README.md                   # User-facing docs
@@ -293,7 +293,7 @@ When you commit, Husky automatically runs:
 
 ### GitHub Actions (Automatic on Push to main)
 
-**Deploy Workflow** (`.github/workflows/deploy-book.yml`):
+**Deploy Workflow** (`.github/workflows/deploy.yml`):
 1. Install dependencies (Node.js, LaTeX, ImageMagick)
 2. Generate all exports (PDF, DOCX)
 3. Build HTML site
