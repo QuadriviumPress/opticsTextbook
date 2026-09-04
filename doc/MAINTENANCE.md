@@ -450,7 +450,7 @@ opticsTextbook/
 │   └── report-utils.js       # Reporting utilities
 ├── .github/
 │   └── workflows/            # CI/CD automation
-│       ├── deploy-book.yml   # Deployment
+│       ├── deploy.yml   # Deployment
 │       └── validate.yml      # Validation on push
 ├── .husky/
 │   └── pre-commit            # Local validation before commit
