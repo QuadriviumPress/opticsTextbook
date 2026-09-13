@@ -92,10 +92,10 @@
   },
   "devDependencies": {
     "@types/jest": "^30.0.0",
-    "cspell": "^8.17.0",
+    "cspell": "^10.3.0",
     "husky": "^9.1.7",
-    "jest": "^30.2.0",
-    "markdownlint-cli2": "^0.23.1",
+    "jest": "^30.5.1",
+    "markdownlint-cli2": "^0.23.2",
     "write-good": "^1.0.8"
   }
 }
