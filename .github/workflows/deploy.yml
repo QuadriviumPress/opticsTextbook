@@ -82,7 +82,7 @@ jobs:
           echo "STEP_START_TIME=$(date +%s)" >> $GITHUB_ENV
 
       - name: Setup Typst
-        uses: typst-community/setup-typst@v4
+        uses: typst-community/setup-typst@v5
         with:
           typst-version: 'latest'
 
