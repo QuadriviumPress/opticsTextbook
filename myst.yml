@@ -285,6 +285,7 @@ site:
   options:
     logo_dark: img/advanced_optics_logo_dark.svg
     logo_text: Optics Textbook
+    logo_alt: Exploring Optics logo
     logo: img/advanced_optics_logo_white.svg
     favicon: img/favicon.ico
     style: css/custom.css
