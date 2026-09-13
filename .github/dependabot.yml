@@ -1,55 +1,15 @@
+# Canonical Dependabot config for a Node-based QuadriviumPress book repo
 version: 2
 updates:
-  # Check for npm dependency updates weekly
-  - package-ecosystem: "npm"
+  - package-ecosystem: npm
     directory: "/"
     schedule:
-      interval: "weekly"
-      day: "monday"
-      time: "03:00"
-    open-pull-requests-limit: 5
-    reviewers:
-      - "QuadriviumPress"
-    labels:
-      - "dependencies"
-      - "npm"
-    commit-message:
-      prefix: "chore"
-      prefix-scope: "deps"
-      include: "scope"
-
-  # Check for pip dependency updates weekly
-  - package-ecosystem: "pip"
+      interval: weekly
+    open-pull-requests-limit: 10
+    groups:
+      dev-dependencies:
+        dependency-type: development
+  - package-ecosystem: github-actions
     directory: "/"
     schedule:
-      interval: "weekly"
-      day: "monday"
-      time: "03:30"
-    open-pull-requests-limit: 5
-    reviewers:
-      - "QuadriviumPress"
-    labels:
-      - "dependencies"
-      - "python"
-    commit-message:
-      prefix: "chore"
-      prefix-scope: "deps"
-      include: "scope"
-
-  # Check for GitHub Actions updates weekly
-  - package-ecosystem: "github-actions"
-    directory: "/"
-    schedule:
-      interval: "weekly"
-      day: "monday"
-      time: "04:00"
-    open-pull-requests-limit: 5
-    reviewers:
-      - "QuadriviumPress"
-    labels:
-      - "dependencies"
-      - "github-actions"
-    commit-message:
-      prefix: "chore"
-      prefix-scope: "ci"
-      include: "scope"
+      interval: weekly

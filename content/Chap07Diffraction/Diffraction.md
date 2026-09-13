@@ -762,7 +762,7 @@ As explained above, there holds in the Fraunhofer far field: $\theta= x/z<1$. Th
 ```
 Hence, the larger the ratio of the period and the wavelength, the more diffraction orders.
 
-The property {eq}`eq:diff:diffraction-order` that the diffraction orders $ m\neq 0$ depend on wavelength is used to separate wavelengths. **Grating spectrometers** use periodic structures such as an array of slits to very accurately separate and measure wavelengths. The $m$th diffraction order of two wavelengths $\lambda_1$ and $\lambda_2>\lambda_1$ are just separated if
+The property {eq}`eq:diff:gratingOrderm` that the diffraction orders $ m\neq 0$ depend on wavelength is used to separate wavelengths. **Grating spectrometers** use periodic structures such as an array of slits to very accurately separate and measure wavelengths. The $m$th diffraction order of two wavelengths $\lambda_1$ and $\lambda_2>\lambda_1$ are just separated if
 
 $$
 m\frac{\lambda_2}{p} > m\frac{\lambda_1}{p} + \Delta \theta =

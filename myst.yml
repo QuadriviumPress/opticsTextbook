@@ -12,7 +12,8 @@ project:
       interference, diffraction, polarization, lasers, and fiber optics.
   keywords: [optics, physics, education, textbook, light, lenses, lasers, fiber optics, polarization, interference, diffraction]
   authors:
-    - name: QuadriviumPress
+    - name:
+        literal: QuadriviumPress
   license: CC-BY-SA-4.0
   short_title: Exploring Optics
   open_access: true
@@ -307,3 +308,5 @@ site:
           url: https://github.com/QuadriviumPress/opticsTextbook/issues/new?labels=correction
         - title: "Join Project"
           url: https://github.com/QuadriviumPress/opticsTextbook/blob/main/README.md
+    - title: "Sources & Attribution"
+      url: https://github.com/QuadriviumPress/opticsTextbook/blob/main/SOURCES.md

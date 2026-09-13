@@ -31,6 +31,20 @@ The textbook combines comprehensive coverage with interactive elements in its di
 
 See [PWA_SETUP.md](doc/PWA_SETUP.md) for details on PWA features and usage.
 
+## Build
+
+Use Node.js 22 and install the pinned dependencies from the lockfile:
+
+```bash
+npm install
+npm run start          # live preview
+npm run verify         # content validation and unit tests
+npm run build          # HTML, exports, and PWA assets
+npm run check          # verify and link-check the HTML build
+```
+
+Use `npm ci` when you need an exact reproducible installation.
+
 ## For Contributors
 
 ### Quick Start

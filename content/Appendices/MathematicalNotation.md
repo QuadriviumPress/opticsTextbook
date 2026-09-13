@@ -292,7 +292,7 @@ This textbook uses automatic equation numbering. Numbered equations can be refer
 - Inline reference: `{eq}equation-label`
 - Formatted reference: `{eq}\`equation-label\``
 
-Example: See equation {eq}`photon-energy` in Chapter 1.
+Example: See equation {eq}`eq:basics:photonEnergy` in Chapter 1.
 
 ## Units and Notation
 

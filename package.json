@@ -1,6 +1,7 @@
 {
   "name": "opticstextbook",
   "version": "1.0.0",
+  "private": true,
   "description": "Optics Textbook built with MyST Markdown.",
   "keywords": [
     "optics",
@@ -16,11 +17,11 @@
   "bugs": {
     "url": "https://github.com/QuadriviumPress/opticsTextbook/issues"
   },
-  "homepage": "https://quadriviumpress.github.io/opticsTextbook",
+  "homepage": "https://quadriviumpress.com/opticsTextbook/",
   "license": "CC-BY-SA-4.0",
   "engines": {
-    "node": ">=20.0.0",
-    "npm": ">=9.0.0"
+    "node": ">=22",
+    "npm": ">=10"
   },
   "dependencies": {
     "js-yaml": "^4.3.1",
@@ -29,6 +30,8 @@
   },
   "scripts": {
     "start": "myst start",
+    "verify": "npm run lint:quiet && npm run validate:references -- --quiet && npm run standardize:labels:check -- --quiet && npm run validate:images -- --quiet && npm run validate:style:quiet && npm run validate:alt-text -- --strict && npm test",
+    "check": "npm run verify && npx myst build --html --check-links",
     "export": "myst build -a",
     "checklinks": "myst build --check-links",
     "prebuild": "npm run optimize-images && npm run generate-exports",

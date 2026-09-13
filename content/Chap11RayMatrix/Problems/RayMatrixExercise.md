@@ -41,7 +41,7 @@ where $k_1= (n-1)/R_1$ and $k_2= (1-n)/R_2$
 
 
 **(b)** Show that for $d=0$ the transfer matrix is identical to that for a thin lens given by
-  {eq}`eq:ray:thin-lens-matrix`.
+  {eq}`eq:ray:thinLensMatrix`.
 
 
 In Section 3.5.7 of the Lecture Notes the primary and secondary principle planes were defined. Let the distance between the primary principle plane ${\cal H}_1$ and vertex $V_1$ be $T_1$, and let the distance of the second principle plane ${\cal H}_2$ to vertex $V_2$ be $T_2$ as shown in {numref}`fig:ray:thicklens2`). $T_1>0$ and $T_2>0$ if the first principle plane is to the left of $V_1$ and the second principle plane is to the right of $V_2$, respectively, while $T_1$ and $T_2$ are negative otherwise.

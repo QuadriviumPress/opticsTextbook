@@ -13,18 +13,6 @@ on:
       - 'icons/**'
       - 'img/**'
       - '.github/workflows/deploy.yml'
-  pull_request:
-    branches: [main]
-    paths:
-      - 'content/**'
-      - 'scripts/**'
-      - 'myst.yml'
-      - 'package.json'
-      - 'package-lock.json'
-      - 'pwa/**'
-      - 'icons/**'
-      - 'img/**'
-      - '.github/workflows/deploy.yml'
   workflow_dispatch:
 
 env:
@@ -57,7 +45,7 @@ jobs:
           echo "" >> $GITHUB_STEP_SUMMARY
 
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Record checkout time
         run: |
@@ -68,10 +56,10 @@ jobs:
 
       - name: Setup Pages
         if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
-        uses: actions/configure-pages@v4
+        uses: actions/configure-pages@v6
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v7
         with:
           node-version: '22'
           cache: 'npm'
@@ -106,7 +94,7 @@ jobs:
           echo "STEP_START_TIME=$(date +%s)" >> $GITHUB_ENV
 
       - name: Cache MyST build artifacts
-        uses: actions/cache@v4
+        uses: actions/cache@v6
         with:
           path: |
             ./_build
@@ -117,7 +105,7 @@ jobs:
             myst-build-
 
       - name: Cache Typst packages
-        uses: actions/cache@v4
+        uses: actions/cache@v6
         with:
           path: ~/.cache/typst
           key: typst-packages-${{ runner.os }}-${{ hashFiles('_templates/typst/**/*') }}
@@ -355,7 +343,7 @@ jobs:
 
       - name: Upload artifact
         if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5
         with:
           path: '_build/html'
 
@@ -369,7 +357,7 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
 
       - name: Record deployment time
         run: |

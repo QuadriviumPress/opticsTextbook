@@ -26,7 +26,10 @@ This textbook is available online and can be accessed in multiple formats:
 - **PDF Version**: A PDF download option will appear at the top right once generated (requires LaTeX installation)
 - **Source Files**: Markdown source files are available via the repository linked above
 
-This book is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
-This book is adapted from the Interactive Optics Textbook (https://books.open.tudelft.nl/home/catalog/book/232) developed at TU Delft. We acknowledge and thank the original authors for their foundational work, which has made this adaptation possible.
+This QuadriviumPress edition is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+It is adapted from *Interactive Optics — 2nd edition* by Aurèle J.L. Adam,
+Sander Konijnenberg, H. Paul Urbach, and Thomas H.A. van der Reep, published
+by TU Delft OPEN Books under CC BY 4.0. We acknowledge and thank the original
+authors for their foundational work.
 
 ---

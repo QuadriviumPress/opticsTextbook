@@ -6,7 +6,7 @@
 
 **Problem 10.3** Explain why for optical fiber communication lines the wavelength of choice are $1310$ and $1550~\text{nm}$.
 
-**Problem 10.4** Show that the phase factor $(m-1)\pi$ in {eq}`eq:fiber:down-propagating-wave`
+**Problem 10.4** Show that the phase factor $(m-1)\pi$ in {eq}`eq:fiber:downPropagatingWave`
    indeed leads to a vanishing $E$-field at the mirrors. Is this the only
    possible solution?
 
@@ -24,9 +24,9 @@
 
 **Problem 10.8** Estimate the loss (in dB) due to the following situations in which two single mode fibers are coupled incorrectly:
 
-**(a)** a fiber with a core diameter of $7.0~\mu\text{m}$ is coupled to a fiber with core diameter $6.0~\mu\text{m}$ (see {numref}`figFiberCouplingLoss`).
+**(a)** a fiber with a core diameter of $7.0~\mu\text{m}$ is coupled to a fiber with core diameter $6.0~\mu\text{m}$ (see {numref}`fig:fiber:couplingLoss`).
 
-**(b)** a $500~\mu\text{m}$-air gap exists in between two fibers (see {numref}`figFiberCouplingLoss`). Both have a numerical aperture equal to $0.12$ and a core diameter of $6.0~\mu\text{m}$.
+**(b)** a $500~\mu\text{m}$-air gap exists in between two fibers (see {numref}`fig:fiber:couplingLoss`). Both have a numerical aperture equal to $0.12$ and a core diameter of $6.0~\mu\text{m}$.
 
 To make your estimation, neglect reflection due to refractive index mismatch and assume the incoming light has a Gaussian beam profile with intensity
 ```{math}
@@ -35,6 +35,6 @@ I(r,z)=I_0\left(\frac{d/4}{d/4+\mathrm{NA}\cdot z}\right)^2\exp\left(\frac{-2r^2
 \end{align*}
 ```
 
-Here, $r$ is the radial coordinate in the $(x,y)$-plane (see {numref}`figFiberTIR`). Integrate over the fiber core into which the light is coupled and divide by $I_0$.
+Here, $r$ is the radial coordinate in the $(x,y)$-plane (see {numref}`fig:fiber:tir`). Integrate over the fiber core into which the light is coupled and divide by $I_0$.
 
 Note that these calculations are simplified, but they give a rough estimate of coupling losses.

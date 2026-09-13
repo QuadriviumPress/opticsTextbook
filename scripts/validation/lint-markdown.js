@@ -968,9 +968,13 @@ function main() {
     console.log(`\n📄 Detailed report saved to: ${reportFile}`);
   }
 
-  // Return appropriate exit code
+  // Errors always fail CI; --strict additionally promotes warnings and info.
   const totalIssues = Object.values(allIssues).reduce((sum, issues) => sum + issues.length, 0);
-  if (options.strict && totalIssues > 0) {
+  const totalErrors = Object.values(allIssues).reduce(
+    (sum, issues) => sum + issues.filter(issue => issue.severity === 'error').length,
+    0
+  );
+  if (totalErrors > 0 || (options.strict && totalIssues > 0)) {
     return 1;
   }
 

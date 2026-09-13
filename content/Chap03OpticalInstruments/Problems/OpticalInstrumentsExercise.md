@@ -63,7 +63,7 @@ the angular field of view is increased by a factor 10.
 Derive $d$ and the strength of the negative lens in diopter.
 
 ```{figure} ../Images/03_15_eye.png
-:name: fig:inst:eye
+:name: fig:inst:eyeFieldOfView
 Angular view $\alpha_u$ without and with the use of a negative lens.
 ```
 

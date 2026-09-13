@@ -24,7 +24,6 @@
 
 const fs = require('fs');
 const path = require('path');
-const { execSync } = require('child_process');
 const { runMystCommand } = require('../shared-utils');
 const { ReportGenerator } = require('../report-utils');
 
@@ -39,17 +38,6 @@ function getMystBuildReferences() {
   // Try to build and capture output
   const { stdout, stderr } = runMystCommand(['npm', 'run', 'build']);
   let output = stdout + stderr;
-
-  // Also try a dry run build if available
-  if (output.toLowerCase().includes('myst')) {
-    // Try direct myst command for more detailed info
-    try {
-      const mystResult = runMystCommand(['npx', 'myst', 'build', '--check', '--verbose']);
-      output += '\n' + mystResult.stdout + mystResult.stderr;
-    } catch (err) {
-      // Ignore errors, build output may be sufficient
-    }
-  }
 
   // Extract image references from build output
   const referencedImages = new Set();

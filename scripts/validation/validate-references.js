@@ -47,7 +47,7 @@ function runMystValidation() {
   };
 
   // Standard HTML build
-  let result = runMystCommand(['npx', 'myst', 'build', '--html', '--strict']);
+  let result = runMystCommand(['npx', 'myst', 'build', '--html']);
   results.buildOutput = result.stdout;
   results.buildErrors = result.stderr;
   results.returnCodes.push(result.code);
@@ -57,11 +57,6 @@ function runMystValidation() {
   results.checkOutput = result.stdout;
   results.checkErrors = result.stderr;
   results.returnCodes.push(result.code);
-
-  // Verbose diagnostics
-  result = runMystCommand(['npx', 'myst', 'build', '--check', '--verbose']);
-  results.buildOutput += "\n" + result.stdout;
-  results.buildErrors += "\n" + result.stderr;
 
   return results;
 }
@@ -112,7 +107,12 @@ function parseMystOutput(validationResults) {
       } else {
         issues.otherWarnings.push({ message: trimmed, type: 'unknown_warning' });
       }
-    } else if (line.includes('❌') || line.includes('ERROR')) {
+    } else if (line.includes('❌') || line.includes('⛔') || line.includes('ERROR')) {
+      // Export artifacts are populated by the separate export workflow and
+      // are intentionally absent in an ordinary source checkout.
+      if (lower.includes('static resource') && lower.includes('exports/')) {
+        continue;
+      }
       if (lower.includes('syntax') || lower.includes('parse error')) {
         issues.syntaxErrors.push({ message: trimmed, type: 'syntax_error' });
       } else {
@@ -433,7 +433,12 @@ function main() {
   console.log(`  - JSON: ${jsonFile}`);
 
   // Return exit code
-  if (analysis.severitySummary.critical > 0) {
+  const brokenReferences =
+    mystIssues.missingFigures.length + mystIssues.brokenCrossRefs.length +
+    mystIssues.externalLinkErrors.length + mystIssues.equationErrors.length +
+    mystIssues.citationErrors.length + manualIssues.length;
+
+  if (analysis.severitySummary.critical > 0 || brokenReferences > 0) {
     return 1;
   } else if (options.strict && analysis.severitySummary.warnings > 0) {
     return 1;

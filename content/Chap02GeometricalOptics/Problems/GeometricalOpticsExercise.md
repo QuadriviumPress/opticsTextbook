@@ -61,7 +61,7 @@ the constant is the same for all points $A$ on the interface.
 **(d)** Use the previous results to describe a lens with refractive index $n_2>n_1$ and having hyperboloid surfaces which perfectly images two given points S and P in the ambient medium with refractive index $n_1$.
 
 ```{figure} ../Images/02_18_perfect_imaging.png
-:name: fig:geo:perfectImaging
+:name: fig:geo:perfectImagingProblem
 Lens with hyperboloid surfaces for perfect imaging of a pair of points.
 ```
 
@@ -141,7 +141,7 @@ Consider a spherical surface with radius of curvature $R$ with to the left (righ
 **(b)** Derive the conditions such that the plane at distance $d_2$ is the
   image of the plane at distance $d_1$. Express the formula in
   coordinates $s_o=-d_1$, $s_i=d_2$ with respect to the vertex as origin and
-  show that the result is identical to formula {eq}`eq:geo:single-surface-power-form`
+  show that the result is identical to formula {eq}`eq:geo:singleSurfacePowerForm`
 
 **(c)** Assume that
 $n_1=1$, $n_2=2$ and $R= 2$ cm.
@@ -158,7 +158,7 @@ The image $P$ of a point $S$ as shown in {numref}`fig:geo:sphericalLens` is comp
 A spherical lens made of glass of index $n_l$ in a medium of index $n_m$. The point $S$ is imaged in $P$.
 ```
 
-**(a)** Use {eq}`eq:geo:single-surface-power-form` to deduce that when $S$ is
+**(a)** Use {eq}`eq:geo:singleSurfacePowerForm` to deduce that when $S$ is
   imaged by the first spherical surface as if the second spherical surface were
   absent, the image $P'$ has $z$-coordinate $s_{i1}$ with respect to the origin
   in $V$, of $S$, satisfies:
