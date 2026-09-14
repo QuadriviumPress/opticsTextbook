@@ -31,7 +31,7 @@
   "scripts": {
     "start": "myst start",
     "verify": "npm run lint:quiet && npm run validate:references -- --quiet && npm run standardize:labels:check -- --quiet && npm run validate:images -- --quiet && npm run validate:style:quiet && npm run validate:alt-text -- --strict && npm test",
-    "check": "npm run verify && npx myst build --html --check-links",
+    "check": "npm run verify && myst build --html --strict --check-links",
     "export": "myst build -a",
     "checklinks": "myst build --check-links",
     "prebuild": "npm run optimize-images && npm run generate-exports",
