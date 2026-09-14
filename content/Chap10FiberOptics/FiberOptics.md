@@ -40,6 +40,13 @@ After this theoretical view on optical fibers, we zoom out a little to introduce
 (sec:fiber:tir)=
 ## Total internal reflection
 
+```{phet} bending-light
+:screen: 2
+:label: fig:fiber-tir-sim
+
+A prism and interfaces with adjustable indices. Increase the angle of incidence past the critical angle and watch the transmitted ray vanish — total internal reflection, the confinement mechanism of the step-index fiber.
+```
+
 Let us first concern ourselves with the question how light can be confined in fibers. This happens by total internal reflection (TIR), which can be well explained using ray optics. Typically, fibers have a silicon-oxide ($\text{SiO}_2$) cladding, whereas in the $\text{SiO}_2$ core small amounts of germanium-oxide ($\text{GeO}_2$) are ''dissolved''. This doping increases the index of refraction $n_1$ slightly, thus $n_1>n_2$, as in {numref}`fig:fiber:tir`. The step in refractive index $n_1-n_2$ is indeed small, in the order of $10^{-3}$.
 
 Now consider Snell's law for the core-cladding boundary in {numref}`fig:fiber:tir`,

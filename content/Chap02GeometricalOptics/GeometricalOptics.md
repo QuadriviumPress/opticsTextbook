@@ -30,9 +30,11 @@ downloads:
 - Understand the modification of the lens model to incorporate a thick lens.
 - Understand the limitations of geometrical optics, in particular when diffraction optics is needed.
 ```
-**Nice software for practicing geometrical optics**:
+```{phet} geometric-optics
+:label: fig:geo-geometric-optics-sim
 
-[https://phet.colorado.edu/sims/html/geometric-optics/latest/geometric-optics_all.html](https://phet.colorado.edu/sims/html/geometric-optics/latest/geometric-optics_all.html)
+Place a lens or mirror, drag the object, and watch real and virtual images form. This is the interactive companion to the Gaussian imaging constructions later in the chapter.
+```
 
 ## Introduction
 Geometrical optics is an old subject, but it is still essential to understand and design optical instruments such as camera's, microscopes, telescopes etc. Geometrical optics started long before light was described as a wave as is done in wave optics, and long before it was discovered that light is an electromagnetic wave and that optics is part of electromagnetism.
@@ -216,6 +218,12 @@ where $\theta_i$ and $\theta_t$ are the angles between the ray and the normal to
 Ray from $P$ to $Q$ refracted by an interface.
 ```
 
+```{phet} bending-light
+:label: fig:geo-bending-light-sim
+
+Refraction and reflection at a planar interface with adjustable indices. Measure $\theta_i$ and $\theta_t$ and check that $n_i\sin\theta_i = n_t\sin\theta_t$ matches the protractor — the same Snell's law just derived from Fermat's principle.
+```
+
 +++
 
 Hence we have derived the law of reflection and Snell's law from Fermat's principle. In {ref}`chapter:basics` the reflection law and Snell's law have been derived by a different method, namely from the continuity of the tangential electromagnetic field components at the interface.
@@ -289,6 +297,12 @@ Spherical surfaces are not only more simple in the derivations but they are also
 In Gaussian geometrical optics only paraxial rays and spherical surfaces are considered. In Gaussian geometrical optics every point has a perfect image.
 ```
 
+```{openlyceum} OpticsLab
+:screen: 2
+:label: fig:geo-optics-lab-sim
+
+An open optical bench: rays, parallel and divergent beams, lenses, mirrors, and refracting interfaces. Build the single-surface and thin-lens geometries of this section and watch where the rays meet.
+```
 
 (sec:geo:gaussianSss)=
 ### Gaussian Imaging by a Single Spherical Surface

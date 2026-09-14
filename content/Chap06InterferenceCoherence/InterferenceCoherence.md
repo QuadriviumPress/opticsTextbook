@@ -395,6 +395,13 @@ Temporal coherence is closely related to the spectral content of the light: if t
 A Michelson interferometer to study the temporal coherence of a field. A beam is split in two by a beam splitter, and the two beams propagate over different distances which corresponds to a time difference $\tau$ and then interfere at the detector.
 ```
 
+```{openlyceum} InterferometryLab
+:screen: 1
+:label: fig:coh-michelson-sim
+
+A physical-optics Michelson: move a mirror, change the source coherence length, and watch fringe visibility collapse. The intensity versus delay is the self-coherence function of this section, measured rather than postulated.
+```
+
 We have
 
 ```{math}
@@ -559,6 +566,13 @@ Temporal coherence concerns the coherence of the field in one point. The absolut
 
 While for temporal coherence we used a **Michelson interferometer**, the natural choice to characterize spatial coherence is
 **Young's experiment**, because it allows the fields in two points $P_1$, $P_2$ which are separated in space to interfere with each other.
+
+```{phet} wave-interference
+:screen: 3
+:label: fig:coh-young-sim
+
+Young's geometry with slit separation, slit width, and wavelength under direct control. Switch between one slit and two: the fringe contrast on the screen is the spatial-coherence diagnostic used throughout this section.
+```
 
 ```{figure} Images/06_06_spatial_coherence.png
 :name: fig:coh:spatialCoherence
@@ -1029,6 +1043,13 @@ Illustration of $I_{\text{max}}$ and $I_{\text{min}}$ of an interference pattern
 (sec:coh:fabryperot)=
 ## Fabry-Perot resonator
 
+```{openlyceum} InterferometryLab
+:screen: 3
+:label: fig:coh-fabry-perot-sim
+
+A Fabry–Pérot cavity with adjustable mirror reflectance, spacing, and absorption. Watch finesse, free spectral range, and resolving power update as the transmission peaks sharpen — the interactive counterpart of the multiple-beam sum derived below.
+```
+
 In interferometry two mutually coherent waves are added and the intensity of the sum of the two fields is measured. This intensity contains information about the phase difference of the waves from which for example a path length difference can be deduced. One distinguishes between two types of interferometers: **wavefront splitting interferometers** and **amplitude splitting interferometers**. Examples of the first type are Young's two slit experiment and Lloyd's mirror ({numref}`fig:coh:lloydsmirror`). Examples of amplitude splitting interferometers are the Michelson interferometer and the Fabry-Perot interferometer. The latter is not only a spectrometer of extremely high resolution but is also the resonance cavity in a laser.
 ```{figure} Images/06_11_lloyd_mirror.png
 :name: fig:coh:lloydsmirror
@@ -1297,6 +1318,14 @@ For a wavelength of $\lambda_0=600~\text{nm}$ and $n_f d= 12~\text{mm}$ we have 
 **Remark.** Although in the derivation we have assumed that all refractive indices are real, the final formulae also apply to the case that $n_2$ is complex. In that case $k^{(2)}_z$ and the reflection coefficients are complex.
 
 ## Interference and polarization
+
+```{openlyceum} LightPropagation
+:screen: 2
+:label: fig:coh-polarization-interference-sim
+
+Two field components through a polarizer. Rotate the analyzer and watch the transmitted intensity — the vector statement that orthogonal polarizations do not interfere, which is the premise of the calculation below.
+```
+
 In the study of interference we have so far ignored the vectorial nature of light by assuming that all the fields have the same polarization.
 Suppose now that we have two real vector fields $\mathbf{\mathcal{E}}_1$, $\mathbf{\mathcal{E}}_2$. The (instantaneous) intensity of each field is (apart from a constant factor) given by
 

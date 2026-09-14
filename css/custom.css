@@ -1,5 +1,47 @@
 /* Custom styles for Optics Textbook */
 
+/*
+ * Simulation embeds (from plugins/simulation.css). MyST ships only the single
+ * site.options.style file, so these rules are inlined here rather than
+ * @imported — keep them in sync with plugins/simulation.css when editing.
+ */
+.simulation-placeholder {
+  display: none;
+}
+
+.simulation-aspect-768x504 > div {  /* PhET */
+  padding-bottom: 65.63% !important;
+}
+
+.simulation-aspect-16x9 > div {
+  padding-bottom: 56.25% !important;
+}
+
+.simulation-aspect-4x3 > div {
+  padding-bottom: 75% !important;
+}
+
+.simulation-aspect-1x1 > div {
+  padding-bottom: 100% !important;
+}
+
+.simulation-link {
+  font-size: 0.9em;
+}
+
+@media print {
+  .simulation-frame {
+    display: none;
+  }
+
+  .simulation-placeholder {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+}
+
 /* Auto-expand all table of contents items in the left sidebar */
 /* This keeps all navigation items visible without requiring clicks */
 

@@ -23,6 +23,11 @@ The chapter on Lasers ties together many previously discussed concepts, explorin
 
 The textbook combines comprehensive coverage with interactive elements in its digital version, all freely available under a Creative Commons Attribution-ShareAlike 4.0 International License.
 
+**Interactive simulations**: Chapters embed PhET and OpenLyceum simulations via
+`{phet}`, `{openlyceum}`, and `{phet-legacy}` (see `plugins/simulation.mjs` and
+the ledger in [`SOURCES.md`](SOURCES.md)). On the website they run in an iframe;
+exports and print show a screenshot and a link to the live sim.
+
 **Progressive Web App (PWA)**: The textbook is now available as a Progressive Web App, which means you can:
 - Install it on your device (desktop, mobile, or tablet) for app-like experience
 - Access content offline once cached

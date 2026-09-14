@@ -790,8 +790,22 @@ Structures can be periodic in one, two and three directions.
 A crystal acts as a three-dimensional grating whose period is the period of the crystal, which typically is a few Angstrom.
 Electromagnetic waves with wavelength less than one Angstrom are called x-rays. When a beam of x-rays illuminates a crystal, a detector in the far field measures the Fraunhofer diffraction pattern given by the intensity of the Fourier transform of the refracted near field. These diffraction orders of crystals for x-rays where discovered by Von Laue and are used to study the atomic structure of crystals.
 
+```{openlyceum} OpticsLab
+:screen: 4
+:label: fig:diff-optics-lab-grating-sim
+
+Transmission and reflection gratings on an optical bench. Change the grating period and the illuminating wavelength and watch the diffracted orders move — a geometric-optics preview of the far-field grating condition used for crystals and for laboratory diffraction gratings.
+```
 
 ## Fraunhofer Diffraction Revisited
+
+```{phet} wave-interference
+:screen: 4
+:label: fig:diff-wave-interference-sim
+
+An aperture and the far-field pattern it produces, with size, shape, and wavelength adjustable. Everything narrow in the aperture is wide in the pattern — the $\theta\sim\lambda/a$ scaling of Fraunhofer diffraction, seen whole rather than one angle at a time.
+```
+
 Fraunhofer diffraction patterns can qualitatively be explained by considering directions in which destructive and constructive interferences occur.
 Consider two mutually coherent point sources $S_1$, $S_2$ on the $x$-axis as shown in {numref}`fig:diff:twoSources`. We assume that these point sources are in phase. On a screen at large distance $z$ an interference pattern is observed. If the distance $z$ of the screen is very large, the spherical wave fronts emitted by the point sources are almost plane at the screen and the field is the Fraunhofer far field of the two point sources. In point $P$ on the screen at a distance $x$ above the $z$-axis the optical path differences of the waves emitted by the two sources is approximately given by $S_2Q=a \theta$, where $\theta=x/z$ is assumed small. Hence constructive interference occurs for angles $\theta$ such that
 $S_2Q=m\lambda$ for some integer $m$, i.e. when

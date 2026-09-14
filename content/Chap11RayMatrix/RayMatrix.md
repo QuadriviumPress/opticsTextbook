@@ -386,6 +386,13 @@ The space to the left of the lens is called the **object space** and that to the
 (sec:ray:focthin)=
 ## Focusing with a Thin Lens
 
+```{openlyceum} OpticsLab
+:screen: 2
+:label: fig:ray-optics-lab-sim
+
+Place a thin lens on the bench, send in a parallel beam, and measure where it crosses the axis — the second focal point of the matrix ${\cal M}$ derived above. Add an off-axis object ray and recover the imaging relation of the next section.
+```
+
 For a thin lens the vertices $V_1$ and $V_2$ coincide and $d=0$, hence {eq}`eq:ray:thickLensMatrix` becomes
 
 ```{math}

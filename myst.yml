@@ -44,6 +44,8 @@ project:
     '\Vector': '\boldsymbol{#1}'
     '\Real': '\mathbb{R}'
     '\Complex': '\mathbb{C}'
+  plugins:
+    - plugins/simulation.mjs
   options:
     cache: true
 
@@ -288,6 +290,8 @@ site:
     logo_alt: Exploring Optics logo
     logo: img/advanced_optics_logo_white.svg
     favicon: img/favicon.ico
+    # Simulation print/aspect rules are inlined at the top of custom.css
+    # (keep in sync with plugins/simulation.css); MyST ships only one style file.
     style: css/custom.css
     analytics:
       google: G-BT4TZCELT2

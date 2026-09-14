@@ -94,6 +94,13 @@ Left: Optical rays showing how an eye accommodates by changing its focal length.
 
 ### Working of the eye
 The entire eye can accurately be treated as two lenses in contact, of which the second lens can change its focal length. But often the system is approximated by only a single lens and this is also what we will do below.
+
+```{phet} geometric-optics-basics
+:label: fig:inst-eye-optics-sim
+
+A single thin lens with object and image distances under control. Treat it as the one-lens model of the eye used below: move the object inside and outside the near point and watch the image distance respond the way accommodation must.
+```
+
 In relaxed condition, the object focal distance of the lens system is $f_o=16$
 &nbsp;mm as measured from the cornea while the image focal distance is equal to
 the length of the eye: $f_i=24$&nbsp;mm. These focal distances are different,

@@ -239,6 +239,13 @@ Illustration of different types of polarization. The horizontal and vertical arr
 - [KhanAcademy - Polarization of light, linear and circular](https://www.khanacademy.org/science/ap-physics-2/ap-light-waves/ap-introduction-to-light-waves/v/polarization-of-light-linear-and-circular): Explanation of different polarization states and their applications.
 ```
 
+```{openlyceum} LightPropagation
+:screen: 1
+:label: fig:pol-em-wave-sim
+
+A monochromatic electromagnetic wave with its electric field drawn perpendicular to the propagation direction. Later screens of this simulation send the same wave through polarizers and birefringent plates — the interactive counterpart of the Jones-matrix section that follows.
+```
+
 ## Creating and Manipulating Polarization States
 We have seen how Maxwell's equations allow the existence of plane waves with many different states of polarization. But how can we create these states, and how do these states manifest themselves?
 
@@ -462,6 +469,13 @@ Light that is a mixture of polarized and unpolarized light is called partially p
 ```
 
 ### Quarter-Wave Plates
+
+```{openlyceum} LightPropagation
+:screen: 3
+:label: fig:pol-waveplates-sim
+
+A birefringent slab with adjustable retardation. Set a quarter-wave or half-wave plate, rotate the fast axis relative to a linear input, and watch linear light become circular (or rotate) — the same phase shift treated by the Jones matrix below.
+```
 
 A quarter-wave plate has already been introduced above. It introduces a phase shift of $\pi/2$, so its Jones matrix is
 
