@@ -6,7 +6,6 @@ An interactive open textbook on optics for undergraduate students in physics, el
 [![Deploy](https://github.com/QuadriviumPress/opticsTextbook/actions/workflows/deploy.yml/badge.svg?branch=main)](https://github.com/QuadriviumPress/opticsTextbook/actions/workflows/deploy.yml)
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 
-![The artwork features a sleek, dark background illuminated by a central glass prism splitting a beam of white light into a vibrant rainbow spectrum. Surrounding the prism are various optical elements, including floating lenses, curved fiber optic strands, and schematic wave patterns.](img/coverTextbook.png "Cover For Optics")
 ## Overview
 
 This textbook covers advanced topics in optics while maintaining accessibility for students with a basic understanding of physics and optics concepts. The text focuses on practical applications that provide insights into optical phenomena. The content is presented in a way that emphasizes understanding physical phenomena through simplified models, making complex concepts more approachable while maintaining scientific rigor.
