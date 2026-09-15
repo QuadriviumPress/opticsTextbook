@@ -97,5 +97,10 @@
     "jest": "^30.5.1",
     "markdownlint-cli2": "^0.23.2",
     "write-good": "^1.0.8"
+  },
+  "overrides": {
+    "markdownlint-cli2": {
+      "smol-toml": "1.7.1"
+    }
   }
 }
