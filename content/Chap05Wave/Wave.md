@@ -102,7 +102,7 @@ Harmonic waves represent periodic patterns that repeat both in space and time. T
 
 ```{phet} fourier-making-waves
 :sim-name: Fourier: Making Waves
-:label: eq:wave:fig:wave-fourier-sim
+:label: fig:wave-fourier-sim
 
 Build a wave from harmonic components and compare the sum to its spectrum. The same decomposition underlies the complex exponential representation used later in this chapter and the Fourier optics of {ref}`chapter:diff`.
 ```
@@ -504,7 +504,7 @@ The harmonic waveforms we have studied can represent any type of sinusoidally va
 In electromagnetic waves, the wave disturbance is not a mechanical displacement but rather the strength of electric and magnetic fields. These fields can propagate through vacuum without requiring any material medium, making electromagnetic waves fundamentally different from mechanical waves.
 
 ```{openlyceum} FieldBoundary
-:label: eq:wave:fig:wave-field-boundary-sim
+:label: fig:wave-field-boundary-sim
 
 Maxwell boundary conditions at a planar interface: drag the incident field, change $\varepsilon_r$ or $\mu_r$, and watch which components of $\vec{E}/\vec{D}$ (and $\vec{H}/\vec{B}$) stay continuous. This is the field-continuity picture behind reflection and refraction, not the ray construction of Snell's law.
 ```

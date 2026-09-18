@@ -241,7 +241,7 @@ Illustration of different types of polarization. The horizontal and vertical arr
 
 ```{openlyceum} LightPropagation
 :screen: 1
-:label: eq:pol:fig:pol-em-wave-sim
+:label: fig:pol-em-wave-sim
 
 A monochromatic electromagnetic wave with its electric field drawn perpendicular to the propagation direction. Later screens of this simulation send the same wave through polarizers and birefringent plates — the interactive counterpart of the Jones-matrix section that follows.
 ```
@@ -472,7 +472,7 @@ Light that is a mixture of polarized and unpolarized light is called partially p
 
 ```{openlyceum} LightPropagation
 :screen: 3
-:label: eq:pol:fig:pol-waveplates-sim
+:label: fig:pol-waveplates-sim
 
 A birefringent slab with adjustable retardation. Set a quarter-wave or half-wave plate, rotate the fast axis relative to a linear input, and watch linear light become circular (or rotate) — the same phase shift treated by the Jones matrix below.
 ```
