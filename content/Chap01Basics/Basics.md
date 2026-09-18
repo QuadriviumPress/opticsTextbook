@@ -37,7 +37,7 @@ downloads:
 This chapter provides a comprehensive introduction to the nature of light, covering its historical development, wave-particle duality, the electromagnetic spectrum, and radiometry. It establishes the foundational concepts necessary for understanding optical phenomena and technologies discussed in later chapters.
 
 ```{phet} waves-intro
-:label: fig:basics-waves-intro-sim
+:label: eq:basics:fig:basics-waves-intro-sim
 
 A single oscillating source drawn as a water wave, a sound wave, or a light wave. Use it to connect the shared language of wavelength, frequency, and propagation speed before the particle picture of the next section.
 ```
@@ -209,7 +209,7 @@ The electromagnetic spectrum is traditionally divided into regions based on wave
 Radio waves represent the longest wavelengths in the electromagnetic spectrum, ranging from kilometers down to about one meter. These waves are produced by oscillating electric charges in antennas and circuits. Radio waves readily penetrate Earth's atmosphere and can travel vast distances, making them ideal for communication. They are used in AM and FM radio broadcasting, television transmission, and various forms of wireless communication.
 
 ```{openlyceum} RadioWaves
-:label: fig:basics-radio-waves-sim
+:label: eq:basics:fig:basics-radio-waves-sim
 
 An accelerating charge and the electromagnetic disturbance it radiates. Move the charge and watch the fields propagate outward at $c$ — the classical picture behind radio transmission at the long-wavelength end of the spectrum.
 ```
@@ -224,7 +224,7 @@ Infrared (IR) radiation spans wavelengths from 770 nanometers to about one milli
 The visible portion of the electromagnetic spectrum represents only a tiny fraction of the total range, spanning approximately 380 to 770 nanometers. Human eyes have evolved to detect this narrow band because it corresponds to the peak output of our Sun and the wavelengths that penetrate Earth's atmosphere most effectively. Within this range, different wavelengths correspond to different colors: violet (380-450 nm), blue (450-495 nm), green (495-570 nm), yellow (570-590 nm), orange (590-620 nm), and red (620-770 nm).
 
 ```{phet} color-vision
-:label: fig:basics-color-vision-sim
+:label: eq:basics:fig:basics-color-vision-sim
 
 How the eye's RGB cone responses combine, and how additive mixing of red, green, and blue light produces the colors we name in the visible band above.
 ```

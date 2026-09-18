@@ -397,7 +397,7 @@ A Michelson interferometer to study the temporal coherence of a field. A beam is
 
 ```{openlyceum} InterferometryLab
 :screen: 1
-:label: fig:coh-michelson-sim
+:label: eq:coh:fig:coh-michelson-sim
 
 A physical-optics Michelson: move a mirror, change the source coherence length, and watch fringe visibility collapse. The intensity versus delay is the self-coherence function of this section, measured rather than postulated.
 ```
@@ -569,7 +569,7 @@ While for temporal coherence we used a **Michelson interferometer**, the natural
 
 ```{phet} wave-interference
 :screen: 3
-:label: fig:coh-young-sim
+:label: eq:coh:fig:coh-young-sim
 
 Young's geometry with slit separation, slit width, and wavelength under direct control. Switch between one slit and two: the fringe contrast on the screen is the spatial-coherence diagnostic used throughout this section.
 ```
@@ -1045,7 +1045,7 @@ Illustration of $I_{\text{max}}$ and $I_{\text{min}}$ of an interference pattern
 
 ```{openlyceum} InterferometryLab
 :screen: 3
-:label: fig:coh-fabry-perot-sim
+:label: eq:coh:fig:coh-fabry-perot-sim
 
 A Fabry–Pérot cavity with adjustable mirror reflectance, spacing, and absorption. Watch finesse, free spectral range, and resolving power update as the transmission peaks sharpen — the interactive counterpart of the multiple-beam sum derived below.
 ```
@@ -1321,7 +1321,7 @@ For a wavelength of $\lambda_0=600~\text{nm}$ and $n_f d= 12~\text{mm}$ we have 
 
 ```{openlyceum} LightPropagation
 :screen: 2
-:label: fig:coh-polarization-interference-sim
+:label: eq:coh:fig:coh-polarization-interference-sim
 
 Two field components through a polarizer. Rotate the analyzer and watch the transmitted intensity — the vector statement that orthogonal polarizations do not interfere, which is the premise of the calculation below.
 ```

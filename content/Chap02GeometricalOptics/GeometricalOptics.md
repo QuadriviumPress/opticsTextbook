@@ -31,7 +31,7 @@ downloads:
 - Understand the limitations of geometrical optics, in particular when diffraction optics is needed.
 ```
 ```{phet} geometric-optics
-:label: fig:geo-geometric-optics-sim
+:label: eq:geo:fig:geo-geometric-optics-sim
 
 Place a lens or mirror, drag the object, and watch real and virtual images form. This is the interactive companion to the Gaussian imaging constructions later in the chapter.
 ```
@@ -219,7 +219,7 @@ Ray from $P$ to $Q$ refracted by an interface.
 ```
 
 ```{phet} bending-light
-:label: fig:geo-bending-light-sim
+:label: eq:geo:fig:geo-bending-light-sim
 
 Refraction and reflection at a planar interface with adjustable indices. Measure $\theta_i$ and $\theta_t$ and check that $n_i\sin\theta_i = n_t\sin\theta_t$ matches the protractor — the same Snell's law just derived from Fermat's principle.
 ```
@@ -299,7 +299,7 @@ In Gaussian geometrical optics only paraxial rays and spherical surfaces are con
 
 ```{openlyceum} OpticsLab
 :screen: 2
-:label: fig:geo-optics-lab-sim
+:label: eq:geo:fig:geo-optics-lab-sim
 
 An open optical bench: rays, parallel and divergent beams, lenses, mirrors, and refracting interfaces. Build the single-surface and thin-lens geometries of this section and watch where the rays meet.
 ```

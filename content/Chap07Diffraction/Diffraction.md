@@ -792,7 +792,7 @@ Electromagnetic waves with wavelength less than one Angstrom are called x-rays. 
 
 ```{openlyceum} OpticsLab
 :screen: 4
-:label: fig:diff-optics-lab-grating-sim
+:label: eq:diff:fig:diff-optics-lab-grating-sim
 
 Transmission and reflection gratings on an optical bench. Change the grating period and the illuminating wavelength and watch the diffracted orders move — a geometric-optics preview of the far-field grating condition used for crystals and for laboratory diffraction gratings.
 ```
@@ -801,7 +801,7 @@ Transmission and reflection gratings on an optical bench. Change the grating per
 
 ```{phet} wave-interference
 :screen: 4
-:label: fig:diff-wave-interference-sim
+:label: eq:diff:fig:diff-wave-interference-sim
 
 An aperture and the far-field pattern it produces, with size, shape, and wavelength adjustable. Everything narrow in the aperture is wide in the pattern — the $\theta\sim\lambda/a$ scaling of Fraunhofer diffraction, seen whole rather than one angle at a time.
 ```

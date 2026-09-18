@@ -133,9 +133,9 @@ The gaps in the electromagnetic spectrum that are not directly addressed by lase
 
 ```{openlyceum} InterferometryLab
 :screen: 3
-:label: fig:laser-fabry-perot-cavity-sim
+:label: eq:laser:fig:laser-fabry-perot-cavity-sim
 
-The same Fabry–Pérot geometry that appears as a spectrometer in {ref}`chapter:coh`, now read as a laser cavity: raise the mirror reflectance and watch the resonance peaks sharpen. The amplifying medium and population inversion are treated interactively in {numref}`fig:laser-phet-sim`.
+The same Fabry–Pérot geometry that appears as a spectrometer in {ref}`chapter:coh`, now read as a laser cavity: raise the mirror reflectance and watch the resonance peaks sharpen. The amplifying medium and population inversion are treated interactively in {numref}`eq:laser:fig:laser-phet-sim`.
 ```
 
 We now explain the working of lasers. A laser consists of
@@ -394,7 +394,7 @@ than for visible light.
 
 ```{phet-legacy} lasers
 :sim-name: Lasers
-:label: fig:laser-phet-sim
+:label: eq:laser:fig:laser-phet-sim
 
 A two- and three-level laser with pump, mirrors, and output coupler. (This is one of PhET's original Java simulations, run in the browser by CheerpJ; it downloads a Java runtime before it starts, so give it a few seconds on first load.) Build a population inversion and watch stimulated emission grow into a cavity mode.
 ```

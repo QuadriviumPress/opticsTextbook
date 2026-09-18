@@ -42,7 +42,7 @@ After this theoretical view on optical fibers, we zoom out a little to introduce
 
 ```{phet} bending-light
 :screen: 2
-:label: fig:fiber-tir-sim
+:label: eq:fiber:fig:fiber-tir-sim
 
 A prism and interfaces with adjustable indices. Increase the angle of incidence past the critical angle and watch the transmitted ray vanish — total internal reflection, the confinement mechanism of the step-index fiber.
 ```
