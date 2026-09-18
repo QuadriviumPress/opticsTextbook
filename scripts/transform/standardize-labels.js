@@ -283,20 +283,34 @@ function findIssues(content, chapterCode, labelTypes) {
     }
   }
 
-  // Equation labels
+  // Equation labels (:label: inside math/equation directives only).
+  // Other directives such as {phet} also use :label: and must not be
+  // validated as equations.
   if (labelTypes.includes('equation')) {
-    const labelPattern = /:label:\s*(\S+)/g;
-    let match;
-    const fullContent = content;
+    const labelPattern = /:label:\s*(\S+)/;
+    let inMath = false;
 
-    while ((match = labelPattern.exec(fullContent)) !== null) {
+    for (let i = 0; i < lines.length; i++) {
+      const line = lines[i];
+      if (line.includes('```{math}') || line.includes('```{equation}')) {
+        inMath = true;
+        continue;
+      }
+      if (inMath && line.trim() === '```') {
+        inMath = false;
+        continue;
+      }
+      if (!inMath) continue;
+
+      const match = line.match(labelPattern);
+      if (!match) continue;
+
       const label = match[1];
       if (!validators.equation(label, chapterCode)) {
-        const lineNum = fullContent.substring(0, match.index).split('\n').length;
         issues.push(new LabelIssue(
-          label, lineNum, 'non-standard equation label',
+          label, i + 1, 'non-standard equation label',
           fixGenerators.equation(label, chapterCode),
-          lines[lineNum - 1]?.trim() || '',
+          line.trim(),
           'equation'
         ));
       }
