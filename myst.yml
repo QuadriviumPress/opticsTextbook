@@ -19,8 +19,11 @@ project:
   open_access: true
   github: QuadriviumPress/opticsTextbook
   bibliography: doc/references.bib
-  # Exclude YouTube URLs from link checking (YouTube blocks automated link checkers)
+  # Exclude YouTube URLs and build-artifact export downloads from link checking.
+  # Exports are produced by the deploy/exports pipeline, not present in a fresh CI clone.
   error_rules:
+    - id: static-action-file-copied
+      severity: ignore
     - rule: link-resolves
       severity: ignore
       keys:
@@ -31,6 +34,29 @@ project:
         - https://www.youtube.com/watch?v=HriBBJ-6gd8
         - https://www.youtube.com/watch?v=5tKPLfZ9JVQ
         - https://www.youtube.com/watch?v=Iuv6hY6zsd0
+        - exports/textbook.pdf
+        - exports/chapters/chapter-01-basics.pdf
+        - exports/chapters/chapter-01-basics.docx
+        - exports/chapters/chapter-02-geometrical-optics.pdf
+        - exports/chapters/chapter-02-geometrical-optics.docx
+        - exports/chapters/chapter-03-optical-instrument.pdf
+        - exports/chapters/chapter-03-optical-instrument.docx
+        - exports/chapters/chapter-04-polarization.pdf
+        - exports/chapters/chapter-04-polarization.docx
+        - exports/chapters/chapter-05-wave.pdf
+        - exports/chapters/chapter-05-wave.docx
+        - exports/chapters/chapter-06-interference.pdf
+        - exports/chapters/chapter-06-interference.docx
+        - exports/chapters/chapter-07-diffraction.pdf
+        - exports/chapters/chapter-07-diffraction.docx
+        - exports/chapters/chapter-08-laser.pdf
+        - exports/chapters/chapter-08-laser.docx
+        - exports/chapters/chapter-09-advanced-instruments.pdf
+        - exports/chapters/chapter-09-advanced-instruments.docx
+        - exports/chapters/chapter-10-fiber-optics.pdf
+        - exports/chapters/chapter-10-fiber-optics.docx
+        - exports/chapters/chapter-11-ray-matrix.pdf
+        - exports/chapters/chapter-11-ray-matrix.docx
   numbering:
     headings: true
     math: true
