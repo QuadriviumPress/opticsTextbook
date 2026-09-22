@@ -26,7 +26,7 @@ downloads:
 - Know how to work with the sign convention of the Lens Maker's Formula (not the derivation of the formula).
 - Understand how the Lens Maker's Formula of a single lens follows from the formula for a single interface.
 - Understand how the image of two and more lenses is derived from that of a single lens by construction and by computing the intermediate images. You do not need to know the imaging equation and the formulae for the focal distances of two thin lenses.
-- Understand the matrix method (you do not need to know the matrices by hart).
+- Understand the matrix method (you do not need to know the matrices by heart).
 - Understand the modification of the lens model to incorporate a thick lens.
 - Understand the limitations of geometrical optics, in particular when diffraction optics is needed.
 ```
@@ -37,7 +37,7 @@ Place a lens or mirror, drag the object, and watch real and virtual images form.
 ```
 
 ## Introduction
-Geometrical optics is an old subject, but it is still essential to understand and design optical instruments such as camera's, microscopes, telescopes etc. Geometrical optics started long before light was described as a wave as is done in wave optics, and long before it was discovered that light is an electromagnetic wave and that optics is part of electromagnetism.
+Geometrical optics is an old subject, but it is still essential to understand and design optical instruments such as cameras, microscopes, telescopes etc. Geometrical optics started long before light was described as a wave as is done in wave optics, and long before it was discovered that light is an electromagnetic wave and that optics is part of electromagnetism.
 
 In this chapter, we go back in history and treat geometrical optics. That may seem strange now that we have a much more accurate and better theory at our disposal. However, the predictions of geometrical optics are under quite common circumstances very useful and also very accurate. In fact, for many optical systems and practical instruments there is no alternative for geometrical optics because more accurate theories are much too complicated to use.
 
@@ -75,9 +75,9 @@ The starting point of the treatment of geometrical optics is the
 **Principle of Fermat (1657)**. The path followed by a light ray between two points is the one that takes the least amount of time.
 ```
 
-The speed of light in a material with refractive index $n$, is $c/n$, where $c=3\times 10^8$ m/s is the speed of light in vacuum. At the time of Fermat, the conviction was that the speed of light must be finite, but nobody could suspect how incredibly large it actually is. In 1676 the Danish astronomer Ole R&ouml;mer computed the speed from inspecting the eclipses of a moon of Jupiter and arrived at an estimate that was only 30\% too low.
+The speed of light in a material with refractive index $n$ is $c/n$, where $c=3\times 10^8$ m/s is the speed of light in vacuum. At the time of Fermat, the conviction was that the speed of light must be finite, but nobody could suspect how incredibly large it actually is. In 1676 the Danish astronomer Ole R&ouml;mer computed the speed from inspecting the eclipses of a moon of Jupiter and arrived at an estimate that was only 30\% too low.
 
-Let $\mathbf{r}(s)$, be a ray with $s$ the length parameter. The ray links two points $S$ and $P$.
+Let $\mathbf{r}(s)$ be a ray with $s$ the length parameter. The ray links two points $S$ and $P$.
 Suppose that the refractive index varies with position: $n(\mathbf{r})$. Over the infinitesimal distance from $s$ to
 $s+\mathrm{d}s$, the speed of the light is
 
@@ -127,7 +127,7 @@ Because the temperature close to the ground is higher, the refractive index is l
 ```
 
 **Remark.**
-Actually, Fermat's principle as formulated above is not complete. There are circumstances that a ray can take two paths between two points that have different travel times. Each of these paths then corresponds to a minimum travel time compared to nearby paths, so the travel time is in general a *local minimum*. An example is the reflection by a mirror discussed in the following section.
+Actually, Fermat's principle as formulated above is not complete. There are circumstances in which a ray can take two paths between two points that have different travel times. Each of these paths then corresponds to a minimum travel time compared to nearby paths, so the travel time is in general a *local minimum*. An example is the reflection by a mirror discussed in the following section.
 
 ## Some Consequences of Fermat's Principle
 - **Homogeneous matter**
@@ -135,12 +135,12 @@ Actually, Fermat's principle as formulated above is not complete. There are circ
 In homogeneous matter, the refractive index is constant and therefore paths of shortest OPL are straight lines. Hence in homogeneous matter rays are straight lines.
 - **Inhomogeneous matter**
 
-When the refractive index is a function of position such as air with a temperature gradient, the rays bend towards regions of higher refractive index. In the case of {numref}`fig:geo:theoryOfMirage` for example, the ray from the top of the tree to the eye of the observer passes on a warm day close to the ground because there the temperature is higher and hence the refractive index is smaller. Although the curved path is longer than the straight path, the total travel time of the light is less because near the ground the light speed is higher (since the refractive index is smaller). The observer gets the impression that the tree is upside down under the ground.
+When the refractive index is a function of position, as in air with a temperature gradient, the rays bend towards regions of higher refractive index. In the case of {numref}`fig:geo:theoryOfMirage` for example, the ray from the top of the tree to the eye of the observer passes on a warm day close to the ground because there the temperature is higher and hence the refractive index is smaller. Although the curved path is longer than the straight path, the total travel time of the light is less because near the ground the light speed is higher (since the refractive index is smaller). The observer gets the impression that the tree is upside down under the ground.
 
 - **Law of reflection**
 
 
-Consider the mirror shown in {numref}`fig:geo:descartesReflection`. Since the medium above th mirror is homogeneous, a ray from point $P$ can end up in $Q$ in two ways: by going along a straight line directly from $P$ to $Q$ or alternatively by straight lines via the mirror. Both possibilities have different path lengths and hence different travel times, and hence both are local minima mentioned at the end of the previous section. We consider here the path by means of reflection by the mirror.
+Consider the mirror shown in {numref}`fig:geo:descartesReflection`. Since the medium above the mirror is homogeneous, a ray from point $P$ can end up in $Q$ in two ways: by going along a straight line directly from $P$ to $Q$ or alternatively by straight lines via the mirror. Both possibilities have different path lengths and hence different travel times, and hence both are local minima mentioned at the end of the previous section. We consider here the path by means of reflection by the mirror.
 Let the $x$-axis be the intersection of the mirror and the plane through the points $P$ and $Q$ and perpendicular to the mirror. Let the $y$-axis be normal to the mirror. Let $(x_P, y_P)$ and $(x_Q,y_Q)$ be the coordinates of $P$ and $Q$, respectively. If $(x,0)$ is the point where a ray from $P$ to $Q$ hits the mirror, the travel time of that ray is
 
 ```{math}
@@ -185,7 +185,7 @@ Ray from $P$ to $Q$ via the mirror.
 - **Snell's law of refraction**
 
 
-Next, we consider refraction at an interface. Let $y=0$ be the interface between a medium with refractive index $n_i$ in $y>0$ and a medium with refractive index $n_t$ in $y<0$. We use the same coordinate system as in the case of reflection above. Let $(x_P,y_P)$ and $(x_Q,y_Q)$ with $y_P>0$ and $y_Q<0$ be the coordinates of two points $P$ and $Q$ are shown in {numref}`fig:geo:descartesRefraction`. What path will a ray follow that goes from $P$ to $Q$? Since the refractive index is constant in both half spaces, the ray is a straight line in both media. Let $(x,0)$ be the coordinate of the intersection point of the ray with the interface. Then the travel time is
+Next, we consider refraction at an interface. Let $y=0$ be the interface between a medium with refractive index $n_i$ in $y>0$ and a medium with refractive index $n_t$ in $y<0$. We use the same coordinate system as in the case of reflection above. Let $(x_P,y_P)$ and $(x_Q,y_Q)$ with $y_P>0$ and $y_Q<0$ be the coordinates of two points $P$ and $Q$ as shown in {numref}`fig:geo:descartesRefraction`. What path will a ray follow that goes from $P$ to $Q$? Since the refractive index is constant in both half spaces, the ray is a straight line in both media. Let $(x,0)$ be the coordinate of the intersection point of the ray with the interface. Then the travel time is
 
 ```{math}
 :label: eq:geo:refractionTravelTime
@@ -229,7 +229,7 @@ Refraction and reflection at a planar interface with adjustable indices. Measure
 Hence we have derived the law of reflection and Snell's law from Fermat's principle. In {ref}`chapter:basics` the reflection law and Snell's law have been derived by a different method, namely from the continuity of the tangential electromagnetic field components at the interface.
 
 ## Perfect Imaging by Conic Sections
-In this section, the conic sections ellipse, hyperbole and parabola are important. In {numref}`fig:geo:conicSection` their definitions are shown as a quick reminder[^3].
+In this section, the conic sections ellipse, hyperbola and parabola are important. In {numref}`fig:geo:conicSection` their definitions are shown as a quick reminder[^3].
 
 ```{figure} Images/02_05_conic_section.png
 
@@ -241,7 +241,7 @@ Overview of conic sections. The lower figure shows a definition that unifies the
 ```
 
 We start with explaining what in geometrical optics is meant by **perfect imaging**.
-Let $S$ be a point source. The rays perpendicular to the spherical wave fronts emitted by $S$ radially fan out from $S$. Due to objects such as lenses etc. the spherical wave fronts are deformed and the direction of the ray are made to deviate from the radial propagation direction.
+Let $S$ be a point source. The rays perpendicular to the spherical wave fronts emitted by $S$ radially fan out from $S$. Due to objects such as lenses etc. the spherical wave fronts are deformed and the directions of the rays are made to deviate from the radial propagation direction.
 When there is a point $P$ and a cone of rays coming from point $S$ and all rays in that cone intersect in point $P$, then by Fermat's principle, all these rays have traversed paths of minimum travel time. In particular, their travel times are equal and therefore they **all add up in phase** when they arrive in $P$. Hence at $P$ there is a high light intensity. Hence, if there is a cone of rays from point $S$ which all intersect in a point $P$ as shown in {numref}`fig:geo:perfectImaging`, point $P$ is called the **perfect image** of $S$.
 By reversing the direction of the rays, $S$ is similarly a perfect image of $P$.
 The optical system in which this happens is called **stigmatic for the two
@@ -259,7 +259,7 @@ Perfect imaging: a cone of rays which diverge from $S$ and all intersect in poin
 We summarize the main examples of stigmatic systems.
 
 **1.**
-**Perfect focusing and imaging by refraction.** A parallel bundle of rays propagating in a medium with refractive index $n_2$ can be focused into a point $F$ in a medium $n_1$. If $n_2>n_1$, the interface between the media should be a hyperbole with focus $F$, whereas if $n_2<n_1$ the interface should be an ellipse with focus $F$. By reversing the rays we obtain perfect collimation. Therefore, a point $S$ in air can be perfectly imaged onto a point $F$ in air by inserting a piece of glass in between them with hyperbolic surfaces. These properties are derived in Problem 2.2.
+**Perfect focusing and imaging by refraction.** A parallel bundle of rays propagating in a medium with refractive index $n_2$ can be focused into a point $F$ in a medium $n_1$. If $n_2>n_1$, the interface between the media should be a hyperbola with focus $F$, whereas if $n_2<n_1$ the interface should be an ellipse with focus $F$. By reversing the rays we obtain perfect collimation. Therefore, a point $S$ in air can be perfectly imaged onto a point $F$ in air by inserting a piece of glass in between them with hyperbolic surfaces. These properties are derived in Problem 2.2.
 
 **2.**
 **Perfect focusing of parallel rays by a mirror**.
@@ -281,7 +281,7 @@ Although we found that conic surfaces give perfect imaging for a certain pair of
 ## Gaussian Geometrical Optics
 We have seen that, although by using lenses or mirrors which have surfaces that are conic sections we can perfectly image a certain pair of points, for other points the image is not perfect. The imperfections are caused by rays that make larger angles with the **optical axis**, i.e. with the symmetry axis of the system. Rays for which these angles are small are called **paraxial rays**.
 Because for paraxial rays the angles of incidence and transmission at the surfaces of the lenses are small,
-the sine of the angles in Snell's Law are replaced by the angles themselves:
+the sines of the angles in Snell's Law are replaced by the angles themselves:
 
 ```{math}
 :label: eq:geo:snellParaxial
@@ -290,7 +290,7 @@ n_i \theta_i = n_t \theta_t \quad \text{(paraxial rays only)}.
 \end{align*}
 ```
 This approximation greatly simplifies the calculations. When only paraxial rays are considered, one may replace any surface by a sphere with the same curvature at its vertex. Errors caused by replacing a surface by a sphere are of second order in the angles the ray makes with the optical axis and hence are insignificant for paraxial rays.
-Spherical surfaces are not only more simple in the derivations but they are also much easier to manufacture. Hence in the optical industry spherical surfaces are used a lot. To reduce imaging errors caused by non-paraxial rays one applies two strategies: 1. adding more spherical surfaces; 2 replacing one of the spherical surfaces (typically the last before image space) by a non-sphere.
+Spherical surfaces are not only more simple in the derivations but they are also much easier to manufacture. Hence in the optical industry spherical surfaces are used a lot. To reduce imaging errors caused by non-paraxial rays one applies two strategies: 1. adding more spherical surfaces; 2. replacing one of the spherical surfaces (typically the last before image space) by a non-sphere.
 
 
 ```{note}
@@ -345,7 +345,7 @@ Imaging by a spherical interface between two media with refractive indices $n_2>
 
 *Proof*.
 
-It suffices to show that $P$ is independent of the ray, i.e. of $A$. We will do this by expressing $s_i$ into $s_o$ and showing that the result is independent of $A$. Let $\alpha_1$ and $\alpha_2$ be the angles of the rays $SA$ and $AP$ with the $z$-axis as shown in {numref}`fig:geo:sphericalInterface`.
+It suffices to show that $P$ is independent of the ray, i.e. of $A$. We will do this by expressing $s_i$ in terms of $s_o$ and showing that the result is independent of $A$. Let $\alpha_1$ and $\alpha_2$ be the angles of the rays $SA$ and $AP$ with the $z$-axis as shown in {numref}`fig:geo:sphericalInterface`.
 Let $\theta_i$ be the angle of incidence of ray $SA$ with the local normal $CA$ on the surface and $\theta_t$ be the angle of refraction. By considering the angles in triangle $\Delta \text{SCA}$ we find
 
 
@@ -443,7 +443,7 @@ Its $z$-coordinate is given by:
 ```
 
 and its absolute value (it is negative when $n_2<n_1$) is called the **second focal length** or **image focal length**.
-When $s_i\rightarrow \infty$, the rays after refraction are parallel to the $z$-axis and we get $s_o \rightarrow -n_1 R/(n_2-n_1)$. The object point for which the rays in the medium 2 are parallel to the $z$-axis is called the **first focal point** or **object focal point** $F_o$. Its $z$-coordinate is:
+When $s_i\rightarrow \infty$, the rays after refraction are parallel to the $z$-axis and we get $s_o \rightarrow -n_1 R/(n_2-n_1)$. The object point for which the rays in medium 2 are parallel to the $z$-axis is called the **first focal point** or **object focal point** $F_o$. Its $z$-coordinate is:
 
 
 ```{math}
@@ -504,10 +504,10 @@ Imaging by a concave surface ($R<0$) with $n_2>n_1$. All image points are to the
 ```
 
 
-Finally we look at a case that there is a bundle of convergent rays incident from the left on the surface which when extended into the right medium without refraction at the surface, would intersect in a point $S$. Since this point is not actually present, it is called a **virtual object point**, in contrast to **real object points** which are to the left of the surface. The coordinate of a virtual object point is positive: $s_o>0$.
+Finally we look at a case in which there is a bundle of convergent rays incident from the left on the surface which when extended into the right medium without refraction at the surface, would intersect in a point $S$. Since this point is not actually present, it is called a **virtual object point**, in contrast to **real object points** which are to the left of the surface. The coordinate of a virtual object point is positive: $s_o>0$.
 One may wonder why we look at this case. The reason is that if we have several
 spherical surfaces behind each other, we can compute the image of an object
-point by first determining the intermediate image by the most left surface and
+point by first determining the intermediate image by the leftmost surface and
 then use this intermediate image as the object for the next surface and so on.
 In such a case, it can easily happen that an intermediate image is to the right
 of the next surface and hence is a virtual object for that surface. In the case
@@ -519,7 +519,7 @@ sufficiently strong to turn the convergent incident bundle into a divergent
 bundle. So the image is still real. However, the image will be virtual when the
 virtual object $S$ is to the right of $F_o$ (which in this case is to the right
 of the surface) since then the bundle of rays converges so weakly that the
-surface turns is into a divergent bundle.
+surface turns it into a divergent bundle.
 
 
 ```{figure} Images/02_11_spherical_interface_concave.png
@@ -540,10 +540,10 @@ Sign convention for spherical surfaces and thin lenses
 
 | **quantity** | **positive** | **negative** |
 | :--: | :--: | :--: |
-| $s_o$, $s_i$. $f_0$, $f_i$ | corresponding point is to the right of vertex | corresponding point is to left of vertex |
+| $s_o$, $s_i$. $f_0$, $f_i$ | corresponding point is to the right of vertex | corresponding point is to the left of vertex |
 | $y_o$, $y_i$ | object, image point above optical axis | object, image point below optical axis |
 | $R$ | center of curvature right of vertex | center of curvature left of vertex |
-| Refractive index $n$ ambient medium of a mirror | before reflection | after reflection |
+| Refractive index $n$ of the ambient medium of a mirror | before reflection | after reflection |
 ```
 
 
@@ -551,16 +551,16 @@ Sign convention for spherical surfaces and thin lenses
 
 ### Stops
 
-An element such as the rim of a lens or a diaphragm which determines the set of rays that can contribute to the image, is called the **aperture stop**. An ordinary camera has a variable diaphragm.
+An element such as the rim of a lens or a diaphragm which determines the set of rays that can contribute to the image is called the **aperture stop**. An ordinary camera has a variable diaphragm.
 
-The **entrance pupil** is the image of the aperture stop by all elements to the left of the aperture stop. In constructing the entrance pupil, rays are used which propagate from the right to the left. The image can be real or virtual. If there are no lenses between object and aperture stop, the aperture stop itself is the entrance pupil. Similarly, the **exit pupil** is the image of the aperture stop by all elements to the right of it. This image can be real or virtual. The entrance pupil determines for a given object the cone of rays in object space that contribute to the image, while the cone of rays leaving the exit pupil are those taking part in the image formation pupil (see {numref}`fig:geo:apertureStop`).
+The **entrance pupil** is the image of the aperture stop by all elements to the left of the aperture stop. In constructing the entrance pupil, rays are used which propagate from the right to the left. The image can be real or virtual. If there are no lenses between object and aperture stop, the aperture stop itself is the entrance pupil. Similarly, the **exit pupil** is the image of the aperture stop by all elements to the right of it. This image can be real or virtual. The entrance pupil determines for a given object the cone of rays in object space that contribute to the image, while the cone of rays leaving the exit pupil is the one taking part in image formation (see {numref}`fig:geo:apertureStop`).
 
 For any object point, the **chief ray** is the ray in the cone that passes through the center of the entrance pupil, and hence also through the centers of the aperture stop and the exit pupil. A marginal ray is the ray that for an object point on the optical axis passes through the rim of the entrance pupil (and hence also through the rims of the aperture stop and the exit pupil).
 
 For a fixed diameter $D$ of the exit pupil and for given $x_o$, the
-magnification of the system is according to the transverse magnification
+transverse-magnification relation
 $M=y_i/y_o = s_i/s_o = -x_i/f_i$ and Newton's lens equation $x_o x_i = -f_i^2$
-(see the {ref}`Ray Matrix chapter <chapter:ray>`) given by $M=-x_i/f_i=f_i/x_o$. It follows that when $f_i$ is increased, the
+(see the {ref}`Ray Matrix chapter <chapter:ray>`) give $M=-x_i/f_i=f_i/x_o$. It follows that when $f_i$ is increased, the
 magnification increases.
 A larger magnification means a lower energy density, hence a longer exposure time, i.e. **the speed of the lens is reduced**. Camera lenses are usually specified by two numbers: the focal length $f$, measured with respect to the exit pupil and the diameter $D$ of the exit pupil. The **$f$-number** is the ratio of the focal length to this diameter:
 
@@ -577,7 +577,7 @@ For example, f-number$=2$ means $f = 2D$. Since the exposure time is proportiona
 
 ```{figure} Images/02_12_aperture_stop.png
 :name: fig:geo:apertureStop
-Aperture stop (A.S.) between the second and third lens, with entrance pupil and exit pupil (in this case these pupils are virtual images of the aperture stop). Also shown are the chief ray and the marginal ray.
+Aperture stop (A.S.) between the second and third lenses, with entrance pupil and exit pupil (in this case these pupils are virtual images of the aperture stop). Also shown are the chief ray and the marginal ray.
 ```
 
 
@@ -617,7 +617,7 @@ A comprehensive treatment of aberration theory can be found in Braat et al.[^4].
 
 ```{figure} Images/02_14_asml_euv.png
 :name: fig:geo:asmlEuv
-The EUV stepper TWINSCAN NXE:3400B.Lithographic lens system for DUV (192 nm), costing more than € 500.000. Ray paths are shown in purple. The optical system consists of mirrors because there are no suitable lenses for this wavelength (Courtesy of [ASML](https://www.asml.com/en/news/media-library)).
+The EUV stepper TWINSCAN NXE:3400B. Lithographic lens system for DUV (192 nm), costing more than € 500.000. Ray paths are shown in purple. The optical system consists of mirrors because there are no suitable lenses for this wavelength (Courtesy of [ASML](https://www.asml.com/en/news/media-library)).
 ```
 
 
@@ -632,7 +632,7 @@ Left: cross section of the field of the Airy pattern. Right: intensity pattern o
 ```
 
 
-Even if the wave transmitted by the exit pupil would be perfectly spherical (no aberrations), the wave front consists of only a circular section of a sphere since the field is limited by the aperture. An aperture causes **diffraction**, i.e. bending and spreading of the light. When one images a point object on the optical axis, diffraction causes inevitable blurring given by the so-called Airy spot, as shown in {numref}`fig:geo:airySpot`. The Airy spot has full-width at half-maximum:
+Even if the wave transmitted by the exit pupil were perfectly spherical (no aberrations), the wave front consists of only a circular section of a sphere since the field is limited by the aperture. An aperture causes **diffraction**, i.e. bending and spreading of the light. When one images a point object on the optical axis, diffraction causes inevitable blurring given by the so-called Airy spot, as shown in {numref}`fig:geo:airySpot`. The Airy spot has full-width at half-maximum:
 
 ```{math}
 :label: eq:geo:airySpotResolution
@@ -647,7 +647,7 @@ where NA$=\arcsin(a/s_i)$ is the numerical aperture (i.e. 0<NA<1) with $a$ the r
 - **Fermat's Principle** states that light follows the path of least time, forming the foundation of geometrical optics.
 - In **Gaussian geometrical optics**, the paraxial (small angle) approximation enables analytical treatment of imaging by spherical surfaces.
 - The **Lensmaker's Formula** relates object and image distances: $\frac{n_1}{s_o} + \frac{n_2}{s_i} = \frac{n_2 - n_1}{R}$ for a single surface.
-- **Real images** form where rays converge; **virtual images** form where rays appear to diverge from.
+- **Real images** form where rays converge; **virtual images** form where rays appear to originate.
 - **Spherical aberration** limits imaging quality for rays far from the optical axis; it can be minimized using aspherical surfaces or conic sections.
 - **Stops and pupils**: The aperture stop limits the light cone; entrance and exit pupils are its images as seen from object and image space.
 - The **f-number** (f/D) characterizes the speed of a camera lens.

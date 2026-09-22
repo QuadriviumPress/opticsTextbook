@@ -2,7 +2,7 @@
 
 **Problem 2.1** Principle of Fermat and Snell's Law.
 
-Consider a layer of thickness $d$ and refractive index $n_2$ which is sandwiched between two half spaces with refractive index $n_1$ and $n_3$ as shown in {numref}`fig:geo:slab`.
+Consider a layer of thickness $d$ and refractive index $n_2$ which is sandwiched between two half spaces with refractive indices $n_1$ and $n_3$ as shown in {numref}`fig:geo:slab`.
 A ray from point $P=(x_P,y_P)$ with $y_P>d$ passes through point $Q=(x_Q,y_Q)$ with $y_Q<0$.
 
 ```{figure} ../Images/02_16_slab.png
@@ -25,7 +25,7 @@ n_1 \sin \theta_1 = n_3 \sin \theta_3.
 ```
 Note that the relationship between $\theta_3$ and $\theta_1$ is independent of the refractive index $n_2$ and the thickness $d$ of the middle layer.
 
-**(d)** Does Snell's Law {eq}`eq:geo:snellMultilayer`) hold irrespective of
+**(d)** Does Snell's Law {eq}`eq:geo:snellMultilayer` hold irrespective of
   the number of layers and their thicknesses in between the two half spaces?
 Explain your answer.
 
@@ -37,7 +37,7 @@ From electromagnetic theory, the wave trains emitted by different atoms (point s
 
 **Problem 2.2** Perfect focusing by an ellipsoid and a hyperboloid.
 
-Suppose that there are two media with refractive indices $n_1>n_2$ and that point $S$ is at infinity in the medium with refractive index $n_2$. We will construct a surface (interface) between the two media such that all rays from $S$ are focused into the same point $F$ (see {numref}`fig:geo:focusRight`a). Because $S$ is at very large distance, the rays entering from the right are parallel. Since all parallel rays have traveled the same distance when they hit the surface $DD'$ perpendicular to the rays, all parallel rays have the same phase at their intersection points with the plane $DD'$.
+Suppose that there are two media with refractive indices $n_1>n_2$ and that point $S$ is at infinity in the medium with refractive index $n_2$. We will construct a surface (interface) between the two media such that all rays from $S$ are focused into the same point $F$ (see {numref}`fig:geo:focusRight`a). Because $S$ is at a very large distance, the rays entering from the right are parallel. Since all parallel rays have traveled the same distance when they hit the surface $DD'$ perpendicular to the rays, all parallel rays have the same phase at their intersection points with the plane $DD'$.
 
 **(a)** If point $A$ is on the interface sought, derive that
 
@@ -47,18 +47,18 @@ Suppose that there are two media with refractive indices $n_1>n_2$ and that poin
 \frac{n_2}{c} |DA| + \frac{n_1}{c}|AF| = \text{constant},
 \end{align*}
 ```
-the constant is the same for all points $A$ on the interface.
+where the constant is the same for all points $A$ on the interface.
 
-**(b)** Show that by moving the plane $DD'$ parallel to itself we can achieve that for the new plane $DD'$ we get:
+**(b)** Show that by moving the plane $DD'$ parallel to itself we can achieve that for the new plane $DD'$ Insert the omitted equation after the colon.
 
-**(c)** Suppose next that $n_2>n_1$. as shown at the right of {numref}`fig:geo:focusRight`. Show that now, by the same argument as above, the interface is a hyperboloid with $F$ as one of its focal points.
+**(c)** Suppose next that $n_2>n_1$, as shown at the right of {numref}`fig:geo:focusRight`. Show that now, by the same argument as above, the interface is a hyperboloid with $F$ as one of its focal points.
 
 ```{figure} ../Images/02_17_focus_left.png
 :name: fig:geo:focusRight
 (a) Ellipsoid ($n_2<n_1$) and (b) hyperboloid ($n_2>n_1$) to perfectly focus a parallel beam incident from the medium with refractive index $n_2$ into a point in a medium with refractive index $n_1$.
 ```
 
-**(d)** Use the previous results to describe a lens with refractive index $n_2>n_1$ and having hyperboloid surfaces which perfectly images two given points S and P in the ambient medium with refractive index $n_1$.
+**(d)** Use the previous results to describe a lens with refractive index $n_2>n_1$ and having hyperboloid surfaces which perfectly image two given points S and P in the ambient medium with refractive index $n_1$.
 
 ```{figure} ../Images/02_18_perfect_imaging.png
 :name: fig:geo:perfectImagingProblem
@@ -69,10 +69,10 @@ Lens with hyperboloid surfaces for perfect imaging of a pair of points.
 **Problem 2.3** Perfect focussing by a parabolic mirror
 
 Next we consider perfect focusing of parallel rays in air ($n=1$) by a mirror.
-Let there be a parallel bundle of rays in air ($n=1$) and suppose we want to focus all rays in point $F$.
+Let there be a parallel bundle of rays in air ($n=1$) and suppose we want to focus all rays at point $F$.
 
 **(a)** We draw a plane $\Sigma_1$ perpendicular to the rays as shown in {numref}`fig:geo:paraMirror`. The rays that hit $\Sigma_1$ have traversed the same optical path length.
-Draw a second surface $\Sigma_2$ parallel to $\Sigma_1$. Consider rays hitting the mirror in $A_1$ and $A_2$.
+Draw a second surface $\Sigma_2$ parallel to $\Sigma_1$. Consider rays hitting the mirror at $A_1$ and $A_2$.
 Derive that
 
 ```{math}
@@ -94,7 +94,7 @@ Derive that
 **(c)** Show that
   {eq}`eq:geo:parabolicMirrorOpl1` is satisfied for points $A$ for
   which $|AF|=|AD|$,
-and conclude that the mirror is a paraboloid with $f$ as focus and $\Sigma_2$ as diretrix.
+and conclude that the mirror is a paraboloid with $f$ as focus and $\Sigma_2$ as directrix.
 
 ```{figure} ../Images/02_19_paraboloid_mirror_bw.png
 :name: fig:geo:paraMirror
@@ -110,7 +110,7 @@ A virtual object is at a distance $d_0$ behind a converging lens. The converging
 An object is created by incoming rays.
 ```
 
-**(a)** Construct the image when $f=2$ cm, $d_0=4$ cm and the height of the object 1 cm.
+**(a)** Construct the image when $f=2$ cm, $d_0=4$ cm and the height of the object is 1 cm.
 
 **(b)** Is the image real or virtual? Inverted or upright?
 
@@ -134,9 +134,9 @@ What should be the distance $d$ such that the final image is real and the magnif
 
 **Problem 2.6** System matrix for imaging by a spherical surface.
 
-Consider a spherical surface with radius of curvature $R$ with to the left (right) of the surface a medium with refractive index $n_1$ ($n_2$).
+Consider a spherical surface with radius of curvature $R$, with a medium of refractive index $n_1$ ($n_2$) to the left (right) of the surface with refractive index $n_1$ ($n_2$).
 
-**(a)** Derive the ray matrix between a plane to the left of the surface and at distance $d_1$ to the vertex, and a plane to the right of the surface with distance of $d_2$ to the vertex. (As always the rays are assumed to propagate from the left to the right).
+**(a)** Derive the ray matrix between a plane to the left of the surface at a distance $d_1$ from the vertex and a plane to the right of the surface at a distance $d_2$ from the vertex. (As always the rays are assumed to propagate from the left to the right).
 
 **(b)** Derive the conditions such that the plane at distance $d_2$ is the
   image of the plane at distance $d_1$. Express the formula in
@@ -160,13 +160,13 @@ A spherical lens made of glass of index $n_l$ in a medium of index $n_m$. The po
 
 **(a)** Use {eq}`eq:geo:singleSurfacePowerForm` to deduce that when $S$ is
   imaged by the first spherical surface as if the second spherical surface were
-  absent, the image $P'$ has $z$-coordinate $s_{i1}$ with respect to the origin
-  in $V$, of $S$, satisfies:
+  absent, the $z$-coordinate $s_{i1}$ of the image $P'$ with respect to the
+  origin at $V_1$ satisfies:
 
 $$
 -\frac{n_m}{s_{o1}}+\frac{n_l}{s_{i1}} =\frac{n_l-n_m}{R_1},
 $$
-where $s_{o1}$ is the $z$-coordinate of $S$ with respect to the origin in $V$.
+where $s_{o1}$ is the $z$-coordinate of $S$ with respect to the origin in $V_1$.
 
 **(b)** Show that with respect to the origin at $V_2$ the $z$-coordinate of $P'$ is
 
@@ -207,7 +207,7 @@ between two planes.
 **(a)** Suppose that any ray that is parallel to the optical axis in the first plane goes through a point on the optical axis in the second plane. This means that the second plane is the image focal plane of the system. What does this imply for the elements of the transfer matrix?
 
 
-**(b)** Suppose that the first plane is the object focal plane, so that any ray emitted by the point on the optical axis in the first plane becomes collimated in the second plane. What does this imply for the elements for the transfer matrix?
+**(b)** Suppose that the first plane is the object focal plane, so that any ray emitted by the point on the optical axis in the first plane becomes collimated in the second plane. What does this imply for the elements of the transfer matrix?
 
 **(c)** Consider two thin lenses with distance $d$ and focal distances $f_{1i}$ and $f_{2i}$. Derive the transfer matrix linking the plane immediately before the first lens with the plane immediately behind the second lens. You may assume that the lenses are in air with refractive index $n=1$.
 
@@ -215,15 +215,15 @@ between two planes.
   distance of a system consisting of two thin lenses with image focal
   distances $f_{1i}$ and $f_{2i}$ and distance $d$. Verify that the result
   agrees with the distance for the image focal plane {eq}`eq:ray:twoLensImageFocal`.
-Hint: let $f_i$ be the distance of the image focal point of the two-lens system to the second lens. Write the transfer matrix between the lens immediately before the first lens and the plane through the image focal point.
+Hint: let $f_i$ be the distance of the image focal point of the two-lens system to the second lens. Write the transfer matrix between the plane immediately before the first lens and the plane through the image focal point.
 
-**(e)** Add a third thin lens with image focal distance $f_{3i}$ is in contact to the second lens. Derive the ray matrix of this system.
+**(e)** Add a third thin lens with image focal distance $f_{3i}$ in contact with the second lens. Derive the ray matrix of this system.
 
 **(f)** Let $f_i$ be the distance from the image focal plane to the third lens. Use the condition derived in a) and the ray matrix derived in e) to derive $f_i$.
 
 **Problem 2.9** Matrix for two thin lenses.
 
-**(a)** Consider two thin lenses which are surrounded by a medium with refractive index $n$. Let the left and right lens have power ${\cal P}_1$ and ${\cal P}_2$, respectively and let the distance between their vertices be $d$.
+**(a)** Consider two thin lenses which are surrounded by a medium with refractive index $n$. Let the left and right lenses have powers ${\cal P}_1$ and ${\cal P}_2$, respectively and let the distance between their vertices be $d$.
 Derive that the matrix between the planes immediately to the left of the first lens and the plane immediately to the right of the second lens is given by
 
 ```{math}
@@ -256,7 +256,7 @@ Consider a system of two lenses $L_1$ and $L_2$ with distance $d$. The left lens
 **(b)** Same question when $L_1$ is a divergent lens with $f_{1i}=-6~\text{cm}$, $d=3~\text{cm}$ and $a_1=a_2=1~\text{cm}$.
 
 
-**Problem 2.11** Diaphragm in a system of two thin lenses. The purpose of this problem is to determine the entrance and exit apertures of a system consisting of two thin lenses with a diaphragm using three methods: construction, applying the Lensmaker's formula and the matrix method.
+**Problem 2.11** Diaphragm in a system of two thin lenses. The purpose of this problem is to determine the entrance and exit pupils of a system consisting of two thin lenses with a diaphragm using three methods: construction, applying the Lensmaker's formula and the matrix method.
 The situation is as shown in {numref}`fig:geo:twoThinLenses`. The focal distances of the two thin lenses are $f_1=10$ cm and $f_2=12$ cm and their distance
 $d = 6$ cm. Suppose that the aperture stop is as shown in {numref}`fig:geo:twoThinLenses`. It is at a distance of $ 1.5$ cm in front of the lens $L_1$ and has a diameter $D_a=5$ cm.
 

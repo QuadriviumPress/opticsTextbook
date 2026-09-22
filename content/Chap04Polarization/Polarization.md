@@ -27,7 +27,7 @@ downloads:
 
 
 ## Polarization States and Jones Vectors
-We have seen in {ref}`chapter:basics` that light is an electromagnetic wave which satisfies Maxwell's equations and the wave equation derived therefrom. Since the electric field is a vector which oscillates as function of time in a certain direction, we say that the wave has a certain polarization. In this chapter we look at the different types of polarization and how the polarization of a light beam can be manipulated.
+We have seen in {ref}`chapter:basics` that light is an electromagnetic wave which satisfies Maxwell's equations and the wave equation derived therefrom. Since the electric field is a vector which oscillates as a function of time in a certain direction, we say that the wave has a certain polarization. In this chapter we look at the different types of polarization and how the polarization of a light beam can be manipulated.
 
 From Maxwell's equations and the wave equation, we know that the (real) electric field $\mathbf{\mathcal{E}}(\mathbf{r},t)$ of a time-harmonic plane wave is always perpendicular to the direction of propagation, which is the direction of the wave vector $\mathbf{k}$ as well as the direction of the Poynting vector (the direction of the power flow). Let the wave propagate in the $z$-direction:
 
@@ -80,7 +80,7 @@ The complex vector
 is called the **Jones vector**. It is used to characterize the polarization state.
 Let us see how, at a fixed position in space, the electric field vector behaves as a function of time for different choices of ${\cal A}_x$, ${\cal A}_y$ and $\varphi_y-\varphi_x$.
 
-**a) Linear polarization:** $\varphi_y-\varphi_x=0$ or $\varphi_y-\varphi_x=\pi$.]
+**a) Linear polarization:** $\varphi_y-\varphi_x=0$ or $\varphi_y-\varphi_x=\pi$.
 When $\varphi_y-\varphi_x=0$ we have
 
 ```{math}
@@ -91,7 +91,7 @@ When $\varphi_y-\varphi_x=0$ we have
 \end{array}\right) e^{i \varphi_x}.
 \end{align*}
 ```
-Equality of the phases: $\varphi_y=\varphi_x$, means that the field components ${\cal E}_x(z,t)$ and ${\cal E}_y(z,t)$ are in phase: when ${\cal E}_x(z,t)$ is large, ${\cal E}_y(z,t)$ is large, and when ${\cal E}_x(z,t)$ is small, ${\cal E}_y(z,t)$ is small. We can write
+Equality of the phases, $\varphi_y=\varphi_x$, means that the field components ${\cal E}_x(z,t)$ and ${\cal E}_y(z,t)$ are in phase: when ${\cal E}_x(z,t)$ is large, ${\cal E}_y(z,t)$ is large, and when ${\cal E}_x(z,t)$ is small, ${\cal E}_y(z,t)$ is small. We can write
 
 ```{math}
 \begin{align*}
@@ -102,7 +102,7 @@ Equality of the phases: $\varphi_y=\varphi_x$, means that the field components $
 \cos(\omega t-\varphi_x),
 \end{align*}
 ```
-which shows that for $\varphi_y-\varphi_x=0$ the electric field simply oscillates in one direction given by real the vector ${\cal A}_x \hat{\mathbf{x}} + {\cal A}_y \hat{\mathbf{y}}$.
+which shows that for $\varphi_y-\varphi_x=0$ the electric field simply oscillates in one direction given by the real vector ${\cal A}_x \hat{\mathbf{x}} + {\cal A}_y \hat{\mathbf{y}}$.
 See {numref}`fig:pol:dphi000piF1Bw`.
 
 If $\varphi_y-\varphi_x=\pi$ we have
@@ -129,7 +129,7 @@ In this case the Jones vector is:
 \end{array}\right) {\cal A}_x e^{i \varphi_x}.
 \end{align*}
 ```
-The field components ${\cal E}_x(z,t)$ and ${\cal E}_y(z,t)$ are $\pi/2$ radian (90 degrees) out of phase: when ${\cal E}_x(z,t)$ is large, ${\cal E}_y(z,t)$ is small, and when ${\cal E}_x(z,t)$ is small, ${\cal E}_y(z,t)$ is large. We can write for $z=0$ and with $\varphi_x=0$:
+The field components ${\cal E}_x(z,t)$ and ${\cal E}_y(z,t)$ are $\pi/2$ radians (90 degrees) out of phase: when ${\cal E}_x(z,t)$ is large, ${\cal E}_y(z,t)$ is small, and when ${\cal E}_x(z,t)$ is small, ${\cal E}_y(z,t)$ is large. We can write for $z=0$ and with $\varphi_x=0$:
 
 ```{math}
 :label: eq:pol:circularPolarizationTime
@@ -178,7 +178,7 @@ taking $\varphi_x=0$):
 \end{array}\right).
 \end{align*}
 ```
-which shows that the electric vector moves along an ellipse with major and minor axes parallel to the $x$- and $y$-axis. When the + sign applies, the field is called left-elliptically polarized, otherwise it is called right-elliptically polarized.
+This shows that the electric vector moves along an ellipse with major and minor axes parallel to the $x$- and $y$-axis. When the + sign applies, the field is called left-elliptically polarized, otherwise it is called right-elliptically polarized.
 
 **d) Elliptical polarization:** $\varphi_y-\varphi_x=$ anything else, ${\cal A}_x$ and ${\cal A}_y$ arbitrary.
 The Jones vector is now the most general one:
@@ -192,7 +192,7 @@ The Jones vector is now the most general one:
 \end{align*}
 ```
 It can be shown that the electric field vector moves always along an ellipse.
-The exact shape and orientation of this ellipse varies with the difference in phase $\varphi_y-\varphi_x$ and the ratio of the amplitude ${\cal A}_x,{\cal A}_y$ and, except when $\varphi_y-\varphi_x = \pm \pi/2$, the major and minor axis of the ellipse are not parallel to the $x$- and $y$-axis. See {numref}`fig:pol:dphi025piF1Bw`.
+The exact shape and orientation of this ellipse vary with the difference in phase $\varphi_y-\varphi_x$ and the ratio of the amplitudes ${\cal A}_x$ and ${\cal A}_y$ and, except when $\varphi_y-\varphi_x = \pm \pi/2$, the major and minor axes of the ellipse are not parallel to the $x$- and $y$-axis. See {numref}`fig:pol:dphi025piF1Bw`.
 
 **Remarks**.
 - Frequently the Jones vector is normalized such that
@@ -212,9 +212,9 @@ The normalized vector represents of course the same polarization state as the un
 \end{align*}
 ```
 
-- We will show in the Angular Spectrum Method section of the Diffraction chapter that a general time-harmonic electromagnetic field, is a superposition of plane waves with wave vectors of the same length determined by the frequency of the wave but with different directions. An example is the electromagnetic field near the focal plane of a strongly converging lens. There is then no particular direction of propagation to which the electric field should be perpendicular. In other words, there is no obvious choice for a plane in which the electric field oscillates as function of time. It can nevertheless be shown that for every point in space such a plane exists, but the orientation of the plane varies in general with position{cite:p}`born_wolf`. In this chapter we only consider the field and polarization state of a single plane wave.
-Furthermore, the electric field in a certain point moves along an ellipse in the corresponding plane, but the shape of the ellipse and the orientation of its major axis can be arbitrary.
-We can conclude that in any point of an arbitrary time-harmonic electromagnetic field, the electric (and in fact also the magnetic) field vector prescribes as function of time an ellipse in some plane which depends on position{cite:p}`born_wolf`. In this chapter we only consider the field and polarization state of a single plane wave.
+- We will show in the Angular Spectrum Method section of the Diffraction chapter that a general time-harmonic electromagnetic field is a superposition of plane waves with wave vectors of the same length determined by the frequency of the wave but with different directions. An example is the electromagnetic field near the focal plane of a strongly converging lens. There is then no particular direction of propagation to which the electric field should be perpendicular. In other words, there is no obvious choice for a plane in which the electric field oscillates as a function of time. It can nevertheless be shown that for every point in space such a plane exists, but the orientation of the plane varies in general with position{cite:p}`born_wolf`. In this chapter we only consider the field and polarization state of a single plane wave.
+Furthermore, the electric field at a certain point moves along an ellipse in the corresponding plane, but the shape of the ellipse and the orientation of its major axis can be arbitrary.
+We can conclude that at any point of an arbitrary time-harmonic electromagnetic field, the electric (and in fact also the magnetic) field vector describes as a function of time an ellipse in some plane which depends on position{cite:p}`born_wolf`. In this chapter we only consider the field and polarization state of a single plane wave.
 
 
 ```{figure} Images/04_01_dphi_000pi_f1_bw.png
@@ -250,10 +250,10 @@ A monochromatic electromagnetic wave with its electric field drawn perpendicular
 We have seen how Maxwell's equations allow the existence of plane waves with many different states of polarization. But how can we create these states, and how do these states manifest themselves?
 
 Natural light often does not have a definite polarization. Instead, the polarization fluctuates rapidly with time.
-To turn such randomly polarized light into linearly polarized light in a certain direction, we must extinguish the light polarized in the perpendicular direction.The remaining light is then linearly polarized along the desired direction. One could do this by using light reflected under the Brewster angle (which extinguishes p-polarized light), or one could let light pass through a dichroic crystal, which is a material which absorbs light polarized perpendicular to its so-called optic axis.
+To turn such randomly polarized light into linearly polarized light in a certain direction, we must extinguish the light polarized in the perpendicular direction. The remaining light is then linearly polarized along the desired direction. One could do this by using light reflected at the Brewster angle (which extinguishes p-polarized light), or one could let light pass through a dichroic crystal, which is a material which absorbs light polarized perpendicular to its so-called optic axis.
 A third method is sending the light through a wire grid polarizer, which consists of a metallic grating with sub-wavelength slits. Such a grating only transmits the electric field component that is perpendicular to the slits.
 
-So suppose that with one of these methods we have obtained linearly polarized light. Then the question rises how the state of linear polarization can be changed into circularly or elliptically polarized light? Or how the state of linear polarization can be rotated over a certain angle? We have seen that the polarization state depends on the ratio of the amplitudes and on the phase difference $\varphi_y-\varphi_x$ of the orthogonal components ${\cal E}_y$ and ${\cal E}_x$ of the electric field. Thus, to change linearly polarized light to some other state of polarization, a certain phase shift (say $\Delta \varphi_x$) must be introduced to one component (say ${\cal E}_x$), and another phase shift $\Delta \varphi_y$ to the orthogonal component ${\cal E}_y$. We can achieve this with a **birefringent crystal**, such as calcite.
+So suppose that with one of these methods we have obtained linearly polarized light. Then the question arises: how the state of linear polarization can be changed into circularly or elliptically polarized light? Or how the state of linear polarization can be rotated over a certain angle? We have seen that the polarization state depends on the ratio of the amplitudes and on the phase difference $\varphi_y-\varphi_x$ of the orthogonal components ${\cal E}_y$ and ${\cal E}_x$ of the electric field. Thus, to change linearly polarized light to some other state of polarization, a certain phase shift (say $\Delta \varphi_x$) must be introduced to one component (say ${\cal E}_x$), and another phase shift $\Delta \varphi_y$ to the orthogonal component ${\cal E}_y$. We can achieve this with a **birefringent crystal**, such as calcite.
 What is special about such a crystal is that it has two refractive indices: light polarized in a certain direction experiences a refractive index $n_o$, while light polarized perpendicular to it feels another refractive index $n_e$ (the subscripts $o$ and $e$ stand for "ordinary" and "extraordinary", but for our purpose we do not need to understand this terminology). The direction for which the refractive index is *smallest* (which can be either $n_o$ or $n_e$) is called the **fast axis** because its phase velocity is largest, and the other direction is the **slow axis**. Because there are two different refractive indices, one can see double images through a birefringent crystal{cite:p}`viking_calcite`. The difference between the two refractive indices $\Delta n=n_e-n_o$ is called the **birefringence**.
 
 Suppose $n_e>n_o$ and that the fast axis, which corresponds to $n_o$ is aligned with ${\cal E}_x$, while the slow axis (which then has refractive index $n_e$) is aligned with ${\cal E}_y$. If the wave travels a distance $d$ through the crystal, ${\cal E}_y$ will accumulate a phase $\Delta \varphi_y=\frac{2\pi n_e}{\lambda}d$, and ${\cal E}_x$ will accumulate a phase $\Delta \varphi_x=\frac{2\pi n_o}{\lambda}d$. Thus, after propagation through the crystal the phase difference $\varphi_y-\varphi_x$ has increased by
@@ -289,10 +289,10 @@ where
 \end{array}\right).
 \end{align*}
 ```
-A matrix such as ${\cal M}$, which transfers one state of polarization of a plane wave in another, is called a **Jones matrix**.
+A matrix such as ${\cal M}$, which transfers one state of polarization of a plane wave into another, is called a **Jones matrix**.
 Depending on the phase difference which a wave accumulates by traveling through the crystal, these devices are called **quarter-wave plates** (phase difference $\pi/2$), **half-wave plates** (phase difference $\pi$), or **full-wave plates**  (phase difference $2\pi$). The applications of these wave plates will be discussed in later sections.
 
-Consider as example the Jones matrix which described the change of linear polarized light into circular polarization.
+Consider as an example the Jones matrix which describes the change of linearly polarized light into circular polarization.
 Assume that we have diagonally (linearly) polarized light, so that
 
 ```{math}
@@ -419,7 +419,7 @@ This is a standard result from linear algebra involving basis transformations.
 
 ```{figure} Images/04_04_rotation_polarization.png
 :name: fig:pol:rotationPolarization
-If the wave plate is rotated, the fast and slow axis no longer correspond to $x$ and $y$. Instead, we have to introduce a new coordinate system ($x',y'$).
+If the wave plate is rotated, the fast and slow axes no longer correspond to $x$ and $y$. Instead, we have to introduce a new coordinate system ($x',y'$).
 ```
 
 
@@ -455,8 +455,8 @@ The amplitude of the transmitted field is reduced by the factor $\cos\alpha$, wh
 
 Natural light such as sun light is unpolarized. The instantaneous polarization
 of unpolarized light fluctuates rapidly in a random manner. A linear polarizer
-produces linear polarized light from unpolarized light. It follows from {eq}`eq:pol:malusLawDerivation` that the intensity transmitted by a linear
-polarizer when unpolarized light is incident, is the average value
+produces linearly polarized light from unpolarized light. It follows from {eq}`eq:pol:malusLawDerivation` that the intensity transmitted by a linear
+polarizer when unpolarized light is incident is the average value
 of $\cos^2\alpha$ namely $\frac{1}{2}$, times the incident intensity.
 
 Light that is a mixture of polarized and unpolarized light is called partially polarized. The **degree of polarization** is defined as the fraction of the total intensity that is polarized:
@@ -501,7 +501,7 @@ because $\exp(i\pi/2)=i$. To describe the actual transmission through the quarte
 \end{array}\right).
 \end{align*}
 ```
-In particular, if incident light is linear polarized under $45^o$, or equivalently, if the quarter wave plate is rotated over this angle, it will transform linearly polarized light into circularly polarized light (and vice versa).
+In particular, if incident light is linearly polarized at $45^o$, or equivalently, if the quarter wave plate is rotated by this angle, it will transform linearly polarized light into circularly polarized light (and vice versa).
 
 ```{math}
 \begin{align*}
@@ -529,11 +529,11 @@ A half-wave plate introduces a phase shift of $\pi$, so its Jones matrix is
 \end{array}\right),
 \end{align*}
 ```
-because $\exp(i\pi)=-1$. An important application of the half-wave plate is to **change the orientation of linearly polarized light**{cite:p}`fowles`. After all, what this matrix does is mirroring the polarization state in the $x$-axis. Thus, if we choose our mirroring axis correctly (i.e. if we choose the orientation of the wave plate correctly), we can change the direction in which the light is linearly polarized arbitrarily{cite:p}`goldstein`. To give an example: a wave with linear polarization parallel to the $x$-direction, can be rotated over angle $\alpha$ by rotating the crystal such that the fast axis makes angle $\alpha/2$ with the $x$-axis. Upon propagation through the crystal, the slow axis gets an additional phase of $\pi$, due to which the electric vector makes angle $\alpha$ with the $x$-axis (see {numref}`fig:pol:rotationPolarization`). It is not difficult to verify that when the fast and slow axis are interchanged, the same linear state of polarization results.
+because $\exp(i\pi)=-1$. An important application of the half-wave plate is to **change the orientation of linearly polarized light**{cite:p}`fowles`. After all, what this matrix does is mirror the polarization state in the $x$-axis. Thus, if we choose our mirroring axis correctly (i.e. if we choose the orientation of the wave plate correctly), we can change the direction in which the light is linearly polarized arbitrarily{cite:p}`goldstein`. To give an example: a wave with linear polarization parallel to the $x$-direction can be rotated by an angle $\alpha$ by rotating the crystal such that the fast axis makes angle $\alpha/2$ with the $x$-axis. Upon propagation through the crystal, the slow axis gets an additional phase of $\pi$, due to which the electric vector makes angle $\alpha$ with the $x$-axis (see {numref}`fig:pol:rotationPolarization`). It is not difficult to verify that when the fast and slow axes are interchanged, the same linear state of polarization results.
 
 ```{figure} Images/04_05_rotation_polarization.png
 :name: fig:pol:halfWaveRotation
-Rotation of horizontally polarized light over an angle $\alpha$ using a half-wave plate.
+Rotation of horizontally polarized light by an angle $\alpha$ using a half-wave plate.
 ```
 
 
@@ -542,24 +542,24 @@ Rotation of horizontally polarized light over an angle $\alpha$ using a half-wav
 A full-wave plate introduces a phase difference of $2\pi$, which is the same as introducing no phase difference between the two field components.
 So what can possibly be an application for a full-wave plate? We recall from
 {eq}`eq:pol:waveplatePhaseShift` that the phase difference is $2\pi$ only for
-a particular wavelength. If we send through linearly (say vertically) polarized
-light of other wavelengths, these will become elliptically polarized, while the
+a particular wavelength. If we send linearly (say vertically) polarized
+light of other wavelengths through the plate, these will become elliptically polarized, while the
 light with the correct wavelength $\lambda_0$ will stay vertically polarized. If
 we then let all the light pass through a horizontal polarizer, the light with
 wavelength $\lambda_0$ will be completely extinguished, while the light of other
-wavelengths will be able to pass through at least partially. Therefore, *
-*full-wave plates can be used to filter out specific wavelengths of light**.
+wavelengths will be able to pass through at least partially. Therefore,
+**full-wave plates can be used to filter out specific wavelengths of light**.
 
 ## More on Jones matrices
 
-If the direction of either the slow or fast axis is given and the ordinary and
-extra-ordinary refractive indices $n_o$ and $n_e$, it is easy to write down the
+If the direction of either the slow or fast axis and the ordinary and
+extra-ordinary refractive indices $n_o$ and $n_e$ are given, it is easy to write down the
 Jones matrix of a birefringent plate of given thickness $d$ using the rotation
 matrices, see {eq}`eq:pol:rotatedJonesMatrix`. Instead of using the rotation
 matrices, one can also write down a system of equations for the elements of the
 Jones matrix. Suppose
 that $\hat{\mathbf{v_o}}=v_{o,x}+\hat{\mathbf{x}}+v_{o,y}\hat{\mathbf{y}}$
-and $\hat{\mathbf{v_e}}=v_{e,x}\hat{\mathbf{x}}+ v_{e,y} \hat{\mathbf{y}}$, are
+and $\hat{\mathbf{v_e}}=v_{e,x}\hat{\mathbf{x}}+ v_{e,y} \hat{\mathbf{y}}$ are
 in the direction of the ordinary and the extra-ordinary axes, respectively. Then
 if the Jones matrix is
 
@@ -598,7 +598,7 @@ polarizer and $\hat{\mathbf{w}}$ is perpendicular to it, we have
 \end{align*}
 ```
 
-which is a system of equation of type {eq}`eq:pol:jonesEigenvectorSystem` for
+which is a system of equations of type {eq}`eq:pol:jonesEigenvectorSystem` for
 the elements of the Jones matrix.
 
 Suppose now that the complex (2,2)-matrix
@@ -621,9 +621,9 @@ e^{i k n_1 d} \;\;\text{ and } \;\; e^{i k n_2 d},
 ```
 where $d$ is the thickness of the plate and $k$ is the wave number. Hence to verify that a $(2,2)$-matrix corresponds to a wave plate, one has to compute the eigenvalues and check that these have modulus 1 and that the corresponding eigenvectors are real vectors and orthogonal.
 
-**3.** **Jones matrix for propagation through sugars** In sugars, left and right
-circular-polarized light propagate with their own refractive index. Therefore
-sugars are called **circular birefringent**. The matrix {eq}`eq:pol:generalJonesMatrix` corresponds to propagation through sugar when
+**3.** **Jones matrix for propagation through sugars**. In sugars, left and right
+circularly polarized light propagate with their own refractive index. Therefore
+sugars are called **circularly birefringent**. The matrix {eq}`eq:pol:generalJonesMatrix` corresponds to propagation through sugar when
 there are two real orthogonal unit vectors
 $\hat{\mathbf{v}}$ and $\hat{\mathbf{w}}$ such that the circular polarization states
 
@@ -636,7 +636,7 @@ are eigenstates of ${\cal M}$ with complex eigenvalues with modulus 1.
 
 
 ## Decomposition of an Elliptical polarization state into sums of Linear \& of Circular States
-Any elliptical polarization state can be written as the sum of two perpendicular linear polarized states:
+Any elliptical polarization state can be written as the sum of two perpendicular linearly polarized states:
 
 ```{math}
 :label: eq:pol:ellipticalAsLinearSum
@@ -660,9 +660,9 @@ J=
 \end{array}\right).
 \end{align*}
 ```
-We conclude that to study what happens to elliptic polarization, it suffices to consider two orthogonal linear polarizations, or, if that is more convenient, left- and right-circular polarized light. In a birefringent material each of two linear polarizations, namely parallel to the o-axis and parallel to the e-axis, propagate with their own refractive index. To predict what happens to an arbitrary linear polarization state which is not aligned to either of these axes, or more generally what happens to an elliptical polarization state, we write this polarization state as a linear combination of o- and e-states, i.e. we expand the field on the o- and e-basis.
+We conclude that to study what happens to elliptic polarization, it suffices to consider two orthogonal linear polarizations, or, if that is more convenient, left- and right-circular polarized light. In a birefringent material each of two linear polarizations, namely parallel to the o-axis and parallel to the e-axis, propagates with their own refractive index. To predict what happens to an arbitrary linear polarization state which is not aligned to either of these axes, or more generally what happens to an elliptical polarization state, we write this polarization state as a linear combination of o- and e-states, i.e. we expand the field on the o- and e-basis.
 
-To see what happens to an arbitrary elliptical polarization state in a circular birefringent material, the incident light is best written as linear combination of left-and right-circular polarizations.
+To see what happens to an arbitrary elliptical polarization state in a circular birefringent material, the incident light is best written as a linear combination of left and right circular polarizations.
 
 ## Chapter Summary
 

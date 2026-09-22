@@ -13,14 +13,14 @@ between two planes.
 
 **(a)** Suppose that any ray that is parallel to the optical axis in the first plane goes through a point on the optical axis in the second plane. This means that the second plane is the focal plane of the system. What does this imply for the elements of the transfer matrix?
 
-**(b)** Suppose that the first plane is a focal plane so that any ray emitted by the point on the optical axis in this plane becomes collimated in the second plane. What does this imply for the elements for the transfer matrix?
+**(b)** Suppose that the first plane is a focal plane so that any ray emitted by the point on the optical axis in this plane becomes collimated in the second plane. What does this imply for the elements of the transfer matrix?
 
 **(c)** Consider two thin lenses with distance $d$ and focal distances $f_1$ and $f_2$. Derive the transfer matrix linking the plane immediately before the first lens with the plane immediately behind the second lens. You may assume that the lenses are in air with refractive index $n=1$.
 
-**(d)** Use the condition that you found in a) to derive the back focal distance of a system consisting of two thin lenses with refractive index $f_1$ and $f_2$ and distance $d$. Verify that the result agrees with the distance for the back focal plane in {ref}`sec:ray:twolenses`.
+**(d)** Use the condition that you found in a) to derive the back focal distance of a system consisting of two thin lenses with focal distances $f_1$ and $f_2$ and distance $d$. Verify that the result agrees with the distance for the back focal plane in {ref}`sec:ray:twolenses`.
 Hint: let $f_b$ be the distance of the back focal point of the two-lens system to the second lens. Write the transfer matrix between the lens immediately before the first lens and the plane through the back focal point.
 
-**(e)** Add a third thin lens with refractive index $f_3$ in contact to the second lens. Answer question c) for this system.
+**(e)** Add a third thin lens with focal distance $f_3$ in contact with the second lens. Answer question c) for this system.
 
 
 **Problem 3.2** The eye and the magnifying glass.
@@ -59,8 +59,8 @@ d=9 |f|,
 $$
 the angular field of view is increased by a factor 10.
 
-**(c)** We require that the virtual images of all distant objects are at distance of at least the distance of the normal near point. This implies that we require that $d+|f_2|> 25 \text{cm}$.
-Derive $d$ and the strength of the negative lens in diopter.
+**(c)** We require that the virtual images of all distant objects are at a distance of at least the distance of the normal near point. This implies that we require that $d+|f_2|> 25 \text{cm}$.
+Derive $d$ and the strength of the negative lens in diopters.
 
 ```{figure} ../Images/03_15_eye.png
 :name: fig:inst:eyeFieldOfView

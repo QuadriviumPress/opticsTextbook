@@ -703,8 +703,8 @@ where:
 - $c$ is the speed of light
 
 **Sign convention**:
-- Positive $v$: source approaching observer (blueshift, shorter wavelength)
-- Negative $v$: source receding from observer (redshift, longer wavelength)
+- Positive $v$: source receding from observer (redshift, longer wavelength)
+- Negative $v$: source approaching observer (blueshift, shorter wavelength)
 
 For frequencies, the relationship becomes:
 

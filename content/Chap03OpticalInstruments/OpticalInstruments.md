@@ -28,7 +28,7 @@ The camera obscura or pinhole camera is the simplest image forming system.
 It consists of a closed box with a pinhole on one side. An inverted image is cast on the opposite side of the box as shown in {numref}`fig:inst:cameraObscura`.
 If the hole is too large, the image is very blurred. At the cost of less light, the image can be made sharper by reducing the aperture.
 The camera obscura can form images of objects across an extremely wide angular field due to great depth of focus and over a large range of distances (great depth of field) as you can see in the right picture of {numref}`fig:inst:cameraObscura`.
-If a film would be used to record the image, very long exposure times are however needed because only a small amount of light enters the pinhole, (f-number= 500). It is believed that painters such as Johannes Vermeer have used the camera obscura to make paintings of external scenes.
+If a film is used to record the image, very long exposure times are however needed because only a small amount of light enters the pinhole, (f-number= 500). It is believed that painters such as Johannes Vermeer have used the camera obscura to make paintings of external scenes.
 
 ```{figure} Images/03_01_camera_obscura.jpg
 :name: fig:inst:cameraObscura
@@ -42,7 +42,7 @@ In {numref}`fig:inst:reflexCamera` a single-lens reflex (SLR) camera is shown. T
 After traversing the first few lens elements, the light passes through an iris diaphragm with adjustable diameter with which the $f$-number can be changed. After the lenses the light is reflected by a movable mirror tilted at $45^o$, passes through a prism and exits the camera through the finder eyepiece. When the shutter is released, the diaphragm closes to a preset value, the mirror swings up and the CCD is exposed. To focus the camera, the entire lens is moved toward or away from the detection plane. Autofocus is based on maximizing the contrast of the images.
 ```{figure} Images/03_02_reflex_camera.png
 :name: fig:inst:reflexCamera
-Digital SLR camera. The pixelated digital sensor is behind a movable mirror at angle of 45 degrees with the optical axis. (from [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Reflex_camera_numeric.svg) by Jean François WITZ / CC BY-SA 3.0).
+Digital SLR camera. The pixelated digital sensor is behind a movable mirror at an angle of 45 degrees with the optical axis. (from [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Reflex_camera_numeric.svg) by Jean François WITZ / CC BY-SA 3.0).
 ```
 
 The **angular field of view** (AFOV) is defined for scenes at large distances and is equal to the angle subtended at the lens by the detector when the image distance is the focal length $f$, i.e. the object is at infinity ({numref}`fig:inst:afov`). The AFOV decreases when $f$ increases. A standard SLR has a focal length of around 6 cm with AFOV between 40&deg; and 50&deg;.
@@ -53,18 +53,18 @@ Angular field of view
 
 More complex systems can have a variable focal length by changing the distance between the lenses, i.e. they are able to *zoom* into a scene.
 
-The **depth of focus** is a range of object distances around a given distance for which the images on the sensor are sharp. The depth of focus depends on the diaphragm.
-When the aperture is wide open, rays forming the image will make larger angles with the optical axis. When these rays come from objects at various distances they will for a large diaphragm cause more blurred images on the sensor (see {numref}`fig:inst:legoDepth`). When the aperture is reduced, this effect is less and therefore a smaller diaphragm implies a larger depth of focus.
-The drawback is that less light reaches the sensor, therefore a longer exposure time is needed.
+The **depth of field** is a range of object distances around a given distance for which the images on the sensor are sharp. The depth of field depends on the diaphragm.
+When the aperture is wide open, rays forming the image will make larger angles with the optical axis. When these rays come from objects at various distances they will for a large diaphragm cause more blurred images on the sensor (see {numref}`fig:inst:legoDepth`). When the aperture is reduced, this effect is less and therefore a smaller diaphragm implies a larger depth of field.
+The drawback is that less light reaches the sensor; therefore, a longer exposure time is needed.
 
 ```{figure} Images/03_04_lego_depth.jpg
 :name: fig:inst:legoDepth
-Four images taken with different diaphragm and different focal plane. The image on bottom right is taken with a small diaphragm and the entire image appears clear (photos taken by Aur&egrave;le J.L. ADAM / CC BY-SA).
+Four images taken with different diaphragm settings and different focal planes. The image on the bottom right is taken with a small diaphragm and the entire image appears clear (photos taken by Aur&egrave;le J.L. ADAM / CC BY-SA).
 ```
 
 
 ## Camera in a Smart Phone
-A camera in a smart phone can contain standard **double Gauss** or **Cook triplet** lenses and sometimes more advanced aspheres. The image sensor is CMOS device.
+A camera in a smart phone can contain standard **double Gauss** or **Cooke triplet** lenses and sometimes more advanced aspheres. The image sensor is a CMOS device.
 Nowadays smart phones have auto-focus systems where the lens is moved towards or away from the sensor using different criteria. In the standard contrast detection auto-focus the lens is moved until the contrast in the image is largest. This trial-and-error method is relatively slow: it usually takes 1 second to focus. In high-end cameras so-called phase detection auto-focus is used where the relative position of two spots obtained by focusing of two small diaphragms on either side of the optical axis is analyzed.
 A third auto-focus system is similar to radar. An infrared laser pulse is emitted and the distance of the object of interest is determined from the return time of the reflected pulse.
 The method works very well under low light conditions, but is not accurate for objects at distances of more than 5 m. In all smart phone cameras, blurry images are sharpened by post-processing using software.
@@ -80,7 +80,7 @@ The human eye is made of an almost spherical (24 mm long and 22 mm across) gelat
 Cross section of a human eye (from [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Three_Internal_chambers_of_the_Eye.png) by Holly Fischer / CC BY).
 ```
 
-After passing the cornea, the rays reach the **aqueous humour** ($n\approx$1.336) with the **iris** or pupil. It can expand or contract from a 2&nbsp;mm (bright sun) to 8&nbsp;mm (low light) diameter to adapt to the light intensity. The iris gives color to the eye. After the iris, the rays reach the flexible **crystalline lens** which has the size of a bean (9&nbsp;mm in diameter, and 4&nbsp;mm thick in relaxed condition). Its index of refraction varies from 1.406 in the center to 1.386 at the edge.
+After passing the cornea, the rays reach the **aqueous humour** ($n\approx$1.336) with the **iris** or pupil. The pupil can expand or contract from 2&nbsp;mm (bright sun) to 8&nbsp;mm (low light) in diameter to adapt to the light intensity. The iris gives color to the eye. After the iris, the rays reach the flexible **crystalline lens** which has the size of a bean (9&nbsp;mm in diameter, and 4&nbsp;mm thick in relaxed condition). Its index of refraction varies from 1.406 in the center to 1.386 at the edge.
 
 ```{figure} Images/03_06_focus_in_an_eye_a.png
 
@@ -88,7 +88,7 @@ Ray diagram showing light focusing in the human eye. Parallel rays from a distan
 ```
 ```{figure} Images/03_07_accomodation_eye.png
 :name: fig:inst:eye
-Left: Optical rays showing how an eye accommodates by changing its focal length. Right: Relaxed and contracted muscle at the crystalline lens needed for this accommodation.(Left: adapted from [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Focus_in_an_eye.svg) Erin Silversmith / BY-NC-SA 2.5 Generic. Right: adapted from Sjaastad O.V., Sand O. and Hove K. (2010) Physiology of domestic animals, 2nd edn., Oslo: Scandinavian Veterinary Press).
+Left: Optical rays showing how an eye accommodates by changing its focal length. Right: Relaxed and contracted muscle at the crystalline lens needed for this accommodation. (Left: adapted from [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Focus_in_an_eye.svg) Erin Silversmith / BY-NC-SA 2.5 Generic. Right: adapted from Sjaastad O.V., Sand O. and Hove K. (2010) Physiology of domestic animals, 2nd edn., Oslo: Scandinavian Veterinary Press).
 ```
 
 
@@ -101,7 +101,7 @@ The entire eye can accurately be treated as two lenses in contact, of which the 
 A single thin lens with object and image distances under control. Treat it as the one-lens model of the eye used below: move the object inside and outside the near point and watch the image distance respond the way accommodation must.
 ```
 
-In relaxed condition, the object focal distance of the lens system is $f_o=16$
+In the relaxed condition, the object focal distance of the lens system is $f_o=16$
 &nbsp;mm as measured from the cornea while the image focal distance is equal to
 the length of the eye: $f_i=24$&nbsp;mm. These focal distances are different,
 because the refractive indices of the surrounding medium (air and vitreous
@@ -114,14 +114,14 @@ humour) differ. The power of the healthy relaxed eye is (see the thin lens matri
 \end{align*}
 ```
 
-In relaxed condition the lens focuses light coming from infinity on the retina. When the object is closer, the eye muscles contract due to which the crystalline lens becomes more convex and the focal length of the system decreases,
+In the relaxed condition the lens focuses light coming from infinity on the retina. When the object is closer, the eye muscles contract due to which the crystalline lens becomes more convex and the focal length of the system decreases,
 as seen on the right of {numref}`fig:inst:eye`.
 At a certain point, the object will be too close to be focused on the retina. This is called the **near point** of the eye.
 Due to the loss of elasticity of the muscle, the near point moves from 7&nbsp;cm for teens to 100&nbsp;cm for a 60-year-old. {numref}`fig:inst:eye` shows the optical rays entering the eyes, for two configurations: an object at infinity and an object nearby. The **normal near point** is defined to be at the distance of 25 cm from the eye. The **far point** is the furthest object which is imaged on the retina by the relaxed eye. For a normal eye the far point is at infinity.
 
 ### Retina
 
-The retina is composed of approximately 125 million photoreceptor cells: the **rods** and the **cones**. The rods are highly sensitive black and white (intensity) sensors, while the cones are color sensitive for the wavelengths 390 nm - 780 nm. UV light is absorbed by the lens (people whose lens is removed because of cataract can "see" UV light). The **fovea centralis** is the most sensitive center of the retina with a high density of cones. The eyes move continuously to focus the image on this area. The information is transferred by the optical nerve, placed at the back of the eye, where it causes a blind spot.
+The retina is composed of approximately 125 million photoreceptor cells: the **rods** and the **cones**. The rods are highly sensitive black and white (intensity) sensors, while the cones are color sensitive for the wavelengths 390 nm - 780 nm. UV light is absorbed by the lens (people whose lens is removed because of cataract can "see" UV light). The **fovea centralis** is the most sensitive center of the retina with a high density of cones. The eyes move continuously to focus the image on this area. The information is transferred by the optic nerve, placed at the back of the eye, where it causes a blind spot.
 
 ### Dioptric Power of a lens
 
@@ -132,8 +132,8 @@ For a single lens the dioptric power is defined by:
 \mathfrak{D} = \frac{n_m}{f}=(n_l-n_m)\left(\frac{1}{R_1}-\frac{1}{R_2}\right)
 \end{align*}
 ```
-with $R_1$ and $R_2$ the radii of the thin lens measured in meter, $n_l$ is the index of refraction of the lens and $n_m$ that of the ambient medium.
-(When the media to the left and right of the lens are different, the refractive index to the right of lens and the right focal distance should be taken).
+with $R_1$ and $R_2$ the radii of the thin lens measured in meters, $n_l$ is the index of refraction of the lens and $n_m$ that of the ambient medium.
+(When the media to the left and right of the lens are different, the refractive index to the right of the lens and the right focal distance should be taken).
 For two lenses in contact, the focal length is given by:
 
 ```{math}
@@ -148,7 +148,7 @@ hence the combined power of the two lenses in contact is the sum of the individu
 \mathfrak{D} = \mathfrak{D_1}+\mathfrak{D_2}
 \end{align*}
 ```
-A positive lens of focal length $f_1$=10&nbsp;cm air has a dioptric power $\mathfrak{D_1}=10$ diopter. If it is in contact with a negative lens of dioptric power $\mathfrak{D_2}=-10$ diopter, the resulting power is $\mathfrak{D}=0$, equivalent to a parallel sheet of glass.
+A positive lens of focal length $f_1$=10&nbsp;cm in air has a dioptric power $\mathfrak{D_1}=10$ diopter. If it is in contact with a negative lens of dioptric power $\mathfrak{D_2}=-10$ diopter, the resulting power is $\mathfrak{D}=0$, equivalent to a parallel sheet of glass.
 
 
 ### Eyeglasses
@@ -157,11 +157,11 @@ The eye can suffer from imperfections as seen in {numref}`fig:inst:eyeCorrection
 
 
 **a. Myopia or nearsightedness**.
-A myopic eye has too short focal distances (has too high power). Distant objects
+A myopic eye has focal distances that are too short (has too high power). Distant objects
 are focused in front of the retina by the relaxed eye. The far point is thus not
 at infinity, but closer. This can be corrected by a negative lens. Suppose the
 far point is at 2 m. If the concave lens makes a virtual image of a distant
-object at distance 2 m in front of the cornea, the relaxed eye can see it
+object at a distance of 2 m in front of the cornea, the relaxed eye can see it
 clearly. The Lensmaker's Formula $-n_1/s_o + n_2/s_i = \mathcal{P}$ (see the {ref}`Ray Matrix chapter <chapter:ray>`), with $s_o=-\infty$ implies
 then $f_i=s_i= -2$ m. Hence the required power of the lens is:
 
@@ -174,7 +174,7 @@ then $f_i=s_i= -2$ m. Hence the required power of the lens is:
 
 The lens is best put in the front focal plane of the relaxed eye, i.e. at
 approximately 16 mm in front of the cornea. This follows from the Lensmaker's Formula (see the {ref}`Ray Matrix chapter <chapter:ray>`) and the fact that the distance of the retina to the
-eye lens is roughly 22 mm while the refractive index of the vitrous humor is
+eye lens is roughly 22 mm while the refractive index of the vitreous humor is
 1.337. Hence, the focal distance in air of the relaxed eye
 of $22/1.337 \approx 16~\text{mm}$. The reason for putting the lens at the
 focal distance is that in this case the magnification of the eye and the
@@ -189,7 +189,7 @@ Contact lenses are very close to the eye lens and hence the total power of the e
 
 
 **b. Hyperopia or farsightedness**.
-In this case a distant object is imaged by the relaxed eye behind the retina, i.e. the back focal distance of the relaxed eye is larger than the depth of the eye. Close objects can not be imaged on the retina, hence the near point is relatively far from the cornea. In order to bend the rays more, a positive lens is placed in front of the eye. Suppose that a hyperopic eye has near point at distance 125 cm. For an object at the normal near point $s_o=-25$ cm to have virtual image at $s_i=-125$ cm, so that it can be seen, the focal length of the positive lens must satisfy
+In this case a distant object is imaged by the relaxed eye behind the retina, i.e. the back focal distance of the relaxed eye is larger than the depth of the eye. Close objects can not be imaged on the retina; hence, the near point is relatively far from the cornea. In order to bend the rays more, a positive lens is placed in front of the eye. Suppose that a hyperopic eye has a near point at a distance of 125 cm. For an object at the normal near point $s_o=-25$ cm to have a virtual image at $s_i=-125$ cm, so that it can be seen, the focal length of the positive lens must satisfy
 
 ```{math}
 :label: eq:inst:hyperopiaFocalLength
@@ -227,7 +227,7 @@ Example of a positive lens used as a magnifying glass (picture taken by A.J.L. A
 
 
 ### Magnifying Power
-The **magnifying power** $\text{MP}$ or **angular magnification** $M_a$ is defined as the ratio of the size of the retinal image obtained with the instrument and the size of the retinal image as seen by the unaided eye at normal viewing distance $d_o$.
+The **magnifying power** $\text{MP}$ or **angular magnification** $M_a$ is defined as the ratio of the size of the retinal image obtained with the instrument to the size of the retinal image as seen by the unaided eye at normal viewing distance $d_o$.
 To estimate the size of the retinal image, we compare in both cases where **the chief ray through the top of the object and the center of the pupil of the eye hits the retina**. Since the distance between the eye lens and the retina is fixed, the ratio of the image size on the retina for the eye with and without magnifying glass is:
 
 ```{math}
@@ -236,7 +236,7 @@ To estimate the size of the retinal image, we compare in both cases where **the 
 \end{align*}
 ```
 where $\alpha_a$ and $\alpha_u$ are the angles between the optical axis and the chief rays for the aided and the unaided eye, respectively, as shown in {numref}`fig:inst:magnifier`. Working with these angles instead of distances is in particular useful when the virtual image of the magnifying glass is at infinity.
-Using $\alpha_a\approx y_i/L$ and $\alpha_u\approx y_0/d_0$ with $y_i$ and $y_0$ positive and $L$ the positive distance from the image to the eye (with as requirement : $L\geq d_o$), we find
+Using $\alpha_a\approx y_i/L$ and $\alpha_u\approx y_0/d_0$ with $y_i$ and $y_0$ positive and $L$ the positive distance from the image to the eye (with the requirement $L\geq d_o$), we find
 
 ```{math}
 :label: eq:inst:magnifyingPower
@@ -291,11 +291,11 @@ In practice $d_0 {\cal P}=d_o/|f_o|$ is much larger than 1, so that $\text{MP}$ 
 
 ### Nomenclature
 
-Normally magnifiers are expressed in terms of the magnifying power when $L=\infty$ (case 3 above). For example, a magnifier with a power of 10 Diopter has a $\text{MP}$ equal to 2.5 or $2.5\times$. In other words, the image is 2.5 times larger than it would be if the object would be at the near point of the unaided eye.
+Normally magnifiers are expressed in terms of the magnifying power when $L=\infty$ (case 3 above). For example, a magnifier with a power of 10 Diopter has a $\text{MP}$ equal to 2.5 or $2.5\times$. In other words, the image is 2.5 times larger than it would be if the object were at the near point of the unaided eye.
 
 ## Eyepieces
 
-An **eyepiece** or **ocular** is a magnifier used before the eye at the end of an other optical instrument such as a microscope or a telescope. The eye looks into the ocular and the ocular "looks" into the optical instrument.
+An **eyepiece** or **ocular** is a magnifier used before the eye at the end of another optical instrument such as a microscope or a telescope. The eye looks into the ocular and the ocular "looks" into the optical instrument.
 The ocular provides a magnified virtual image of the image produced by the optical instrument. Similar to the magnifying glass, the virtual image should preferably be at or near infinity to be viewed by a relaxed eye. Several types of eye pieces exist and most of them are made out of two lenses:
 1. the field lens, which is the first lens in the ocular;
 2. the eye-lens, which is closest to the eye at a fixed distance called the **eye relief**.
@@ -331,7 +331,7 @@ plane with focal distance $f_i^{obj}$. We have $x_i=L$ which is the tube length,
 i.e. the distance between the second focal point of the objective and the first
 focal point of the eyepiece. The tube length is standardized at 16&nbsp;cm.
 Furthermore, according to {eq}`eq:inst:magnifyingPowerInfinity`, the angular
-magnification is for a virtual image at infinity is : $M_{Ae}=d_o/f_i^e$. Hence,
+magnification for a virtual image at infinity is: $M_{Ae}=d_o/f_i^e$. Hence,
 we obtain:
 
 ```{math}
@@ -365,7 +365,7 @@ Keplerian astronomical telescope.
 The object in this figure is at a large but finite distance; therefore, an image is formed by the objective just after its second focal point. The eyepiece makes a virtual magnified image, to be viewed with a relaxed eye. Therefore, the intermediary image of the objective must be within the focal length $f_i^e$ from the eyepiece. The final image is inverted.
 
 As seen earlier, the angular magnification is:
-$\text{MP} = \alpha_a/\alpha_u$ where $\alpha_u$ is the half angle of the cone of light that would be collected without telescope and $\alpha_a$ is the half angle of the apparent cone of rays coming from the virtual image of the eyepiece. For an object at infinity we find considering the triangles $F_{o}^{obj}AB$ and $F_i^{e}CD$ in {numref}`fig:inst:raysTelescope` that
+$\text{MP} = \alpha_a/\alpha_u$ where $\alpha_u$ is the half angle of the cone of light that would be collected without a telescope and $\alpha_a$ is the half angle of the apparent cone of rays coming from the virtual image of the eyepiece. For an object at infinity, considering the triangles $F_{o}^{obj}AB$ and $F_i^{e}CD$ in {numref}`fig:inst:raysTelescope`, we find that
 
 ```{math}
 :label: eq:inst:telescopeMagnification
@@ -373,7 +373,7 @@ $\text{MP} = \alpha_a/\alpha_u$ where $\alpha_u$ is the half angle of the cone o
 \text{MP} = -\frac{f_i^{obj}}{f_i^e}.
 \end{align*}
 ```
-(The minus sign is because the image is inverted).
+(The minus sign is because the image is inverted.)
 
 ```{figure} Images/03_14_rays_telescope.png
 :name: fig:inst:raysTelescope
