@@ -310,7 +310,7 @@ When you commit, Husky automatically runs:
 
 - **doc/MAINTENANCE.md** - Comprehensive guide for all workflows
 - **doc/MYST_CONVENTIONS.md** - MyST syntax rules and examples
-- **doc/CLAUDE.md** - This file (guidance for AI assistants)
+- **doc/AGENTS.md** - This file (guidance for AI assistants)
 - **scripts/config.json** - Chapter mappings (update when adding chapters!)
 - **myst.yml** - MyST configuration, table of contents, and export settings
 - **doc/scripts/README.md** - Documentation for utility scripts

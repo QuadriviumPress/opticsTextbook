@@ -9,7 +9,7 @@ This directory contains all project documentation for the Optics Textbook.
 | [MAINTENANCE.md](MAINTENANCE.md) | Common workflows, commands, and troubleshooting | All contributors |
 | [CONTRIBUTING.md](CONTRIBUTING.md) | How to contribute to the project | New contributors |
 | [MYST_CONVENTIONS.md](MYST_CONVENTIONS.md) | MyST Markdown syntax rules and patterns | Content authors |
-| [CLAUDE.md](CLAUDE.md) | Guidance for AI assistants | AI assistants |
+| [AGENTS.md](AGENTS.md) | Guidance for AI assistants | AI assistants |
 
 ## Reference Documentation
 

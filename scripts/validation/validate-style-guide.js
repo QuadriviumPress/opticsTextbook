@@ -2,7 +2,7 @@
 /**
  * Style Guide Validator
  *
- * Enforces the Optics Textbook style guide conventions documented in claude.md.
+ * Enforces the Optics Textbook style guide conventions documented in AGENTS.md.
  *
  * Status: ACTIVE - Style guide enforcement
  *    Used in validation workflow to ensure consistent formatting.
@@ -468,7 +468,7 @@ function printSummary(allIssues, filesWithIssues, totalFiles) {
     console.log(`  • ${readableType}: ${count}`);
   }
 
-  console.log(`\n💡 See claude.md for complete style guide documentation`);
+  console.log(`\n💡 See AGENTS.md for complete style guide documentation`);
 }
 
 /**
@@ -484,7 +484,7 @@ function saveReport(allIssues, outputFile = 'style_guide_validation_report.md') 
   builder.addList([
     `Total files checked: ${Object.keys(allIssues).length}`,
     `Total issues found: ${totalIssues}`,
-    `Style guide reference: claude.md`
+    `Style guide reference: AGENTS.md`
   ]);
 
   // Add issues by file
@@ -512,7 +512,7 @@ function saveReport(allIssues, outputFile = 'style_guide_validation_report.md') 
   const jsonData = {
     totalFiles: Object.keys(allIssues).length,
     totalIssues,
-    styleGuideRef: 'claude.md',
+    styleGuideRef: 'AGENTS.md',
     files: {}
   };
 
@@ -552,7 +552,7 @@ function main() {
 
   console.log("=== Style Guide Validation ===");
   console.log(`Checking files in: ${options.contentDir}`);
-  console.log(`Reference: claude.md\n`);
+  console.log(`Reference: AGENTS.md\n`);
 
   const validator = new StyleGuideValidator(options.contentDir);
   const { allIssues, filesWithIssues, totalFiles } = processDirectory(

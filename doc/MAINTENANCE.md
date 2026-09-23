@@ -463,7 +463,7 @@ opticsTextbook/
 │   ├── MyST_Comprehensive_Reference.md
 │   ├── PWA_SETUP.md
 │   ├── CONTRIBUTING.md       # Contributor onboarding
-│   ├── CLAUDE.md             # AI assistant guidance
+│   ├── AGENTS.md             # AI assistant guidance
 │   └── scripts/
 │       └── README.md
 └── README.md                 # User-facing documentation

@@ -28,7 +28,7 @@ This guide covers the expectations and workflows for contributors. Please read i
 - `README.md` – project overview and quick commands
 - `doc/MAINTENANCE.md` – detailed workflows and troubleshooting
 - `doc/MYST_CONVENTIONS.md` – required MyST syntax and accessibility rules
-- `doc/CLAUDE.md` – guidance for AI assistants contributing to this repo
+- `doc/AGENTS.md` – guidance for AI assistants contributing to this repo
 - **Match existing conventions.** Follow directory layout, naming schemes, and MyST directives already in use.
 - **Validate everything.** The automated tooling expects clean linting, reference integrity, and a successful build before a PR is reviewed.
 
@@ -182,7 +182,7 @@ Before submitting, run `npm run validate` to catch missing labels, malformed dir
   - [`MAINTENANCE.md`](MAINTENANCE.md)
   - [`MYST_CONVENTIONS.md`](MYST_CONVENTIONS.md)
   - [`scripts/README.md`](scripts/README.md)
-  - [`CLAUDE.md`](CLAUDE.md)
+  - [`AGENTS.md`](AGENTS.md)
 
 ---
 
