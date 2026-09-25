@@ -23,8 +23,8 @@ downloads:
 - Understand what transverse modes are and how they can be prevented.
 ```
 
-In the early 1950s a new source of microwave radiation, **the maser**, was invented by C.H. Townes in the USA and A.M. Prokhorov and N.G. Basov in the USSR. Maser stands for "Microwave Amplification by Stimulated Emission of Radiation". In 1958, A.L. Schawlow and Townes formulated the physical constraint to realize a similar device for visible light. This resulted in 1960 in the first optical maser by T.H. Maiman in the USA.
-This device was since then called **L**ight **A**mplification by **S**timulated **E**mission of **R**adiation or **laser**.
+In the early 1950s a new source of microwave radiation, **the maser**, was invented by C.H. Townes in the USA and A.M. Prokhorov and N.G. Basov in the USSR. Maser stands for "Microwave Amplification by Stimulated Emission of Radiation". In 1958, A.L. Schawlow and Townes formulated the physical conditions for realizing a similar device for visible light. This resulted in 1960 in the first optical maser by T.H. Maiman in the USA.
+This device has since been called **L**ight **A**mplification by **S**timulated **E**mission of **R**adiation or **laser**.
 It has revolutionised science and engineering and has many applications, e.g.
 - bar code readers,
 - compact discs,
@@ -40,7 +40,7 @@ It has revolutionised science and engineering and has many applications, e.g.
 
 
 ## Unique Properties of Lasers
-The broad application of lasers is made possible by the unique properties which distinguishes lasers from all other light sources. We discuss these unique properties below.
+The broad application of lasers is made possible by the unique properties that distinguish lasers from all other light sources. We discuss these unique properties below.
 ### Narrow Spectral Width; High Temporal Coherence
 These properties are equivalent.
 A spectral lamp, like a gas discharge lamp based on Mercury vapor, can have a spectral width of $\Delta \nu=$ 10 GHz. Visible frequencies are around $2\times 10^{14}$ Hz, hence the spectral width of the lamp is roughly $0.02\%$. The line width measured in wavelengths satisfies
@@ -80,7 +80,7 @@ The spherical waves emitted by the atoms (point sources) in the lamp are collima
 \end{align*}
 ```
 where $2h$ is the size of the source and $f$ is the focal length of the lens as shown in {numref}`fig:laser:gasSourceCollimation`. Hence the light can be collimated by either choosing a lens with large focal length or by reducing the size of the source, or both. Both methods lead, however, to weak intensities.
-Due to the special configuration of the laser source, which consists of a Fabry-Perot resonator in which the light bounces up and down many times before being emitted, the atomic sources are effectively all at very large distance and hence the effective size of the source is very small. The divergence of the laser beam is therefore not limited by the size of the source but by the size of its emitting surface through the inevitable effect of diffraction.
+Due to the special configuration of the laser source, which consists of a Fabry-Perot resonator in which the light bounces up and down many times before being emitted, the atomic sources are effectively all at a very large distance and hence the effective size of the source is very small. The divergence of the laser beam is therefore not limited by the size of the source but by the size of its emitting surface through the inevitable effect of diffraction.
 As follows from {ref}`chapter:diff`, a parallel beam of diameter $D$ and wavelength $\lambda$ has a diffraction limited divergence given by:
 
 ```{math}
@@ -89,7 +89,7 @@ As follows from {ref}`chapter:diff`, a parallel beam of diameter $D$ and wavelen
 \theta = \frac{\lambda}{D}.
 \end{align*}
 ```
-The diffraction-limited divergence thus depends on the wavelength and decreases when the diameter of the emitting surface increases. With a laser source, the diffraction-limited convergence angle can almost be reached and therefore a collimated beam with very high intensity can be realized ({numref}`fig:laser:laserSourceCollimation`).
+The diffraction-limited divergence thus depends on the wavelength and decreases when the diameter of the emitting surface increases. With a laser source, the diffraction-limited divergence angle can almost be reached and therefore a collimated beam with very high intensity can be realized ({numref}`fig:laser:laserSourceCollimation`).
 
 ```{figure} Images/08_02_laser_source_collimation.png
 :name: fig:laser:laserSourceCollimation
@@ -107,7 +107,7 @@ If a perfectly collimated beam is focused with a lens with very small aberration
 ```
 With a laser one can achieve a diffraction-limited spot with a very high intensity.
 
-As has been explained in {ref}`chapter:coh`, a light wave has **high spatial coherence** if at any given time, its amplitude and phase in different points can be predicted. The spherical waves emitted by a point source have this property. But when there are many point sources (atoms) that each emit bursts of harmonic waves that start at random times, as is the case in a classical light source, the amplitude and phase of the total emitted field at any position in space cannot be predicted. The only way to make the light spatially coherent is by making the light source very small, but then there is hardly any light. As will be explained below, by the design of the laser, the emissions by the atoms of the amplifying medium in a laser are phase-correlated, which leads to a very high temporal and spatial coherence.
+As has been explained in {ref}`chapter:coh`, a light wave has **high spatial coherence** if at any given time, its amplitude and phase at different points can be predicted. The spherical waves emitted by a point source have this property. But when there are many point sources (atoms) that each emit bursts of harmonic waves that start at random times, as is the case in a classical light source, the amplitude and phase of the total emitted field at any position in space cannot be predicted. The only way to make the light spatially coherent is by making the light source very small, but then there is hardly any light. As will be explained below, by the design of the laser, the emissions by the atoms of the amplifying medium in a laser are phase-correlated, which leads to a very high temporal and spatial coherence.
 
 ```{figure} Images/08_03_laser_focus.png
 :name: fig:laser:laserFocus
@@ -120,12 +120,12 @@ The property of a small spot size with high intensity is essential for many appl
 There are two types of lasers namely continuous wave (CW)  lasers, which produce a continuous output, and pulsed lasers which emit a train of pulses. These pulses can be very short: from nanoseconds to even femtoseconds ($10^{-15}$ s). A relatively low-power CW laser is the HeNe laser which emits roughly 1 mW at the wavelength 632 nm. Other lasers can emit up to a megawatt of continuous power. Pulsed lasers can emit enormous peak intensities (i.e. at the maximum of a pulse), ranging from $10^9$ to $10^{15}$ Watt.
 
 There are many applications of high-power lasers such as for cutting and welding materials.
-To obtain EUV light with sufficient high intensity for use in photolithography for manufacturing ICs, extremely powerful CO$_2$ lasers are used to excite a plasma.
+To obtain EUV light with sufficiently high intensity for use in photolithography for manufacturing ICs, extremely powerful CO$_2$ lasers are used to excite a plasma.
 Extremely high-power lasers are also applied to initiate fusion and in many nonlinear optics applications.
 Lasers with very short pulses are used to study very fast phenomena with short decay times.
 
 ### Wide Tuning Range
-For a wide range of wavelengths, from the vacuum ultra-violet (VUV), the ultra-violet (UV), the visible, the infrared (IR), the mid-infrared (MIR) up into the far infrared (FIR), lasers are available. For some type of lasers, the tuning range can be quite broad.
+For a wide range of wavelengths, from the vacuum ultra-violet (VUV), the ultra-violet (UV), the visible, the infrared (IR), the mid-infrared (MIR) up into the far infrared (FIR), lasers are available. For some types of lasers, the tuning range can be quite broad.
 The gaps in the electromagnetic spectrum that are not directly addressed by laser emission can be covered by techniques such as higher harmonic generation and frequency differencing.
 
 (sec:laser:optres)=
@@ -189,7 +189,7 @@ A high field builds up when this wave constructively interferes with {eq}`eq:las
 k_0 =\frac{ 2\pi m }{2 n L}, \;\;\text{ or } \;\; \nu = \frac{k c}{2\pi} = m \frac{c }{2n L},
 \end{align*}
 ```
-for $m=1,2,\ldots$. Hence, provided dispersion of the medium can be neglected (.e. $n$ is independent of the frequency), the resonance frequencies are separated by
+for $m=1,2,\ldots$. Hence, provided dispersion of the medium can be neglected (i.e. $n$ is independent of the frequency), the resonance frequencies are separated by
 
 ```{math}
 :label: eq:laser:freeSpectralRange
@@ -234,7 +234,7 @@ an atom that is initially in the lower energy state $1$ can be excited to state 
 ℏ= \frac{6.626070040}{2\pi} \times 10^{-34} \;\; \text{ Js }.
 \end{align*}
 ```
-Suppose $W(\omega)$ is the time-averaged electromagnetic energy density *per unit of frequency interval* around frequency $\omega$. Hence $W$ has dimension $\text{J}\text{s}\text{m}^3$. Let $N_1$ and $N_2$ be the number of atoms in state 1 and 2, respectively, where
+Suppose $W(\omega)$ is the time-averaged electromagnetic energy density *per unit of frequency interval* around frequency $\omega$. Hence $W$ has dimension $\text{J}\text{s}\text{m}^3$. Let $N_1$ and $N_2$ be the number of atoms in states 1 and 2, respectively, where
 
 ```{math}
 :label: eq:laser:totalAtomNumber
@@ -264,7 +264,7 @@ spontaneous emission is given by:
 \frac{d N_2}{dt} = - A_{21} N_2, \hspace{1cm} \mathbf{spontaneous emission},
 \end{align*}
 ```
-where $A_{21}$ has dimension $\text{s}^{-1}$. The lifetime of spontaneous transmission is $\tau_{sp}=1/A_{21}$. It is important to note that the spontaneously emitted photon is emitted in a **random direction**. Furthermore, since the radiation occurs at a random time, there is no phase relation between the spontaneously emitted field and the field that excites the atom.
+where $A_{21}$ has dimension $\text{s}^{-1}$. The lifetime of spontaneous emission is $\tau_{sp}=1/A_{21}$. It is important to note that the spontaneously emitted photon is emitted in a **random direction**. Furthermore, since the radiation occurs at a random time, there is no phase relation between the spontaneously emitted field and the field that excites the atom.
 
 It is less obvious that in the presence of an electromagnetic field of frequency close to the atomic resonance, an atom in the excited state can also be **stimulated** by that field to emit a photon and transfer to the lower energy state. The rate of **stimulated emission** is proportional to the number of excited atoms and to the energy density of the field:
 
@@ -274,7 +274,7 @@ It is less obvious that in the presence of an electromagnetic field of frequency
 \frac{d N_2}{dt} = - B_{21} N_2 W(\omega), \hspace{1cm} \mathbf{stimulated emission},
 \end{align*}
 ```
-where $B_{21}$ has the same dimension as $B_{12}$. It is very important to remark that stimulated emission occurs in the **same electromagnetic mode** (e.g. a plane wave) as the mode of the field that excites the transmission and that the phase of the radiated field is **identical** to that of the exciting field. This implies that stimulated emission enhances the electromagnetic field by constructive interference. This property is crucial for the operation of the laser.
+where $B_{21}$ has the same dimension as $B_{12}$. It is very important to remark that stimulated emission occurs in the **same electromagnetic mode** (e.g. a plane wave) as the mode of the field that stimulates the transition and that the phase of the radiated field is **identical** to that of the exciting field. This implies that stimulated emission enhances the electromagnetic field by constructive interference. This property is crucial for the operation of the laser.
 
 ```{figure} Images/08_07_laser_2level.png
 :name: fig:laser:laser2level
@@ -284,7 +284,7 @@ Absorption, spontaneous emission and stimulated emission.
 
 ### Relation Between the Einstein Coefficients
 The Einstein coefficients $A_{21}$, $B_{12}$ and $B_{21}$ are related.
-Consider a black body, such as a closed empty box. Because no radiation is entering nor leaving the box, after a certain time the electromagnetic energy density is the thermal density $W_T(\omega)$, which, according to Planck's Law, is independent of the material of which the box is made and is given by:
+Consider a black body, such as a closed empty box. Because no radiation enters or leaves the box, after a certain time the electromagnetic energy density is the thermal density $W_T(\omega)$, which, according to Planck's Law, is independent of the material of which the box is made and is given by:
 
 ```{math}
 :label: eq:laser:planckBlackbodyLaw
@@ -357,7 +357,7 @@ For a (narrow) frequency band $\mathrm{d}\omega$ the time-averaged energy densit
 W(\omega) \mathrm{d}\omega = I /c.
 \end{align*}
 ```
-A typical value for the frequency width of a narrow emission line of an ordinary light source is: $10^{10}$ Hz, i.e. $\mathrm{d}\omega = 2\pi \times 10^{10}$ Hz. The spontaneous and stimulated emission rates are then identical if the intensity is $I=2.95 \times 10^4$ W/m$^2$. As seen from {numref}`table:laser:laser2`, only for laser light stimulated emission is larger than spontaneous emission. For classical light sources the spontaneous emission rate is much larger than the stimulated emission rate.
+A typical value for the frequency width of a narrow emission line of an ordinary light source is: $10^{10}$ Hz, i.e. $\mathrm{d}\omega = 2\pi \times 10^{10}$ Hz. The spontaneous and stimulated emission rates are then identical if the intensity is $I=2.95 \times 10^4$ W/m$^2$. As seen from {numref}`table:laser:laser2`, stimulated emission is larger than spontaneous emission only for laser light. For classical light sources the spontaneous emission rate is much larger than the stimulated emission rate.
 ```{table}
 :name: table:laser:laser2
 
@@ -436,17 +436,17 @@ all times $t$. Therefore, a system with only two levels cannot have population
 inversion.
 ```{figure} Images/08_08_laser_d_nn.png
 :name: fig:laser:laserDNn
-$\Delta N/N$ as function of $t/(A_{21}+2B_{12}W)$ when all atoms are in the ground state at $t=0$, i.e. $\Delta N(0)=-N$.
+$\Delta N/N$ as a function of $t/(A_{21}+2B_{12}W)$ when all atoms are in the ground state at $t=0$, i.e. $\Delta N(0)=-N$.
 ```
 
 
-A way to achieve population inversion of levels 1 and 2 and hence amplification of the radiation with frequency $\omega$ with $ℏ \omega = E_2-E_1$ is to use more atomic levels, for example three. In {numref}`fig:laser:laser3level` the ground state is state 1 with two upper levels 2 and 3 such that $E_1<E_2<E_3$. The transition of interest is still that from level 2 to level 1. Initially almost all atoms are in the ground state 1. Then atoms are pumped with rate $R$ from level 1 directly to level 3. The transition $3 \rightarrow 2$ is non-radiative and has a high rate $A_{32}$ so that level 3 is quickly emptied and therefore $N_3$ remains small. State 2 is called a metastable state, because the residence time in this state is for every atom relatively long. Therefore its population tends to increase, leading to population inversion between the metastable state 2 and the lower ground state 1 (which is continuously being depopulated by pumping to the highest level).
+A way to achieve population inversion of levels 1 and 2 and hence amplification of the radiation with frequency $\omega$ with $ℏ \omega = E_2-E_1$ is to use more atomic levels, for example three. In {numref}`fig:laser:laser3level` the ground state is state 1 with two upper levels 2 and 3 such that $E_1<E_2<E_3$. The transition of interest is still that from level 2 to level 1. Initially almost all atoms are in the ground state 1. Then atoms are pumped with rate $R$ from level 1 directly to level 3. The transition $3 \rightarrow 2$ is non-radiative and has a high rate $A_{32}$ so that level 3 is quickly emptied and therefore $N_3$ remains small. State 2 is called a metastable state, because the residence time of each atom in this state is relatively long. Therefore its population tends to increase, leading to population inversion between the metastable state 2 and the lower ground state 1 (which is continuously being depopulated by pumping to the highest level).
 
 Note that $A_{31}$ has to be small, because otherwise level 1 will quickly be filled, by which population inversion will be stopped. This effect can be utilized to obtain a series of laser pulses as output, but is undesirable for a continuous output power.
 
 Pumping may be done optically as described, but the energy to transfer atoms from level 1 to level 3 can also be supplied by an electrical discharge in a gas or by an electric current.
 After the pumping has achieved population inversion, initially no light is emitted. So how does the laser actually start?
-Lasing starts by spontaneous emission. The spontaneously emitted photons stimulate emission of the atoms in level 2 to decay to level 1, while emitting a photon of energy $ℏ \omega$. The **stimulated emission occurs in phase with the exciting light** and hence the light amplitude continuously builds up coherently, while it is bouncing back and forth between the mirrors of the resonator. Because one of the mirrors is slightly transparent a certain laser power is emtted.
+Lasing starts by spontaneous emission. The spontaneously emitted photons stimulate atoms in level 2 to decay to level 1, while emitting a photon of energy $ℏ \omega$. The **stimulated emission occurs in phase with the exciting light** and hence the light amplitude continuously builds up coherently, while it is bouncing back and forth between the mirrors of the resonator. Because one of the mirrors is slightly transparent a certain laser power is emitted.
 
 
 ```{figure} Images/08_09_laser_3level.png
@@ -470,7 +470,7 @@ or else the laser light will ultimately leave the cavity laterally, i.e. it will
 
 ```{figure} Images/08_10_laser_cavity.png
 :name: fig:laser:lasercavity
-Three types of laser cavity. The shaded region is the amplifier. The middle case is called a laser with external cavities.
+Three types of laser cavity. The shaded region is the amplifier. The middle case is called a laser with external mirrors.
 ```
 
 
@@ -483,18 +483,18 @@ In many applications such as laser communication and interferometry one needs a 
 
 ```{figure} Images/08_11_laser_loss_a.png
 :name: fig:laser:laserLoss
-Laser with cavity of length $L$ and broad amplifier gain curve. Many resonance frequencies of the resonances are above threshold to compensate the losses.
+Laser with cavity of length $L$ and broad amplifier gain curve. Many resonance frequencies are above threshold to compensate the losses.
 ```
 
 
 ```{figure} Images/08_12_laser_extra_cavity_b.png
 :name: fig:laser:laserExtraCavity
-Laser with cavity of length $L$, a broad amplifier gain curve and an added Fabry-Perot cavity. The FB resonances acts as an extra filter to select only one mode of the laser.
+Laser with cavity of length $L$, a broad amplifier gain curve and an added Fabry-Perot cavity. The Fabry-Perot resonances act as an extra filter to select only one mode of the laser.
 ```
 
 2. **Multiple Transverse Modes**
 
-The best-known laser mode has transverse intensity distribution, which is a Gaussian function of transverse distance to the optical axis. We call a mode with Gaussian transverse shape a **longitudinal mode** and when its frequency satisfies $\nu=m c/(2L)$, it is called the $m$th longitudinal mode. However, inside the laser cavity other modes with different transverse patterns  can also resonate. An example is shown in {numref}`fig:laser:laserCavityMode` where mode (1,0) consists of two maxima.
+The best-known laser mode has a transverse intensity distribution, which is a Gaussian function of transverse distance to the optical axis. We call a mode with Gaussian transverse shape a **longitudinal mode** and when its frequency satisfies $\nu=m c/(2L)$, it is called the $m$th longitudinal mode. However, inside the laser cavity other modes with different transverse patterns  can also resonate. An example is shown in {numref}`fig:laser:laserCavityMode` where mode (1,0) consists of two maxima.
 
 ```{figure} Images/08_13_laser_cavity_mode.png
 :name: fig:laser:laserCavityMode
@@ -510,7 +510,7 @@ Intensity pattern of several transverse modes.
 ```
 
 Usually one prefers the Gaussian mode and the transverse modes are undesired.
-Because the Gaussian mode has smallest transverse width, the other transverse modes can be eliminated by inserting an aperture in the laser cavity.
+Because the Gaussian mode has the smallest transverse width, the other transverse modes can be eliminated by inserting an aperture in the laser cavity.
 
 
 ```{figure} Images/08_15_spectra_trans_mode.png
@@ -531,7 +531,7 @@ The energy to transfer the atom $A$ from the ground state to the excited state i
 ℏ \omega_{13} + A \rightarrow A^*,
 \end{align*}
 ```
-where $\omega_{13}$ is the frequency for the transition $1 \rightarrow 3$ as seen in {numref}`fig:laser:pumping`. The Ruby laser, of which the amplifying medium consists of $\text{Al}_2\text{O}_3$ with 0.05 weight percent $\text{Cr}_2\text{O}_3$, was the first laser, invented in 1960. It emits pulses of light of wavelength 694.3 nm and is optically pumped with a gas discharge lamp. Other optically pumped lasers are the YAG, glass, fiber, semiconductor and dye laser.
+where $\omega_{13}$ is the frequency for the transition $1 \rightarrow 3$ as seen in {numref}`fig:laser:pumping`. The Ruby laser, whose amplifying medium consists of $\text{Al}_2\text{O}_3$ with 0.05 weight percent $\text{Cr}_2\text{O}_3$, was the first laser, invented in 1960. It emits pulses of light of wavelength 694.3 nm and is optically pumped with a gas discharge lamp. Other optically pumped lasers are the YAG, glass, fiber, semiconductor and dye laser.
 
 ```{figure} Images/08_16_pumping_meta.png
 :name: fig:laser:pumpingA
@@ -568,7 +568,7 @@ B^m + A \rightarrow
 B + A^*,
 \end{align*}
 ```
-$A^*$ is the excited state used for the stimulated emission. If $\tau_{m1}$ is the relaxation time of metastable state $B^m$, then $\tau_{m1}$ is very large and hence the spontaneous emission rate is very small. This implies that the number of metastable atoms as function of time $t$ is given by a slowly decaying exponential function $\exp(-t/\tau_{m1})$.
+$A^*$ is the excited state used for the stimulated emission. If $\tau_{m1}$ is the relaxation time of metastable state $B^m$, then $\tau_{m1}$ is very large and hence the spontaneous emission rate is very small. This implies that the number of metastable atoms as a function of time $t$ is given by a slowly decaying exponential function $\exp(-t/\tau_{m1})$.
 
 ```{figure} Images/08_18_pumping_collision.png
 :name: fig:laser:pumping
@@ -598,7 +598,7 @@ In some chemical reactions, a molecule is created in an excited state with popul
 A + B_2 \rightarrow (AB)^* + B.
 \end{align*}
 ```
-So in this case the lasing will take place for a transfer between states of molecule $AB$.
+So in this case the lasing will take place for a transition between states of molecule $AB$.
 The HF, Ar-F, Cr-F, Xe-F and Xe-Cl lasers are all chemically pumped.
 ### Semiconductor Laser
 

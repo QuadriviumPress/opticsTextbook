@@ -109,7 +109,7 @@ Build a wave from harmonic components and compare the sum to its spectrum. The s
 
 ### Spatial and Temporal Periodicity
 
-The defining characteristic of harmonic waves is their periodic nature. In space, the pattern repeats over a distance called the wavelength, denoted by $\lambda$ (lambda). If we examine the wave at a fixed time and move along the x-axis, we find that the wave has identical values separated by distance $\lambda$.
+The defining characteristic of harmonic waves is their periodic nature. In space, the pattern repeats over a distance called the wavelength, denoted by $\lambda$ (lambda). If we examine the wave at a fixed time and move along the x-axis, we find that the wave has identical values separated by a distance $\lambda$.
 
 Mathematically, this spatial periodicity means:
 $$y(x + \lambda, t) = y(x, t)$$
@@ -452,7 +452,7 @@ The amplitude variation for cylindrical waves is proportional to $1/\sqrt{\rho}$
 
 ### Gaussian Beams
 
-An important family of wave solutions that finds extensive application in laser physics and optical engineering is the **Gaussian beam**. These represent approximate solutions to the wave equation that describe beamlike propagation with strong confinement in the transverse direction.
+**Gaussian beams** form an important family of wave solutions that finds extensive application in laser physics and optical engineering. They represent approximate solutions to the wave equation that describe beamlike propagation with strong confinement in the transverse direction.
 
 Gaussian beams are characterized by several key parameters:
 
@@ -659,7 +659,7 @@ Unpolarized light can be thought of as an incoherent superposition of electromag
 
 Polarized light can be produced from unpolarized light using various optical elements:
 
-**Polarizing filters**: Transmit light with electric field in one direction while absorbing light with perpendicular polarization.
+**Polarizing filters**: Transmit light whose electric field oscillates in one direction while absorbing light with perpendicular polarization.
 
 **Reflection**: Light reflected from surfaces at specific angles (Brewster's angle) becomes partially or completely polarized.
 

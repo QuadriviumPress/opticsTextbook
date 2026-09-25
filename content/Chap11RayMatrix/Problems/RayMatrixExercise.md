@@ -3,7 +3,7 @@
 **Problem 11.1** \* Principal planes for a thick lens.
 
 
-In this problem the transfer matrix for a thick lens is derived. By finding the positions of the principal planes, you will derive that the transfer matrix has the same form as for a thin lens when object, image and focal distances are measured with respect to principle planes.
+In this problem the transfer matrix for a thick lens is derived. By finding the positions of the principal planes, you will derive that the transfer matrix has the same form as for a thin lens when object, image and focal distances are measured with respect to principal planes.
 
 
 The transfer matrices which you should use are those for refraction through a spherical interface between two media with refractive indices $n$, $n'$
@@ -17,7 +17,7 @@ $$
 $$
 
 where
-$k=(n'-n)/R$, and secondly the matrix ${\cal M}_d$ for propagation through a medium with refractive index $n$ over a distance $d$.
+$k=(n'-n)/R$, and the matrix ${\cal M}_d$ for propagation through a medium with refractive index $n$ over a distance $d$.
 
 Consider a thick lens made of a glass of refractive index $n$ with thickness $d$. For paraxial rays, the thickness can be identified with the distance between the vertices $V_1$ and $V_2$ of the surfaces of the lens.
 
@@ -44,15 +44,15 @@ where $k_1= (n-1)/R_1$ and $k_2= (1-n)/R_2$
   {eq}`eq:ray:thinLensMatrix`.
 
 
-In Section 3.5.7 of the Lecture Notes the primary and secondary principle planes were defined. Let the distance between the primary principle plane ${\cal H}_1$ and vertex $V_1$ be $T_1$, and let the distance of the second principle plane ${\cal H}_2$ to vertex $V_2$ be $T_2$ as shown in {numref}`fig:ray:thicklens2`). $T_1>0$ and $T_2>0$ if the first principle plane is to the left of $V_1$ and the second principle plane is to the right of $V_2$, respectively, while $T_1$ and $T_2$ are negative otherwise.
+In Section 3.5.7 of the Lecture Notes the primary and secondary principal planes were defined. Let the distance between the primary principal plane ${\cal H}_1$ and vertex $V_1$ be $T_1$, and let the distance of the second principal plane ${\cal H}_2$ to vertex $V_2$ be $T_2$ as shown in {numref}`fig:ray:thicklens2`). $T_1>0$ and $T_2>0$ if the first principal plane is to the left of $V_1$ and the second principal plane is to the right of $V_2$, respectively, while $T_1$ and $T_2$ are negative otherwise.
 
 ```{figure} ../Images/11_02_thick_lens.png
 :name: fig:ray:thicklens2
-Thick lens with principle planes.
+Thick lens with principal planes.
 ```
 
 
-The transformation of a ray from the primary principle plane ${\cal H}_1$ to the secondary principle plane ${\cal H}_2$ is:
+The transformation of a ray from the primary principal plane ${\cal H}_1$ to the secondary principal plane ${\cal H}_2$ is:
 
 ```{math}
 :label: eq:ray:principalPlaneTransform
@@ -90,7 +90,7 @@ derive that:
 \end{align*}
 ```
 
-**(d)** The principle planes are conjugate (i.e. they are each other images) with unit magnification. Derive from this fact that the locations of the principle planes are given by:
+**(d)** The principal planes are conjugate (i.e. they are images of each other) with unit magnification. Derive from this fact that the locations of the principal planes are given by:
 
 
 ```{math}
@@ -111,4 +111,4 @@ With the solutions for $T_1$ and $T_2$ the system matrix between the principal p
 
 which has the same shape as the transfer matrix for a thin lens.
 
-**(e)** Show that the back focal point is at distance $1/a_{12}$ from the secondary principle plane and that the front focal plane is at distance $1/a_{12}$ from the primary principle plane.
+**(e)** Show that the back focal point is at distance $1/a_{12}$ from the secondary principal plane and that the front focal plane is at distance $1/a_{12}$ from the primary principal plane.

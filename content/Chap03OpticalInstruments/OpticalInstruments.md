@@ -16,7 +16,7 @@ downloads:
 ```{note} What you should know and be able to do after studying this chapter
 - Understand the working principle of a camera.
 - Understand the optics of the eye and its accommodation with the near and far point.
-- The working of eye glasses.
+- Understand how eyeglasses work.
 - Understand the principle of the magnifier and the eyepiece and its use in the microscope and the telescope.
 - Understand the microscope and the telescope concept and the (angular) magnification in both cases.
 ```
@@ -54,7 +54,7 @@ Angular field of view
 More complex systems can have a variable focal length by changing the distance between the lenses, i.e. they are able to *zoom* into a scene.
 
 The **depth of field** is a range of object distances around a given distance for which the images on the sensor are sharp. The depth of field depends on the diaphragm.
-When the aperture is wide open, rays forming the image will make larger angles with the optical axis. When these rays come from objects at various distances they will for a large diaphragm cause more blurred images on the sensor (see {numref}`fig:inst:legoDepth`). When the aperture is reduced, this effect is less and therefore a smaller diaphragm implies a larger depth of field.
+When the aperture is wide open, rays forming the image will make larger angles with the optical axis. With a large diaphragm, rays from objects at various distances produce more blurred images on the sensor (see {numref}`fig:inst:legoDepth`). When the aperture is reduced, this effect is less and therefore a smaller diaphragm implies a larger depth of field.
 The drawback is that less light reaches the sensor; therefore, a longer exposure time is needed.
 
 ```{figure} Images/03_04_lego_depth.jpg
@@ -148,7 +148,7 @@ hence the combined power of the two lenses in contact is the sum of the individu
 \mathfrak{D} = \mathfrak{D_1}+\mathfrak{D_2}
 \end{align*}
 ```
-A positive lens of focal length $f_1$=10&nbsp;cm in air has a dioptric power $\mathfrak{D_1}=10$ diopter. If it is in contact with a negative lens of dioptric power $\mathfrak{D_2}=-10$ diopter, the resulting power is $\mathfrak{D}=0$, equivalent to a parallel sheet of glass.
+A positive lens of focal length $f_1$=10&nbsp;cm in air has a dioptric power $\mathfrak{D_1}=10$ diopters. If it is in contact with a negative lens of dioptric power $\mathfrak{D_2}=-10$ diopters, the resulting power is $\mathfrak{D}=0$, equivalent to a parallel sheet of glass.
 
 
 ### Eyeglasses
@@ -176,7 +176,7 @@ The lens is best put in the front focal plane of the relaxed eye, i.e. at
 approximately 16 mm in front of the cornea. This follows from the Lensmaker's Formula (see the {ref}`Ray Matrix chapter <chapter:ray>`) and the fact that the distance of the retina to the
 eye lens is roughly 22 mm while the refractive index of the vitreous humor is
 1.337. Hence, the focal distance in air of the relaxed eye
-of $22/1.337 \approx 16~\text{mm}$. The reason for putting the lens at the
+is $22/1.337 \approx 16~\text{mm}$. The reason for putting the lens at the
 focal distance is that in this case the magnification of the eye and the
 negative lens together are the same as for the uncorrected eye. To see this,
 draw a ray from the top of the object through the center of the negative lens.
@@ -189,7 +189,7 @@ Contact lenses are very close to the eye lens and hence the total power of the e
 
 
 **b. Hyperopia or farsightedness**.
-In this case a distant object is imaged by the relaxed eye behind the retina, i.e. the back focal distance of the relaxed eye is larger than the depth of the eye. Close objects can not be imaged on the retina; hence, the near point is relatively far from the cornea. In order to bend the rays more, a positive lens is placed in front of the eye. Suppose that a hyperopic eye has a near point at a distance of 125 cm. For an object at the normal near point $s_o=-25$ cm to have a virtual image at $s_i=-125$ cm, so that it can be seen, the focal length of the positive lens must satisfy
+In this case a distant object is imaged by the relaxed eye behind the retina, i.e. the back focal distance of the relaxed eye is larger than the depth of the eye. Close objects cannot be imaged on the retina; hence, the near point is relatively far from the cornea. In order to bend the rays more, a positive lens is placed in front of the eye. Suppose that a hyperopic eye has a near point at a distance of 125 cm. For an object at the normal near point $s_o=-25$ cm to have a virtual image at $s_i=-125$ cm, so that it can be seen, the focal length of the positive lens must satisfy
 
 ```{math}
 :label: eq:inst:hyperopiaFocalLength
@@ -200,12 +200,12 @@ In this case a distant object is imaged by the relaxed eye behind the retina, i.
 hence the power must be $\mathfrak{D}=1/f=+3.2$ diopter.
 ```{figure} Images/03_08_eye_correction.png
 :name: fig:inst:eyeCorrection
-Correction of farsighted (left) and nearsighted (right) eye (adapted from [Wikimedia Commons](https://en.wikipedia.org/wiki/File:Myopia_and_lens_correction.svg) by Gumenyuk I.S. / CC BY-SA 4.0).
+Correction of farsighted (left) and nearsighted (right) eyes (adapted from [Wikimedia Commons](https://en.wikipedia.org/wiki/File:Myopia_and_lens_correction.svg) by Gumenyuk I.S. / CC BY-SA 4.0).
 ```
 
 
 **c. Presbyopia.**
-This is the lack of accommodation of the eye as is common in people over 40. It results in an increase in the distance between the near point and the cornea. This defect affects all images. Presbyopia is usually corrected by glasses with progressive correction, the upper part of glass used for distance vision and the lower part for near vision.
+This is the lack of accommodation of the eye as is common in people over 40. It results in an increase in the distance between the near point and the cornea. This defect affects all images. Presbyopia is usually corrected by glasses with progressive correction, with the upper part of each lens used for distance vision and the lower part for near vision.
 
 
 **d. Astigmatism.**
@@ -217,7 +217,7 @@ In recent years, to correct eye defects such as myopia and astigmatism, technolo
 
 
 ## Magnifying Glasses
-A magnifying glass causes an image on the retina which is larger than without the magnifier. In principle, the image on the retina can be increased by simply bringing the object closer to the eye (reduce $|s_o|$ at fixed $s_i$). But $|s_o|$ can not be smaller than the near point $d_o$, which we take here to be 25 cm. It is desirable to use a lens that makes a magnified erect image at a distance to the eye greater than $d_o$. This can be achieved by a positive lens with the object closer to the lens than the first focal point, thereby producing a magnified virtual image.
+A magnifying glass causes an image on the retina which is larger than without the magnifier. In principle, the image on the retina can be increased by simply bringing the object closer to the eye (reduce $|s_o|$ at fixed $s_i$). But $|s_o|$ cannot be smaller than the near point $d_o$, which we take here to be 25 cm. It is desirable to use a lens that makes a magnified erect image at a distance to the eye greater than $d_o$. This can be achieved by a positive lens with the object closer to the lens than the first focal point, thereby producing a magnified virtual image.
 An example is given in {numref}`fig:inst:magnifierGruffalo`.
 
 ```{figure} Images/03_09_magnifier_gruffalo_small.png
@@ -228,7 +228,7 @@ Example of a positive lens used as a magnifying glass (picture taken by A.J.L. A
 
 ### Magnifying Power
 The **magnifying power** $\text{MP}$ or **angular magnification** $M_a$ is defined as the ratio of the size of the retinal image obtained with the instrument to the size of the retinal image as seen by the unaided eye at normal viewing distance $d_o$.
-To estimate the size of the retinal image, we compare in both cases where **the chief ray through the top of the object and the center of the pupil of the eye hits the retina**. Since the distance between the eye lens and the retina is fixed, the ratio of the image size on the retina for the eye with and without magnifying glass is:
+To estimate the size of the retinal image, we compare in both cases where **the chief ray through the top of the object and the center of the pupil of the eye hits the retina**. Since the distance between the eye lens and the retina is fixed, the ratio of the image size on the retina for the eye with and without a magnifying glass is:
 
 ```{math}
 \begin{align*}
@@ -291,12 +291,12 @@ In practice $d_0 {\cal P}=d_o/|f_o|$ is much larger than 1, so that $\text{MP}$ 
 
 ### Nomenclature
 
-Normally magnifiers are expressed in terms of the magnifying power when $L=\infty$ (case 3 above). For example, a magnifier with a power of 10 Diopter has a $\text{MP}$ equal to 2.5 or $2.5\times$. In other words, the image is 2.5 times larger than it would be if the object were at the near point of the unaided eye.
+Normally magnifiers are expressed in terms of the magnifying power when $L=\infty$ (case 3 above). For example, a magnifier with a power of 10 diopters has a $\text{MP}$ equal to 2.5 or $2.5\times$. In other words, the image is 2.5 times larger than it would be if the object were at the near point of the unaided eye.
 
 ## Eyepieces
 
 An **eyepiece** or **ocular** is a magnifier used before the eye at the end of another optical instrument such as a microscope or a telescope. The eye looks into the ocular and the ocular "looks" into the optical instrument.
-The ocular provides a magnified virtual image of the image produced by the optical instrument. Similar to the magnifying glass, the virtual image should preferably be at or near infinity to be viewed by a relaxed eye. Several types of eye pieces exist and most of them are made out of two lenses:
+The ocular provides a magnified virtual image of the image produced by the optical instrument. Similar to the magnifying glass, the virtual image should preferably be at or near infinity to be viewed by a relaxed eye. Several types of eyepieces exist and most of them are made out of two lenses:
 1. the field lens, which is the first lens in the ocular;
 2. the eye-lens, which is closest to the eye at a fixed distance called the **eye relief**.
 The aperture of the eyepiece is controlled by a field stop.
@@ -339,7 +339,7 @@ we obtain:
 \text{MP}=\frac{- x_i}{f_i^{obj}} \frac{d_o}{f_i^e} = \frac{- 16}{f_0}.\frac{25}{f_e},
 \end{align*}
 ```
-with the standard near-point $d_o=$25&nbsp;cm. As an example, an Amici objective gives $40 \times$ and combined with a $10\times$ eyepiece one gets $MP=400$.
+with the standard near-point $d_o=$25&nbsp;cm. As an example, an Amici objective gives $40 \times$; combined with a $10\times$ eyepiece, it gives $MP=400$.
 
 The **numerical aperture**
 of a microscope is a measure of the capability to gather light from the object.
@@ -350,7 +350,7 @@ It is defined by:
 \text{NA} = n_{im} \sin\theta_{max}
 \end{align*}
 ```
-with $n_{im}$ the refractive index of the immersing medium, usually air, but it could be water or oil, and $\theta_{max}$ the half-angle of the maximum cone of light accepted by the lens. The numerical aperture is the second number etched in the barrel of the objective. It ranges from 0.07 (low-power objectives) to 1.4 for high-power objectives. Note that it depends on the object distance. In {ref}`chapter:diff` it will be explained that $\text{NA}$ is, for a given object distance, proportional to the resolving power which is the minimum transverse distance between two object points that can be resolved in the image.
+with $n_{im}$ the refractive index of the immersing medium, usually air, but it could be water or oil, and $\theta_{max}$ the half-angle of the maximum cone of light accepted by the lens. The numerical aperture is the second number etched in the barrel of the objective. It ranges from 0.07 (low-power objectives) to 1.4 for high-power objectives. Note that it depends on the object distance. In {ref}`chapter:diff` it will be explained that $\text{NA}$ is, for a given object distance, proportional to the resolving power; the resolution is the minimum transverse distance between two object points that can be resolved in the image.
 
 
 ## The Telescope
@@ -362,7 +362,7 @@ A telescope enlarges the retinal image of a distant object. Like a compound micr
 Keplerian astronomical telescope.
 ```
 
-The object in this figure is at a large but finite distance; therefore, an image is formed by the objective just after its second focal point. The eyepiece makes a virtual magnified image, to be viewed with a relaxed eye. Therefore, the intermediary image of the objective must be within the focal length $f_i^e$ from the eyepiece. The final image is inverted.
+The object in this figure is at a large but finite distance; therefore, an image is formed by the objective just after its second focal point. The eyepiece makes a virtual magnified image, to be viewed with a relaxed eye. Therefore, the intermediate image of the objective must be within the focal length $f_i^e$ from the eyepiece. The final image is inverted.
 
 As seen earlier, the angular magnification is:
 $\text{MP} = \alpha_a/\alpha_u$ where $\alpha_u$ is the half angle of the cone of light that would be collected without a telescope and $\alpha_a$ is the half angle of the apparent cone of rays coming from the virtual image of the eyepiece. For an object at infinity, considering the triangles $F_{o}^{obj}AB$ and $F_i^{e}CD$ in {numref}`fig:inst:raysTelescope`, we find that
@@ -385,7 +385,7 @@ Ray angles for a telescope
 - **The camera** uses a lens to form a real, inverted image on film or a sensor; exposure is controlled by the f-number and shutter speed.
 - **The human eye** is a variable-focus optical system where accommodation changes the lens power to focus objects at different distances.
 - **Vision defects**: Myopia (nearsightedness) is corrected with negative lenses; hyperopia (farsightedness) with positive lenses.
-- **The magnifying glass** produces a magnified virtual image; angular magnification is $\text{MP} = d_0/f$ for image at infinity.
+- **The magnifying glass** produces a magnified virtual image; angular magnification is $\text{MP} = d_0/f$ for an image at infinity.
 - **The compound microscope** uses an objective to form an intermediate real image, then an eyepiece for further magnification: $\text{MP} = -L \cdot d_0/(f_{obj} \cdot f_e)$.
 - **Numerical aperture** (NA $= n \sin\theta_{max}$) determines light-gathering ability and resolution of microscopes.
 - **The telescope** magnifies distant objects; angular magnification is $\text{MP} = -f_{obj}/f_e$ for objects at infinity.

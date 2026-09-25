@@ -1,6 +1,6 @@
 # Problems
 
-**Problem 4.1** Consider a time-harmonic plane wave with real electric field which with respect to a Cartesian coordinate system $(x,y,z)$ is given by:
+**Problem 4.1** Consider a time-harmonic plane wave whose real electric field, in a Cartesian coordinate system $(x,y,z)$ is given by:
 
 ```{math}
 \begin{align*}
@@ -36,7 +36,7 @@ $$
 $$
 Here, $I_{max}$ and $I_{min}$ are the maximum and minimum intensities of the light transmitted through a linear polarizer when it is turned through 360 degrees.
 
-**Problem 4.3** In this problem we consider an optical isolator as shown in {numref}`fig:pol:opticalIsolator`. In the setup, light can pass in one direction, but it cannot go back. This can for example be used to prevent laser light from going back into the laser source, thereby preventing unwanted effects such as intensity and frequency instabilities.
+**Problem 4.3** In this problem we consider an optical isolator as shown in {numref}`fig:pol:opticalIsolator`. In the setup, light can pass in one direction, but it cannot go back. This can, for example, be used to prevent laser light from going back into the laser source, thereby preventing unwanted effects such as intensity and frequency instabilities.
 
 ```{figure} ../Images/04_06_4_optical_isolator.png
 :name: fig:pol:opticalIsolator
@@ -61,9 +61,9 @@ $$
 **(c)** Give the Jones matrix $\mathcal{Q}$ for the quarter-wave plate of which the slow axis points in the vertical direction (i.e. the $y$-direction).
 
 
-**(d)** Suppose we send light through the linear polarizer and the quarter-wave plate. Then the light is partially transmitted and partially reflected by the mirror. The reflected light passes again through the quarter-wave plate and the polarizer. Using Jones matrices calculate the state of the light that exits.
+**(d)** Suppose we send light through the linear polarizer and the quarter-wave plate. Then the light is partially transmitted and partially reflected by the mirror. The reflected light passes again through the quarter-wave plate and the polarizer. Using Jones matrices, calculate the state of the light that exits.
 
-A video demonstration of this optical isolator can be viewed at [^1] (or search for "MIT optical isolator" on Youtube).
+A video demonstration of this optical isolator can be viewed at [^1] (or search for "MIT optical isolator" on YouTube).
 
 **Problem 4.4** Phase plates.
 

@@ -212,8 +212,8 @@ This textbook uses several custom LaTeX macros for convenience and consistency:
 |-------|------------|-------|---------|
 | `\dif` | $\operatorname{d}\!$ | Differential operator | `\dif x` → $\operatorname{d}\!x$ |
 | `\Vector{E}` | $\boldsymbol{E}$ | Bold vector notation | `\Vector{E}` → $\boldsymbol{E}$ |
-| `\Real` | $\mathbb{R}$ | Real numbers set | `x \in \Real` → $x \in \mathbb{R}$ |
-| `\Complex` | $\mathbb{C}$ | Complex numbers set | `z \in \Complex` → $z \in \mathbb{C}$ |
+| `\Real` | $\mathbb{R}$ | Set of real numbers | `x \in \Real` → $x \in \mathbb{R}$ |
+| `\Complex` | $\mathbb{C}$ | Set of complex numbers | `z \in \Complex` → $z \in \mathbb{C}$ |
 
 ## Mathematical Operators
 

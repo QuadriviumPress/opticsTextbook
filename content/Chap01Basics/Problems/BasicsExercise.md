@@ -19,14 +19,14 @@
 **(c)** Determine the de Broglie wavelength
 **(d)** Find the speed using equation 1-5
 
-**Problem 1.5** A helium-neon laser emits light at wavelength 632.8 nm with a power of 5.0 mW. How many photons does it emit per second?
+**Problem 1.5** A helium-neon laser emits light at a wavelength of 632.8 nm with a power of 5.0 mW. How many photons does it emit per second?
 
 **Problem 1.6** Compare the energy and momentum of:
 **(a)** A 1.0 MeV photon
 **(b)** A 1.0 MeV electron (total energy)
 Which has the shorter wavelength?
 
-**Problem 1.7** An X-ray photon has energy 50 keV. Calculate:
+**Problem 1.7** An X-ray photon has an energy of 50 keV. Calculate:
 **(a)** its wavelength
 **(b)** its momentum
 **(c)** the momentum of an electron with the same energy
@@ -35,7 +35,7 @@ Which has the shorter wavelength?
 **(a)** the energy per photon
 **(b)** the number of photons per square meter per second reaching Earth's atmosphere
 
-**Problem 1.9** A microwave oven operates at frequency 2.45 GHz. Find:
+**Problem 1.9** A microwave oven operates at a frequency of 2.45 GHz. Find:
 **(a)** the wavelength
 **(b)** the photon energy in joules and eV
 **(c)** the number of photons emitted per second if the oven generates 800 W of microwave power

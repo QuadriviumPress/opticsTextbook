@@ -16,7 +16,7 @@ tags:
 While the Fourier transform may initially seem like abstract mathematics, it becomes the cornerstone of modern optics. From understanding diffraction patterns to designing optical processors, Fourier analysis provides the mathematical foundation for spatial frequency domain optics. This transform doesn't just simplify calculations—it reveals the fundamental wave nature of light itself.
 ```
 
-The Fourier transform stands as one of the most powerful mathematical tools in all of optics, providing a bridge between the spatial domain (where we observe intensity patterns) and the frequency domain (where we understand the wave components). Far from being merely computational convenience, Fourier analysis reveals deep physical insights about how light propagates, diffracts, and forms images. This appendix will guide you through the essential concepts, building from fundamental principles to sophisticated applications that illuminate the behavior of optical systems.
+The Fourier transform stands as one of the most powerful mathematical tools in all of optics, providing a bridge between the spatial domain (where we observe intensity patterns) and the frequency domain (where we understand the wave components). Far from being merely a computational convenience, Fourier analysis reveals deep physical insights about how light propagates, diffracts, and forms images. This appendix will guide you through the essential concepts, building from fundamental principles to sophisticated applications that illuminate the behavior of optical systems.
 
 ## C.1 What Is the Fourier Transform and Why Do We Need It?
 
@@ -100,7 +100,7 @@ $$\mathcal{F}[af(x,y) + bg(x,y)] = a\mathcal{F}[f(x,y)] + b\mathcal{F}[g(x,y)]$$
 
 ### C.2.2 Shift Theorem
 
-A spatial shift in the object domain becomes a phase factor in frequency domain:
+A spatial shift in the object domain becomes a phase factor in the frequency domain:
 $$\mathcal{F}[f(x-x_0, y-y_0)] = F(k_x, k_y) e^{-i(k_x x_0 + k_y y_0)}$$
 
 ```{note} Example: Understanding Phase Shifts
@@ -168,7 +168,7 @@ $$\text{rect}\left(\frac{x}{a}\right)\text{rect}\left(\frac{y}{b}\right) \leftri
 where $\text{sinc}(u) = \sin(u)/u$.
 
 ```{note} Example: Single-Slit Diffraction
-A single slit of width $a$ has Fourier transform proportional to $\text{sinc}(k_x a/2)$. The diffraction pattern intensity is the square of this: $\text{sinc}^2(k_x a/2)$. The first zeros occur when $k_x a/2 = \pi$, giving $k_x = 2\pi/a$. Since $k_x = k\sin\theta$ for small angles, the angular position of the first minimum is $\theta \approx \lambda/a$—exactly the familiar diffraction formula!
+A single slit of width $a$ has a Fourier transform proportional to $\text{sinc}(k_x a/2)$. The diffraction pattern intensity is the square of this: $\text{sinc}^2(k_x a/2)$. The first zeros occur when $k_x a/2 = \pi$, giving $k_x = 2\pi/a$. Since $k_x = k\sin\theta$ for small angles, the angular position of the first minimum is $\theta \approx \lambda/a$—exactly the familiar diffraction formula!
 ```
 
 **Circular aperture** (radius $R$):
@@ -253,7 +253,7 @@ Every linear optical system can be characterized by its **optical transfer funct
 
 $$H(k_x, k_y) = \frac{\text{Output spectrum}}{\text{Input spectrum}}$$
 
-For an aberration-free lens with circular aperture of radius $R$:
+For an aberration-free lens with a circular aperture of radius $R$:
 
 $$H(k_x, k_y) = \begin{cases}
 1 & \text{if } \sqrt{k_x^2 + k_y^2} \leq \frac{2\pi R}{\lambda z} \\
@@ -301,7 +301,7 @@ The Fourier transform gives:
 $$F(k_x) = a \cdot \text{sinc}\left(\frac{k_x a}{2}\right) \cdot \frac{\sin(Nk_x d/2)}{\sin(k_x d/2)}$$
 
 This produces:
-- **Envelope**: $\text{sinc}^2(k_x a/2)$ from individual slit width
+- **Envelope**: $\text{sinc}^2(k_x a/2)$ from the width of each slit
 - **Fine structure**: Multiple sharp peaks from grating periodicity
 - **Peak positions**: $k_x = 2\pi m/d$ for integer $m$ (grating equation)
 ```
@@ -377,7 +377,7 @@ The **Fast Fourier Transform (FFT)** algorithm makes this computationally effici
 $$\Delta x < \frac{\pi}{k_{max}}$$
 
 **Practical considerations**:
-- **Zero-padding**: Improves interpolation in Fourier domain
+- **Zero-padding**: Improves interpolation in the Fourier domain
 - **Windowing**: Reduces artifacts from finite sample size
 - **Periodic boundaries**: FFT assumes periodic boundary conditions
 
@@ -453,7 +453,7 @@ $$W(a,b) = \int_{-\infty}^{\infty} f(x) \psi^*\left(\frac{x-b}{a}\right) dx$$
 
 **Subwavelength structures** require careful Fourier analysis:
 - **Effective medium theory**: Homogenization using spatial averaging
-- **Resonant structures**: Localized modes affect Fourier spectrum
+- **Resonant structures**: Localized modes affect the Fourier spectrum
 - **Negative index materials**: Unusual propagation characteristics
 
 ## C.10 Practical Considerations and Common Pitfalls
@@ -467,7 +467,7 @@ $$W(a,b) = \int_{-\infty}^{\infty} f(x) \psi^*\left(\frac{x-b}{a}\right) dx$$
 - Account for finite aperture sizes (windowing effects)
 - Consider coherence properties of the light source
 - Include lens aberrations in transfer function calculations
-- Account for detector finite pixel size and response
+- Account for the detector's finite pixel size and response
 ```
 
 ### C.10.2 Numerical Implementation

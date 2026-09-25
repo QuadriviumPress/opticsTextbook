@@ -39,7 +39,7 @@ This chapter provides a comprehensive introduction to the nature of light, cover
 ```{phet} waves-intro
 :label: fig:basics-waves-intro-sim
 
-The simulation shows a single oscillating source drawn as a water wave, a sound wave, or a light wave. Use it to connect the shared language of wavelength, frequency, and propagation speed before the particle picture of the next section.
+The simulation shows a single oscillating source drawn as a water wave, a sound wave, or a light wave. Use it to connect the shared language of wavelength, frequency, and propagation speed before the particle picture introduced later in the chapter.
 ```
 
 ## Introduction
@@ -161,7 +161,7 @@ For a photon with the same total energy (3.011 MeV), the momentum would be $p = 
 
 Beyond their individual properties, electrons and photons exhibit fundamentally different statistical behaviors that have profound implications for quantum systems. Electrons, being fermions with half-integer spin, obey **Fermi-Dirac statistics**. This means they are subject to the Pauli exclusion principle—no two electrons can occupy the same quantum state simultaneously. This principle governs the structure of atoms, the periodic table of elements, and the electrical properties of materials.
 
-Photons, on the other hand, are bosons with integer spin and obey **Bose-Einstein statistics**. Unlike electrons, multiple photons can occupy the same quantum state without restriction. This property is crucial for understanding laser operation, where many photons are stimulated to emit into the same mode, creating the coherent, intense light characteristic of laser beams.
+Photons, on the other hand, are bosons with integer spin and obey **Bose-Einstein statistics**. Unlike electrons, multiple photons can occupy the same quantum state without restriction. This property is crucial for understanding laser operation, where stimulated emission produces many photons in the same mode, creating the coherent, intense light characteristic of laser beams.
 
 The statistical differences also manifest in other phenomena. The tendency of bosons to "cluster" in the same state leads to Bose-Einstein condensation at very low temperatures, while the exclusion principle for fermions results in degeneracy pressure that supports white dwarf stars against gravitational collapse.
 
@@ -272,7 +272,7 @@ The speed of light in a vacuum, denoted as $c$, stands as one of physics' most f
 
 The first successful measurement of light's speed came from an unexpected source: the moons of Jupiter. In 1675, Danish astronomer Ole Roemer (1644–1710) was studying Io, one of Jupiter's four largest moons, when he noticed something peculiar. While Io maintained a consistent orbital period of 42.5 hours around Jupiter, the timing of its eclipses appeared to fluctuate by several seconds depending on Earth's position in its orbit around the Sun.
 
-Roemer's brilliant insight was recognizing that this fluctuation resulted from light's finite travel time. When Earth moved away from Jupiter in its orbit, light from Io's eclipses had to travel increasingly greater distances to reach terrestrial observers. Conversely, when Earth approached Jupiter, the light path shortened, causing eclipses to appear to occur earlier than predicted.
+Roemer's brilliant insight was recognizing that this fluctuation resulted from light's finite travel time. When Earth moved away from Jupiter in its orbit, light from Io's eclipses had to travel greater distances to reach terrestrial observers. Conversely, when Earth approached Jupiter, the light path shortened, causing eclipses to appear to occur earlier than predicted.
 
 ```{figure} Images/01_03_roemer.png
 :name: fig:basics:roemer
@@ -294,7 +294,7 @@ The first successful Earth-based measurement came in 1849 from French physicist 
 :align: center
 :width: 70%
 
-Fizeau's rotating wheel method. Light passes through the teeth gaps to reach the mirror, but returning light is blocked when the wheel rotates at the correct speed.
+Fizeau's rotating wheel method. Light passes through the gaps between the teeth to reach the mirror, but returning light is blocked when the wheel rotates at the correct speed.
 ```
 
 From the wheel's rotation rate, the number of teeth, and the distance to the mirror, Fizeau calculated light's speed as $3.15 \times 10^8 \, \text{m/s}$—only 5% higher than the accepted value.
@@ -439,7 +439,7 @@ Light can travel from a source to an observer through three primary pathways:
 :align: center
 :width: 90%
 
-Three methods for light to travel from source to observer: (a) direct transmission through vacuum, (b) transmission through media, and (c) reflection from surfaces.
+Three ways light can travel from source to observer: (a) direct transmission through vacuum, (b) transmission through media, and (c) reflection from surfaces.
 ```
 
 ### When Light Behaves as Rays

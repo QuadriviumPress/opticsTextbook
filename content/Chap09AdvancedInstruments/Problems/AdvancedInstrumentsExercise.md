@@ -2,7 +2,7 @@
 
 **Problem 9.1** Phase Contrast Microscopy.
 
-**(a)** A phase contrast microscope is used to observe a transparent biological cell that introduces a phase shift of $\varphi = 0.2$ radians. Assuming small phase approximation, calculate the intensity variation observed in the image compared to the background.
+**(a)** A phase contrast microscope is used to observe a transparent biological cell that introduces a phase shift of $\varphi = 0.2$ radians. Assuming the small-phase approximation, calculate the intensity variation observed in the image compared to the background.
 
 **(b)** Explain why a standard bright-field microscope cannot image a pure phase object. What modification does the phase contrast microscope introduce to solve this problem?
 

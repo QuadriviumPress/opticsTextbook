@@ -39,7 +39,7 @@ Each of these transformations can be represented mathematically as a matrix oper
 
 ### Matrix Basics: Structure and Notation
 
-A matrix is a rectangular array of numbers arranged in rows and columns. For optics, we primarily work with **2×2 matrices** (for polarization) and **2×2 matrices** (for ray optics):
+A matrix is a rectangular array of numbers arranged in rows and columns. For optics, we primarily work with **2×2 matrices** for both polarization and ray optics:
 
 $$\mathbf{M} = \begin{pmatrix} m_{11} & m_{12} \\ m_{21} & m_{22} \end{pmatrix}$$
 
@@ -538,7 +538,7 @@ c) $\begin{pmatrix} \cos\theta & -\sin\theta \\ \sin\theta & \cos\theta \end{pma
 ```{note} Problem 2
 :class: exercise
 
-Light starts as 45° linear polarization and passes through:
+Light is initially linearly polarized at 45° and passes through:
 1. A quarter-wave plate with fast axis at 0°
 2. A half-wave plate with fast axis at 22.5°
 3. A linear polarizer at 60°

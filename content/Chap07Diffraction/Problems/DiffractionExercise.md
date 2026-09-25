@@ -1,13 +1,13 @@
 # Problems
 
-**Problem 7.1** Consider a radiating time-harmonic point source in $\mathbf{r}_1=(x_1,0,0)$. The complex field in the point of observation $\mathbf{r}=(x,y,z)$, where $z>0$, is given by:
+**Problem 7.1** Consider a radiating time-harmonic point source in $\mathbf{r}_1=(x_1,0,0)$. The complex field at the observation point $\mathbf{r}=(x,y,z)$, where $z>0$, is given by:
 
 ```{math}
 \begin{align*}
 U_1(x,y,z) = Q_1 \frac{e^{ik \sqrt{(x-x_1)^2 + y^2 + z^2}}}{\sqrt{(x-x_1)^2 + y^2 + z^2}}.
 \end{align*}
 ```
-where $Q_1$ is a given complex number of which the modulus is proportional to the source strength.
+where $Q_1$ is a given complex number whose modulus is proportional to the source strength.
 
 **(a)** Derive that for fixed $z_1$ and for sufficiently large $z>0$ the field can be approximated by
 
@@ -22,7 +22,7 @@ U_{1,far}(x,y,z) = Q_1 \frac{e^{ik z}}{z} e^{i k\frac{x^2+ y^2}{2z}} e^{-i \frac
 **(b)** Let there be a second point source at $\mathbf{r}_2=(x_2,0,0)$, with complex source strength $Q_2$ with
 $|Q_2|=|Q_1|$. We assume that both point sources are coherent. This means that there is $\phi$ such that
 $Q_2=Q_1 e^{i \phi}$.
-Show that the field in $(x,y,z)$ for $z>0$ large due to the two point sources can be written as
+Show that the field at $(x,y,z)$ for $z>0$ large due to the two point sources can be written as
 
 ```{math}
 :label: eq:diff:twoPointSources
@@ -42,10 +42,10 @@ In the first slit there is vacuum.
 
 ```{figure} ../Images/07_24_01_two_slits_glass.png
 :name: fig:diff:twoSlits
-Two slits centerd at $y=0$ and very long in the $y$-direction in a dark screen of thickness $d$. The lower slit is filled with glass, the upper is in vacuum.
+Two slits centered at $y=0$ and very long in the $y$-direction in a dark screen of thickness $d$. The lower slit is filled with glass, the upper is in vacuum.
 ```
 
-**(a)** If the field immediately behind slit 1 has complex amplitude equal to $1$, explain that the field immediately after behind 2 is given by
+**(a)** If the field immediately behind slit 1 has complex amplitude equal to $1$, explain that the field immediately behind slit 2 is given by
 
 ```{math}
 \begin{align*}
@@ -65,12 +65,11 @@ at large distance $z$ is given by (up to factors that do not depend on $x/z$).
 I_{far}(x,0,z) = 2 \frac{a^2}{z^2} \left[ \frac{\sin \left(\frac{kax}{2z}\right)}{\frac{kax}{2z}}\right]^2 \left[ 1 + \cos\left( \frac{k b x}{z} +\phi\right)\right].
 \end{align*}
 ```
-In deriving this result you may omit all factors that are independent of $x/z$.
-and $y/z$.
+In deriving this result you may omit all factors that are independent of $x/z$ and $y/z$.
 If you use {eq}`eq:diff:twoPointSources` you may
 take $Q_1=1$, $Q_2=e^{i \phi}$.
 
-**(c)** Make a sketch of this intensity pattern, showing the zeros and maxima as function of $\theta=x/z$ when $a=2 \lambda$,
+**(c)** Make a sketch of this intensity pattern, showing the zeros and maxima as a function of $\theta=x/z$ when $a=2 \lambda$,
 $b=4 \lambda$ and $\phi=-\pi/2$. Explain where the envelope and the other factor that depends on $x/z$ are caused by.
 
 
@@ -103,11 +102,11 @@ x= \frac{\lambda}{2a} z,
 ```
 where $\lambda$ is the wavelength. In your derivation use path length differences of interfering rays and make a drawing.
 
-**(c)** What happens with this zero and with the fringe patten on the screen when the perfect mirror is replaced by a dielectric such as a piece of glass?
+**(c)** What happens with this zero and with the fringe pattern on the screen when the perfect mirror is replaced by a dielectric such as a piece of glass?
 
 
 **(d)** Suppose now that there is a second point source at $(2a,0,0)$ above the mirror and suppose that it has the same strength and is in phase with the point source in $(a,0,0)$.
-Assume again that the mirror is perfectly reflecting and derive (again by considering path length differences and using a drawing) that the smallest $x>0$ for which a zero occurs in point $(x,0,z)$ on the screen is given by
+Assume again that the mirror is perfectly reflecting and derive (again by considering path length differences and using a drawing) that the smallest $x>0$ for which a zero occurs at point $(x,0,z)$ on the screen is given by
 
 ```{math}
 \begin{align*}
@@ -115,7 +114,7 @@ x= \frac{\lambda}{3a}z
 \end{align*}
 ```
 
-**(e)** Derive the smallest $x>0$ for which the field is zero in $(x,0,z)$ when the two point sources at $(a,0,0)$ and $(2a,0,0)$ are mutually incoherent. Use again path length differences and make a drawing.
+**(e)** Derive the smallest $x>0$ for which the field is zero at $(x,0,z)$ when the two point sources at $(a,0,0)$ and $(2a,0,0)$ are mutually incoherent. Use again path length differences and make a drawing.
 
 
 **(f)** Next suppose that there is a square aperture with center at $(a,0,0)$ and sides of length $b<a$ parallel to the $x$- and $y$-directions in an opaque (i.e. dark) screen above the mirror as shown at the right of
@@ -186,7 +185,7 @@ A = \frac{a}{\sqrt{2 b \Delta r}}
 \end{align*}
 ```
 
-**(d)** Derive that the ratio of the field amplitudes in the focal point of the Bessel beam i: $U_{Bessel}(0,0,f_i)$ and the Airy spot: $U_{Airy}(0,0,f_i)$ is given by
+**(d)** Derive that the ratio of the field amplitudes in the focal point of the Bessel beam: $U_{Bessel}(0,0,f_i)$ and the Airy spot: $U_{Airy}(0,0,f_i)$ is given by
 
 ```{math}
 \begin{align*}
@@ -212,7 +211,7 @@ Amplitude in the focal plane of a Bessel beam and of an Airy spot with the same 
 
 **Problem 7.6** \* Stellar interferometry.
 
-We consider the emission by a star of light of a narrow frequency band with center frequency $\bar{\omega}$ and corresponding wavelength $\bar{\lambda}=c 2\pi/\bar{\omega}$
+We consider the emission by a star of light of a narrow frequency band with center frequency $\bar{\omega}$ and corresponding wavelength $\bar{\lambda}=c 2\pi/\bar{\omega}$.
 The star is an extended spatially incoherent source. Let $I(x,y)$ be the intensity on the star's surface orientated towards the earth. The aim of the exercise is to determine $I(x,y)$ by stellar interferometry.
 
 Let $U_0(x,y,t)$ be the field emitted at the surface of the star. Then the mutual coherence function at points $S_1=(x_1,y_1)$, $S_2=(x_2, y_2)$ on the surface of the star is:
@@ -225,9 +224,9 @@ I(x_1,y_1) e^{i \omega \tau} \delta(x_1- x_2)\delta(y_1- y_2) \;\;\; \text{ for 
 \end{align*}
 ```
 
-**(a)** Let $z_e$ be the distance of the star from earth. Use the quasi-monochromatic approximation to derive the field in a point $P_e=(x_e,y_e)$ on earth.
+**(a)** Let $z_e$ be the distance of the star from earth. Use the quasi-monochromatic approximation to derive the field at a point $P_e=(x_e,y_e)$ on earth.
 
-**(b)** Show that the mutual coherence function in two points $P_e=(x_e,y_e)$ and $\tilde{P}_2=(\tilde{x}_e, \tilde{y}_e)$ on earth is for $\tau=0$ given by
+**(b)** Show that the mutual coherence function at two points $P_e=(x_e,y_e)$ and $\tilde{P}_2=(\tilde{x}_e, \tilde{y}_e)$ on earth is for $\tau=0$ given by
 
 ```{math}
 \begin{align*}
@@ -235,7 +234,7 @@ I(x_1,y_1) e^{i \omega \tau} \delta(x_1- x_2)\delta(y_1- y_2) \;\;\; \text{ for 
 \frac{y_e -\tilde{y}_e }{\bar{\lambda} z_e}y_1\right) } \, dx_1 dy_1.
 \end{align*}
 ```
-i.e. the mutual coherence function between points on earth for time delay $\tau=0$ can be expressed in the Fourier transform of the intensity $I(x,y)$ emitted by the star, evaluated at spatial frequencies $\xi=\frac{x_e - \tilde{x}_e }{\bar{\lambda} z_e} $ and $\eta=\frac{y_e -\tilde{y}_e }{\bar{\lambda} z_e}$.
+i.e. the mutual coherence function between points on earth for time delay $\tau=0$ can be expressed as the Fourier transform of the intensity $I(x,y)$ emitted by the star, evaluated at spatial frequencies $\xi=\frac{x_e - \tilde{x}_e }{\bar{\lambda} z_e} $ and $\eta=\frac{y_e -\tilde{y}_e }{\bar{\lambda} z_e}$.
 
 **(c)** Explain how the mutual coherence for time delay $\tau=0$ can be measured on earth using interferometry and how this can lead to retrieving the intensity of the star.
 

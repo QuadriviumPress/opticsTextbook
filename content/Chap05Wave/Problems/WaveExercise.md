@@ -21,11 +21,11 @@
 **Problem 5.4** Two harmonic waves travel in opposite directions along a string:
 $y_1 = (0.15~\text{m})\sin(2x - 10t)$ and $y_2 = (0.10~\text{m})\sin(2x + 10t)$
 where $x$ is in meters and $t$ is in seconds.
-**(a)** What is the wavelength and frequency of each wave?
+**(a)** What are the wavelength and frequency of each wave?
 **(b)** Find the resultant wave $y = y_1 + y_2$.
 **(c)** Identify the locations of nodes (points where $y = 0$ always).
 
-**Problem 5.5** A wave generator produces harmonic waves with frequency 25 Hz. If the waves travel at 340 m/s:
+**Problem 5.5** A wave generator produces harmonic waves with frequency 25 Hz. The waves travel at 340 m/s.
 **(a)** What is the wavelength?
 **(b)** Write the wave equation if the amplitude is 0.02 m and the wave travels in the positive x-direction.
 **(c)** What is the phase difference between two points separated by 3.4 m along the direction of propagation?
@@ -67,7 +67,7 @@ where $x$ is in meters and $t$ is in seconds.
 **(b)** A spherical wave with the same amplitude $A$ at the source, measured at distance $r$
 **(c)** A cylindrical wave with the same amplitude $A$ at unit distance, measured at distance $\rho$
 
-**Problem 5.14** A Gaussian beam has a beam waist of $w_0 = 1.0$ mm at $z = 0$ and wavelength $\lambda = 633$ nm.
+**Problem 5.14** A Gaussian beam has a beam waist of $w_0 = 1.0$ mm at $z = 0$ and a wavelength $\lambda = 633$ nm.
 **(a)** Calculate the Rayleigh range $z_R$.
 **(b)** Find the beam radius at distances $z = z_R$, $z = 2z_R$, and $z = 5z_R$.
 **(c)** What is the far-field divergence angle?
@@ -115,7 +115,7 @@ where $x$ is in meters and $t$ is in seconds.
 **(b)** Find the recession velocity of the quasar using the relativistic Doppler formula.
 **(c)** Compare with the result using the non-relativistic approximation.
 
-**Problem 5.23** A double star system consists of two stars orbiting their common center of mass. Star A has an orbital velocity of 50 km/s. When observed from Earth:
+**Problem 5.23** A double star system consists of two stars orbiting their common center of mass. Star A has an orbital velocity of 50 km/s. Assume the system is observed from Earth.
 **(a)** What is the maximum Doppler shift of spectral lines from Star A?
 **(b)** If a spectral line has a rest wavelength of 500 nm, what are the maximum and minimum observed wavelengths?
 **(c)** Sketch how the wavelength varies over one orbital period.

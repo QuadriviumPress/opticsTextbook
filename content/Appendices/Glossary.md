@@ -81,7 +81,7 @@ Crystalline Lens
 :  The flexible lens in the eye behind the cornea that adjusts its curvature.
 
 Cylindrical Lens
-:  A lens with curved surface in one direction, focusing light differently in perpendicular directions.
+:  A lens with a curved surface in one direction, focusing light differently in perpendicular directions.
 
 Degree of Coherence
 :  A quantitative measure between 0 and 1 describing the visibility of interference fringes.
@@ -153,7 +153,7 @@ f-number
 :  The ratio of focal length to aperture diameter, characterizing the light gathering ability.
 
 Fraunhofer Diffraction
-:  Diffraction pattern observed far from an aperture where wavefronts are approximately planar.
+:  A diffraction pattern observed far from an aperture where wavefronts are approximately planar.
 
 Frequency
 :  The number of oscillations per unit time, measured in Hertz.
@@ -315,7 +315,7 @@ Modulation
 :  The process of varying amplitude, frequency, or phase of a carrier wave.
 
 Monochromatic
-:  Light consisting of a single wavelength or very narrow range.
+:  Light consisting of a single wavelength or a very narrow range of wavelengths.
 
 Nanometer
 :  A unit of length equal to 10⁻⁹ meters.
@@ -330,16 +330,16 @@ Nearsightedness
 :  A refractive error where the eye has difficulty focusing on distant objects.
 
 Negative Lens
-:  A diverging lens (thicker at edges than center) with negative focal length.
+:  A diverging lens (thicker at the edges than at the center) with negative focal length.
 
 Neutral Density Filter
 :  A filter that reduces light intensity equally across all wavelengths.
 
 Newton's Rings
-:  Concentric circular interference pattern formed between a plano-convex lens and flat surface.
+:  A concentric circular interference pattern formed between a plano-convex lens and a flat surface.
 
 Nonlinear Optics
-:  The study of light interaction with matter where response is not linear.
+:  The study of light interaction with matter where the response is not linear.
 
 Nonpolarized Light
 :  Light with random, time-varying polarization at all points.
@@ -357,7 +357,7 @@ Objective Lens
 :  The lens in a microscope closest to the object being observed.
 
 Oblique Incidence
-:  Light hitting a surface at an angle other than 90° to the surface normal.
+:  Light hitting a surface at an angle other than 0° to the surface normal.
 
 Optical Activity
 :  The ability of a substance to rotate the plane of polarization of light.
@@ -534,7 +534,7 @@ Reflector
 :  An optical element used to reflect light.
 
 Regular Reflection
-:  Reflection from a smooth surface where angle of incidence equals angle of reflection.
+:  Reflection from a smooth surface where the angle of incidence equals the angle of reflection.
 
 Resolution
 :  The ability to distinguish between two closely spaced objects.
@@ -690,7 +690,7 @@ Total Internal Reflection
 :  The complete reflection of light at an interface exceeding the critical angle.
 
 Total Internal Reflection Fluorescence
-:  Microscopy technique using evanescent waves to excite fluorescence.
+:  A microscopy technique using evanescent waves to excite fluorescence.
 
 Transfer Function
 :  A mathematical description of how a system modifies the input signal.
@@ -783,7 +783,7 @@ Wave Packet
 :  A localized group of waves.
 
 Wave Vector
-:  A vector in the direction of propagation with magnitude equal to wave number.
+:  A vector in the direction of propagation with magnitude equal to the wave number.
 
 Waveform
 :  The shape of a wave as it varies with time or space.

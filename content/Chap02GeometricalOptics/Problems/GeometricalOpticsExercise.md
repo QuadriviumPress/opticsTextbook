@@ -33,8 +33,6 @@ Explain your answer.
   for the tangential components of the electromagnetic field, using Maxwell's
   boundary conditions for electromagnetic fields.
 
-From electromagnetic theory, the wave trains emitted by different atoms (point sources) in the source suffer random phase jumps due to e.g. collisions and therefore the fields emitted by different point sources in an extended classical light source can not interfere.
-
 **Problem 2.2** Perfect focusing by an ellipsoid and a hyperboloid.
 
 Suppose that there are two media with refractive indices $n_1>n_2$ and that point $S$ is at infinity in the medium with refractive index $n_2$. We will construct a surface (interface) between the two media such that all rays from $S$ are focused into the same point $F$ (see {numref}`fig:geo:focusRight`a). Because $S$ is at a very large distance, the rays entering from the right are parallel. Since all parallel rays have traveled the same distance when they hit the surface $DD'$ perpendicular to the rays, all parallel rays have the same phase at their intersection points with the plane $DD'$.
@@ -49,7 +47,15 @@ Suppose that there are two media with refractive indices $n_1>n_2$ and that poin
 ```
 where the constant is the same for all points $A$ on the interface.
 
-**(b)** Show that by moving the plane $DD'$ parallel to itself we can achieve that for the new plane $DD'$ Insert the omitted equation after the colon.
+**(b)** Show that by moving the plane $DD'$ parallel to itself we can achieve that for the new plane $DD'$
+
+```{math}
+\begin{align*}
+e|DA| = |AF|,
+\end{align*}
+```
+
+where $e = n_2/n_1 < 1$. This is the directrix definition of an ellipsoid with focus $F$.
 
 **(c)** Suppose next that $n_2>n_1$, as shown at the right of {numref}`fig:geo:focusRight`. Show that now, by the same argument as above, the interface is a hyperboloid with $F$ as one of its focal points.
 
@@ -103,7 +109,7 @@ A paraboloid mirror.
 
 **Problem 2.4** Imaging of a virtual object.
 
-A virtual object is at a distance $d_0$ behind a converging lens. The converging incident rays to the left of the lens, that correspond to the virtual object, are shown in {numref}`fig:geo:virtualObject`. The lens has focal length $f$.
+A virtual object is at a distance $d_0$ behind a converging lens. The converging incident rays to the left of the lens that correspond to the virtual object are shown in {numref}`fig:geo:virtualObject`. The lens has focal length $f$.
 
 ```{figure} ../Images/02_20_virtual_object.png
 :name: fig:geo:virtualObject
@@ -134,9 +140,9 @@ What should be the distance $d$ such that the final image is real and the magnif
 
 **Problem 2.6** System matrix for imaging by a spherical surface.
 
-Consider a spherical surface with radius of curvature $R$, with a medium of refractive index $n_1$ ($n_2$) to the left (right) of the surface with refractive index $n_1$ ($n_2$).
+Consider a spherical surface with radius of curvature $R$, with a medium of refractive index $n_1$ ($n_2$) to the left (right) of the surface).
 
-**(a)** Derive the ray matrix between a plane to the left of the surface at a distance $d_1$ from the vertex and a plane to the right of the surface at a distance $d_2$ from the vertex. (As always the rays are assumed to propagate from the left to the right).
+**(a)** Derive the ray matrix between a plane to the left of the surface at a distance $d_1$ from the vertex and a plane to the right of the surface at a distance $d_2$ from the vertex. (As always, the rays are assumed to propagate from left to right.)
 
 **(b)** Derive the conditions such that the plane at distance $d_2$ is the
   image of the plane at distance $d_1$. Express the formula in
@@ -166,7 +172,7 @@ A spherical lens made of glass of index $n_l$ in a medium of index $n_m$. The po
 $$
 -\frac{n_m}{s_{o1}}+\frac{n_l}{s_{i1}} =\frac{n_l-n_m}{R_1},
 $$
-where $s_{o1}$ is the $z$-coordinate of $S$ with respect to the origin in $V_1$.
+where $s_{o1}$ is the $z$-coordinate of $S$ with respect to the origin at $V_1$.
 
 **(b)** Show that with respect to the origin at $V_2$ the $z$-coordinate of $P'$ is
 
@@ -251,12 +257,12 @@ f_o = \frac{P_1+P_2 + \frac{d}{n} {\cal P}_1{\cal P}_2}{n \left( 1 - \frac{d}{n}
 **Problem 2.10** Entrance pupil of a system of two lenses.
 Consider a system of two lenses $L_1$ and $L_2$ with distance $d$. The left lens $L_1$ has image focal distance $f_{1i}$ and $a_1$, $a_2$ are the radii of the lens apertures of $L_1$ and $L_2$.
 
-**(a)** Let lens $L_1$ be convergent with $f_{1i}=2~\text{cm}$ and let the distance be $d=1~\text{cm}$. Furthermore, let $a_1=2~\text{cm}$ and $a_2=1~\text{cm}$. Determine by construction with a ruler the entrance pupil. Compute also its position and radius using the Lensmakers' formula and derive the tangent of the angle that the marginal ray makes with the optical axis for an object on the optical axis at 4 cm to the left of $L_1$.
+**(a)** Let lens $L_1$ be convergent with $f_{1i}=2~\text{cm}$ and let the distance be $d=1~\text{cm}$. Furthermore, let $a_1=2~\text{cm}$ and $a_2=1~\text{cm}$. Determine by construction with a ruler the entrance pupil. Compute also its position and radius using the Lensmaker's formula and derive the tangent of the angle that the marginal ray makes with the optical axis for an object on the optical axis at 4 cm to the left of $L_1$.
 
 **(b)** Same question when $L_1$ is a divergent lens with $f_{1i}=-6~\text{cm}$, $d=3~\text{cm}$ and $a_1=a_2=1~\text{cm}$.
 
 
-**Problem 2.11** Diaphragm in a system of two thin lenses. The purpose of this problem is to determine the entrance and exit pupils of a system consisting of two thin lenses with a diaphragm using three methods: construction, applying the Lensmaker's formula and the matrix method.
+**Problem 2.11** Diaphragm in a system of two thin lenses. The purpose of this problem is to determine the entrance and exit pupils of a system consisting of two thin lenses with a diaphragm using three methods: construction, application of the Lensmaker's formula, and the matrix method.
 The situation is as shown in {numref}`fig:geo:twoThinLenses`. The focal distances of the two thin lenses are $f_1=10$ cm and $f_2=12$ cm and their distance
 $d = 6$ cm. Suppose that the aperture stop is as shown in {numref}`fig:geo:twoThinLenses`. It is at a distance of $ 1.5$ cm in front of the lens $L_1$ and has a diameter $D_a=5$ cm.
 

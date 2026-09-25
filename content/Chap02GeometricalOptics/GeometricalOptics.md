@@ -39,7 +39,7 @@ Place a lens or mirror, drag the object, and watch real and virtual images form.
 ## Introduction
 Geometrical optics is an old subject, but it is still essential to understand and design optical instruments such as cameras, microscopes, telescopes etc. Geometrical optics started long before light was described as a wave as is done in wave optics, and long before it was discovered that light is an electromagnetic wave and that optics is part of electromagnetism.
 
-In this chapter, we go back in history and treat geometrical optics. That may seem strange now that we have a much more accurate and better theory at our disposal. However, the predictions of geometrical optics are under quite common circumstances very useful and also very accurate. In fact, for many optical systems and practical instruments there is no alternative for geometrical optics because more accurate theories are much too complicated to use.
+In this chapter, we go back in history and treat geometrical optics. That may seem strange now that we have a much more accurate and better theory at our disposal. However, the predictions of geometrical optics are under quite common circumstances very useful and also very accurate. In fact, for many optical systems and practical instruments there is no alternative to geometrical optics because more accurate theories are much too complicated to use.
 
 When a material is illuminated, its molecules start to radiate spherical waves (more precisely, they radiate like tiny electric dipoles) and the total wave scattered by the material is the sum of all these spherical waves. A time-harmonic wave has at every point in space and at every instant of time a well defined phase.
 A **wave front** is a set of space-time points where the phase has the same value. At any fixed time, the wave front is called a surface of constant phase. This surface moves with the phase velocity in the direction of its local normal.
@@ -53,7 +53,7 @@ Geometrical optics is based on the intuitive idea that light consists of a bundl
 A ray is an oriented curve which is everywhere perpendicular to the surfaces of constant phase and points in the direction of the flow of energy.
 ```
 
-Consider a point source at some distance before an opaque screen with an aperture. According to the ray picture, the light distribution on a second screen further away from the source and parallel to the first screen is simply an enlarged copy of the aperture (see {numref}`fig:geo:geomDiffr`). The copy is enlarged due to the fanning out of the rays. However, this description is only accurate when the wavelength of the light is very small compared to the diameter of the aperture. If the aperture is only ten times the wavelength, the pattern is much broader due to the bending of the rays around the edge of the aperture. This phenomenon is called **diffraction**. Diffraction can not be explained by geometrical optics and will be studied in {ref}`chapter:diff`.
+Consider a point source at some distance before an opaque screen with an aperture. According to the ray picture, the light distribution on a second screen further away from the source and parallel to the first screen is simply an enlarged copy of the aperture (see {numref}`fig:geo:geomDiffr`). The copy is enlarged due to the fanning out of the rays. However, this description is only accurate when the wavelength of the light is very small compared to the diameter of the aperture. If the aperture is only ten times the wavelength, the pattern is much broader due to the bending of the rays around the edge of the aperture. This phenomenon is called **diffraction**. Diffraction cannot be explained by geometrical optics and will be studied in {ref}`chapter:diff`.
 
 
 ```{figure} Images/02_01_figgeom.png
@@ -135,7 +135,7 @@ Actually, Fermat's principle as formulated above is not complete. There are circ
 In homogeneous matter, the refractive index is constant and therefore paths of shortest OPL are straight lines. Hence in homogeneous matter rays are straight lines.
 - **Inhomogeneous matter**
 
-When the refractive index is a function of position, as in air with a temperature gradient, the rays bend towards regions of higher refractive index. In the case of {numref}`fig:geo:theoryOfMirage` for example, the ray from the top of the tree to the eye of the observer passes on a warm day close to the ground because there the temperature is higher and hence the refractive index is smaller. Although the curved path is longer than the straight path, the total travel time of the light is less because near the ground the light speed is higher (since the refractive index is smaller). The observer gets the impression that the tree is upside down under the ground.
+When the refractive index is a function of position, as in air with a temperature gradient, the rays bend towards regions of higher refractive index. In the case of {numref}`fig:geo:theoryOfMirage` for example, on a warm day, the ray from the top of the tree to the eye of the observer passes close to the ground because there the temperature is higher and hence the refractive index is smaller. Although the curved path is longer than the straight path, the total travel time of the light is less because near the ground the light speed is higher (since the refractive index is smaller). The observer gets the impression that the tree is upside down under the ground.
 
 - **Law of reflection**
 
@@ -149,7 +149,7 @@ Let the $x$-axis be the intersection of the mirror and the plane through the poi
 \frac{n}{c}d_1(x) + \frac{n}{c}d_2(x) = \frac{n}{c}\sqrt{ (x-x_P)^2 + y_P^2} +\frac{n}{c} \sqrt{ (x_Q-x)^2 + y_Q^2},
 \end{align*}
 ```
-where $n$ is the refractive index of the medium in $y>0$. According to Fermat's Principle, the point $(x,0)$ should be such that the travel time is minimum, i.e.
+where $n$ is the refractive index of the medium in $y>0$. According to Fermat's Principle, the point $(x,0)$ should be such that the travel time is at a minimum, i.e.
 
 ```{math}
 :label: eq:geo:mirrorMinimumCondition
@@ -194,7 +194,7 @@ Next, we consider refraction at an interface. Let $y=0$ be the interface between
 \frac{n_t}{c} \sqrt{(x_Q-x)^2 + y_Q^2}.
 \end{align*}
 ```
-The travel time must be minimum, hence there must hold
+The travel time must be at a minimum; hence, the following condition must hold:
 
 ```{math}
 :label: eq:geo:refractionMinimumCondition
@@ -240,7 +240,7 @@ Geometric construction of conic sections (ellipse, hyperbola, and parabola) show
 Overview of conic sections. The lower figure shows a definition that unifies the three definitions in the figure above by introducing a parameter called the eccentricity $e$. The point $F$ is the focus and the line $e=\infty$ is the directrix of the conic sections.
 ```
 
-We start with explaining what in geometrical optics is meant by **perfect imaging**.
+We start by explaining what in geometrical optics is meant by **perfect imaging**.
 Let $S$ be a point source. The rays perpendicular to the spherical wave fronts emitted by $S$ radially fan out from $S$. Due to objects such as lenses etc. the spherical wave fronts are deformed and the directions of the rays are made to deviate from the radial propagation direction.
 When there is a point $P$ and a cone of rays coming from point $S$ and all rays in that cone intersect in point $P$, then by Fermat's principle, all these rays have traversed paths of minimum travel time. In particular, their travel times are equal and therefore they **all add up in phase** when they arrive in $P$. Hence at $P$ there is a high light intensity. Hence, if there is a cone of rays from point $S$ which all intersect in a point $P$ as shown in {numref}`fig:geo:perfectImaging`, point $P$ is called the **perfect image** of $S$.
 By reversing the direction of the rays, $S$ is similarly a perfect image of $P$.
@@ -254,12 +254,12 @@ Perfect imaging: a cone of rays which diverge from $S$ and all intersect in poin
 ```
 
 
-**Remark**. The concept of a perfect image point exists only in geometrical optics. In reality finite apertures of lenses and other imaging systems cause diffraction due to which image points are never perfect but blurred.
+**Remark**. The concept of a perfect image point exists only in geometrical optics. In reality, finite apertures of lenses and other imaging systems cause diffraction due to which image points are never perfect but blurred.
 
 We summarize the main examples of stigmatic systems.
 
 **1.**
-**Perfect focusing and imaging by refraction.** A parallel bundle of rays propagating in a medium with refractive index $n_2$ can be focused into a point $F$ in a medium $n_1$. If $n_2>n_1$, the interface between the media should be a hyperbola with focus $F$, whereas if $n_2<n_1$ the interface should be an ellipse with focus $F$. By reversing the rays we obtain perfect collimation. Therefore, a point $S$ in air can be perfectly imaged onto a point $F$ in air by inserting a piece of glass in between them with hyperbolic surfaces. These properties are derived in Problem 2.2.
+**Perfect focusing and imaging by refraction.** A parallel bundle of rays propagating in a medium with refractive index $n_2$ can be focused into a point $F$ in a medium with refractive index $n_1$. If $n_2>n_1$, the interface between the media should be a hyperbola with focus $F$, whereas if $n_2<n_1$ the interface should be an ellipse with focus $F$. By reversing the rays we obtain perfect collimation. Therefore, a point $S$ in air can be perfectly imaged onto a point $F$ in air by inserting a piece of glass in between them with hyperbolic surfaces. These properties are derived in Problem 2.2.
 
 **2.**
 **Perfect focusing of parallel rays by a mirror**.
@@ -290,7 +290,7 @@ n_i \theta_i = n_t \theta_t \quad \text{(paraxial rays only)}.
 \end{align*}
 ```
 This approximation greatly simplifies the calculations. When only paraxial rays are considered, one may replace any surface by a sphere with the same curvature at its vertex. Errors caused by replacing a surface by a sphere are of second order in the angles the ray makes with the optical axis and hence are insignificant for paraxial rays.
-Spherical surfaces are not only more simple in the derivations but they are also much easier to manufacture. Hence in the optical industry spherical surfaces are used a lot. To reduce imaging errors caused by non-paraxial rays one applies two strategies: 1. adding more spherical surfaces; 2. replacing one of the spherical surfaces (typically the last before image space) by a non-sphere.
+Spherical surfaces are not only simpler in the derivations but they are also much easier to manufacture. Hence in the optical industry spherical surfaces are used a lot. To reduce imaging errors caused by non-paraxial rays one applies two strategies: 1. adding more spherical surfaces; 2. replacing one of the spherical surfaces (typically the last before image space) by a non-sphere.
 
 
 ```{note}
@@ -315,10 +315,10 @@ left of the surface. We draw a ray from $S$ perpendicular to the surface. The
 point of intersection is $V$. Since for this ray the angle of incidence with the
 local normal on the surface vanishes, the ray continues into the second medium
 without refraction and passes through the center $C$ of the sphere. Next we draw
-a ray that hits the spherical surface in some point $A$ and draw the refracted
+a ray that hits the spherical surface at some point $A$ and draw the refracted
 ray in medium 2 using Snell's law in the paraxial form {eq}`eq:geo:snellParaxial`. Note that the angles of incidence and transmission must
 be measured with respect to the local normal at $A$, i.e. with respect to $CA$.
-We assume that this ray intersects the first ray in point $P$. We will show that
+We assume that this ray intersects the first ray at point $P$. We will show that
 within the approximation of Gaussian geometrical optics, all rays from $S$ pass
 through $P$.
 Furthermore, with respect to a coordinate system $(y,z)$ with origin at $V$, the $z$-axis pointing from $V$ to $C$ and the $y$-axis positive upwards as shown in {numref}`fig:geo:sphericalInterface`, we have:
@@ -442,7 +442,7 @@ Its $z$-coordinate is given by:
 	\end{align*}
 ```
 
-and its absolute value (it is negative when $n_2<n_1$) is called the **second focal length** or **image focal length**.
+The absolute value of $f_i$ is called the **second focal length** or **image focal length**. The signed value $f_i$ is negative when $n_2<n_1$.
 When $s_i\rightarrow \infty$, the rays after refraction are parallel to the $z$-axis and we get $s_o \rightarrow -n_1 R/(n_2-n_1)$. The object point for which the rays in medium 2 are parallel to the $z$-axis is called the **first focal point** or **object focal point** $F_o$. Its $z$-coordinate is:
 
 
@@ -486,15 +486,13 @@ Sign convention for the radius $R$ of a spherical surface
 
 If the power ${\cal P}$ given by {eq}`eq:geo:surfacePower` is positive, then
 the surface makes bundles of incident rays convergent or less divergent.
-If the power is negative, incident bundles are made divergent or less convergent. The power of the surface can be negative because of two reasons:
+If the power is negative, incident bundles are made divergent or less convergent. The power of the surface can be negative for two reasons:
 1) $R$>0 and $n_1>n_2$, or
 2) $R$<0 and $n_1<n_2$, but the effect of the two cases is the same.
    For any object to the left of the surface: $s_o<0$, {eq}`eq:geo:singleSurfacePowerForm` and a negative power imply that $s_i<0$,
-   which suggests that the image is to the left of the surface. Indeed, in both
-   Figs.
-the diverging ray bundle emitted by S is made more strongly divergent by the surface. By extending these rays in image space back to object space (without refraction at the surface), they are seen to intersect in a point $P$ to the left of the surface. This implies that for an observer at the right of the surface it looks as if the diverging rays in image space are emitted by $P$. Because there is no actual concentration of light intensity at $P$, it is called a **virtual image**, in contrast with the **real images** that occur to the right of the surface and where there is an actual concentration of light energy. We have in this case $f_o>0$ and $f_<0$, which means that the object and image focal points are to the right and left, respectively, of the surface.
+   which suggests that the image is to the left of the surface. Indeed, in both cases, the diverging ray bundle emitted by S is made more strongly divergent by the surface. By extending these rays in image space back to object space (without refraction at the surface), they are seen to intersect in a point $P$ to the left of the surface. This implies that for an observer at the right of the surface it looks as if the diverging rays in image space are emitted by $P$. Because there is no actual concentration of light intensity at $P$, it is called a **virtual image**, in contrast with the **real images** that occur to the right of the surface and where there is an actual concentration of light energy. We have in this case $f_o>0$ and $f_i<0$, which means that the object and image focal points are to the right and left, respectively, of the surface.
 
-Note that also when the power is positive, a virtual image can occur, namely when the object $S$ is in between the object focal point $F_o$ and the surface. Then the bundle of rays from S is so strongly diverging that the surface can not convert it into a convergent bundle and hence again the rays in image space seem to come from a point $P$ to the left of the surface. This agrees with the fact that when ${\cal P}>0$ and $f_o< s_o<0$,
+Note that also when the power is positive, a virtual image can occur, namely when the object $S$ is in between the object focal point $F_o$ and the surface. Then the bundle of rays from S is so strongly diverging that the surface cannot convert it into a convergent bundle and hence again the rays in image space seem to come from a point $P$ to the left of the surface. This agrees with the fact that when ${\cal P}>0$ and $f_o< s_o<0$,
 {eq}`eq:geo:singleSurfacePowerForm` implies that $s_i<0$.
 
 
@@ -504,7 +502,7 @@ Imaging by a concave surface ($R<0$) with $n_2>n_1$. All image points are to the
 ```
 
 
-Finally we look at a case in which there is a bundle of convergent rays incident from the left on the surface which when extended into the right medium without refraction at the surface, would intersect in a point $S$. Since this point is not actually present, it is called a **virtual object point**, in contrast to **real object points** which are to the left of the surface. The coordinate of a virtual object point is positive: $s_o>0$.
+Finally we look at a case in which there is a bundle of convergent rays incident on the surface from the left. If extended into the right medium without refraction, these rays would intersect in a point $S$. Since this point is not actually present, it is called a **virtual object point**, in contrast to **real object points** which are to the left of the surface. The coordinate of a virtual object point is positive: $s_o>0$.
 One may wonder why we look at this case. The reason is that if we have several
 spherical surfaces behind each other, we can compute the image of an object
 point by first determining the intermediate image by the leftmost surface and
@@ -562,7 +560,7 @@ transverse-magnification relation
 $M=y_i/y_o = s_i/s_o = -x_i/f_i$ and Newton's lens equation $x_o x_i = -f_i^2$
 (see the {ref}`Ray Matrix chapter <chapter:ray>`) give $M=-x_i/f_i=f_i/x_o$. It follows that when $f_i$ is increased, the
 magnification increases.
-A larger magnification means a lower energy density, hence a longer exposure time, i.e. **the speed of the lens is reduced**. Camera lenses are usually specified by two numbers: the focal length $f$, measured with respect to the exit pupil and the diameter $D$ of the exit pupil. The **$f$-number** is the ratio of the focal length to this diameter:
+A larger magnification means a lower energy density, hence a longer exposure time, i.e. **the speed of the lens is reduced**. Camera lenses are usually specified by two numbers: the focal length $f$, measured with respect to the exit pupil, and the diameter $D$ of the exit pupil. The **$f$-number** is the ratio of the focal length to this diameter:
 
 
 ```{math}
@@ -607,10 +605,10 @@ Spherical aberration of a planar-convex lens.
 For high-quality imaging,
 the aberrations have to be reduced by adding more lenses and optimizing the curvatures of the surfaces,
 the thicknesses of the lenses and the distances between them.
-For high quality systems, a lens with an aspherical surface is sometimes used.
+For high-quality systems, a lens with an aspherical surface is sometimes used.
 Systems with very small aberrations are extremely expensive, in particular if the field of view is large,
 as is the case in lithographic imaging systems
-used in the manufacturing of integrated circuits as shown in the lithographic system in {numref}`fig:geo:asmlEuv`.
+used in the manufacturing of integrated circuits as illustrated by the lithographic system in {numref}`fig:geo:asmlEuv`.
 
 A comprehensive treatment of aberration theory can be found in Braat et al.[^4].
 
@@ -632,7 +630,7 @@ Left: cross section of the field of the Airy pattern. Right: intensity pattern o
 ```
 
 
-Even if the wave transmitted by the exit pupil were perfectly spherical (no aberrations), the wave front consists of only a circular section of a sphere since the field is limited by the aperture. An aperture causes **diffraction**, i.e. bending and spreading of the light. When one images a point object on the optical axis, diffraction causes inevitable blurring given by the so-called Airy spot, as shown in {numref}`fig:geo:airySpot`. The Airy spot has full-width at half-maximum:
+Even if the wave transmitted by the exit pupil were perfectly spherical (no aberrations), the wave front consists of only a circular section of a sphere since the field is limited by the aperture. An aperture causes **diffraction**, i.e. bending and spreading of the light. When one images a point object on the optical axis, diffraction causes inevitable blurring given by the so-called Airy spot, as shown in {numref}`fig:geo:airySpot`. The Airy spot has a full width at half maximum:
 
 ```{math}
 :label: eq:geo:airySpotResolution

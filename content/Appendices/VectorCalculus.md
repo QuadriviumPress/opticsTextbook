@@ -110,7 +110,7 @@ A **vector field** assigns a vector to each point in space. In optics, we common
 A plane wave traveling in the z-direction:
 
 **Cartesian**: $\vec{E} = E_0 \cos(kz - \omega t)\hat{x}$
-**Cylindrical**: $\vec{E} = E_0 \cos(kz - \omega t)\hat{x}$ (same, since wave is independent of ρ and φ)
+**Cylindrical**: $\vec{E} = E_0 \cos(kz - \omega t)\hat{x}$ (same, since the wave is independent of ρ and φ)
 **Spherical**: More complex due to coordinate transformation, but reduces to Cartesian form for $r \gg \lambda$
 ```
 
@@ -317,7 +317,7 @@ $$\nabla^2 \vec{E} + k^2 \vec{E} = 0$$
 where $k = \omega\sqrt{\mu_0\epsilon_0} = \omega/c$.
 
 ```{note} Example: Gaussian Beam Solution
-The Gaussian beam is a solution to the paraxial wave equation (approximation to Helmholtz equation):
+The Gaussian beam is a solution to the paraxial wave equation (an approximation to the Helmholtz equation):
 
 $$\vec{E}(x,y,z) = E_0 \frac{w_0}{w(z)} \exp\left(-\frac{x^2 + y^2}{w^2(z)}\right) \exp\left(ikz - ik\frac{x^2 + y^2}{2R(z)} + i\zeta(z)\right)$$
 
@@ -454,7 +454,7 @@ In step-index optical fibers, we have:
 
 **Weakly guiding approximation**: $n_1 - n_2 \ll n_1$
 
-The fundamental mode (LP₀₁) has approximately Gaussian transverse profile:
+The fundamental mode (LP₀₁) has an approximately Gaussian transverse profile:
 $$E(\rho) \propto e^{-\rho^2/w^2}$$
 
 where $w$ is the mode field radius, related to the V-parameter:
@@ -621,7 +621,7 @@ where $\vec{M}$ and $\vec{N}$ are vector spherical harmonics.
 **Scattering cross-section**:
 $$\sigma_{scat} = \frac{2\pi}{k^2} \sum_{l=1}^{\infty} (2l+1)(|a_l|^2 + |b_l|^2)$$
 
-**Rayleigh limit** ($kR \ll 1$): $\sigma_{scat} \propto (kR)^4 \propto \lambda^{-4}$ (why sky is blue)
+**Rayleigh limit** ($kR \ll 1$): $\sigma_{scat} \propto (kR)^4 \propto \lambda^{-4}$ (why the sky is blue)
 ```
 
 ### D.13.3 Gaussian Beam Propagation
@@ -637,9 +637,9 @@ A Gaussian beam with waist $w_0$ is focused by a lens of focal length $f$. Find 
 
 **Transformation rule**: $q_{out} = \frac{Aq_{in} + B}{Cq_{in} + D}$
 
-**For thin lens**: $q_{out} = \frac{q_{in}}{-q_{in}/f + 1}$
+**For a thin lens**: $q_{out} = \frac{q_{in}}{-q_{in}/f + 1}$
 
-**If beam waist is at lens** ($z = 0$, so $q_{in} = iz_R$):
+**If the beam waist is at the lens** ($z = 0$, so $q_{in} = iz_R$):
 $$q_{out} = \frac{iz_R}{-iz_R/f + 1} = \frac{iz_R f}{f - iz_R}$$
 
 **Output waist location**: $z_{out} = \text{Re}(q_{out}) = \frac{z_R^2 f}{f^2 + z_R^2}$
@@ -668,7 +668,7 @@ d) Is this field conservative? Why or why not?
 ```{note} Problem D.2
 :class: exercise
 
-A plane electromagnetic wave has electric field $\vec{E} = E_0(\hat{x} + i\hat{y})e^{i(kz - \omega t)}$.
+A plane electromagnetic wave has an electric field $\vec{E} = E_0(\hat{x} + i\hat{y})e^{i(kz - \omega t)}$.
 a) Find the magnetic field $\vec{B}$
 b) Calculate the Poynting vector $\vec{S}$
 c) What type of polarization is this?

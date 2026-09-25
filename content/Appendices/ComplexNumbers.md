@@ -431,7 +431,7 @@ This makes $\cos\theta_2 = \sqrt{1 - \sin^2\theta_2}$ imaginary! The reflection 
 
 $$r_s = \frac{n_1\cos\theta_1 - in_2\sqrt{\sin^2\theta_1 - (n_2/n_1)^2}}{n_1\cos\theta_1 + in_2\sqrt{\sin^2\theta_1 - (n_2/n_1)^2}}$$
 
-The magnitude $|r_s| = 1$ (perfect reflection), but the phase changes upon reflection. This phase shift is crucial for understanding phenomena like the Goos-Hänchen effect.
+The magnitude is $|r_s| = 1$ (perfect reflection), but the phase changes upon reflection. This phase shift is crucial for understanding phenomena like the Goos-Hänchen effect.
 ```
 
 ### A.6.2 Polarization States
@@ -472,7 +472,7 @@ The polarization state is determined by:
 
 ### A.6.3 Fourier Optics: Spatial Frequencies
 
-Modern optics heavily relies on Fourier analysis, which is built on complex exponentials. The spatial Fourier transform of a function $f(x,y)$ is:
+Modern optics relies heavily on Fourier analysis, which is built on complex exponentials. The spatial Fourier transform of a function $f(x,y)$ is:
 
 $$F(k_x, k_y) = \int_{-\infty}^{\infty} \int_{-\infty}^{\infty} f(x,y) e^{-i(k_x x + k_y y)} dx dy$$
 
@@ -691,7 +691,7 @@ The transmission coefficient is $t_{12} = 1 + r_{12} \approx 0.8002 + 0.0032i$.
 The wave number in the material is:
 $k = \frac{2\pi}{\lambda_0}\tilde{n} = \frac{2\pi}{\lambda_0}(1.5 + 0.01i)$
 
-After propagating distance $t$, the field is multiplied by:
+After propagating a distance $t$, the field is multiplied by:
 $e^{ik t} = e^{i(2\pi/\lambda_0)(1.5 + 0.01i)t} = e^{i(2\pi/\lambda_0)(1.5t)} e^{-(2\pi/\lambda_0)(0.01t)}$
 
 The absorption factor is $e^{-(2\pi/\lambda_0)(0.01t)}$.
@@ -874,7 +874,7 @@ The development of complex numbers and their application to physics is a fascina
 - **1777**: Euler introduces the notation $i$ for $\sqrt{-1}$
 - **1799**: Gauss proves the fundamental theorem of algebra using complex numbers
 - **1806**: Argand develops the geometric representation (complex plane)
-- **1864**: Maxwell's equations are formulated, setting stage for complex analysis in optics
+- **1864**: Maxwell's equations are formulated, setting the stage for complex analysis in optics
 - **1900**: Complex analysis becomes essential for quantum mechanics and modern physics
 
 ### A.13.2 Connections to Other Fields
