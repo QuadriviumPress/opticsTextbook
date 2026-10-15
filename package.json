@@ -101,7 +101,10 @@
   "homepage": "https://quadriviumpress.com/opticsTextbook/",
   "overrides": {
     "markdownlint-cli2": {
-      "smol-toml": "1.7.1"
+      "smol-toml": "1.9.1"
+    },
+    "micromark-extension-math": {
+      "katex": "0.18.2"
     }
   }
 }
