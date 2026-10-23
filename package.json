@@ -75,14 +75,14 @@
     "mystmd": "1.11.0",
     "sharp": "0.35.5",
     "@types/jest": "^30.0.0",
-    "cspell": "^10.3.6",
+    "cspell": "^10.4.0",
     "husky": "^9.1.7",
     "jest": "^30.5.2",
     "markdownlint-cli2": "^0.23.3",
     "write-good": "^1.0.8"
   },
   "dependencies": {
-    "js-yaml": "^5.4.3"
+    "js-yaml": "^5.5.0"
   },
   "keywords": [
     "optics",
