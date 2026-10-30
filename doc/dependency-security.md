@@ -2,7 +2,7 @@
 
 The October 2026 dependency review updates `smol-toml` to 1.9.1 and the
 Markdown linter's KaTeX dependency to 0.18.2. The production MyST version
-remains pinned to 1.11.0.
+remains pinned to 1.12.0.
 
 Two underlying advisories remain in development tooling because their
 packages have no published patched version at the time of this review:

@@ -13,8 +13,10 @@
   ],
   "author": "MyST Project Contributors",
   "license": "CC-BY-SA-4.0",
+  "packageManager": "npm@11.20.0",
   "engines": {
-    "node": ">=26"
+    "node": ">=26",
+    "npm": ">=11 <12"
   },
   "dependencies": {
     "js-yaml": "^4.1.1"
