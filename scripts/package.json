@@ -14,7 +14,7 @@
   "author": "MyST Project Contributors",
   "license": "CC-BY-SA-4.0",
   "engines": {
-    "node": ">=20.0.0"
+    "node": ">=26"
   },
   "dependencies": {
     "js-yaml": "^4.1.1"

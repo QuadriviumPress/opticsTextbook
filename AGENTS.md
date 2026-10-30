@@ -73,7 +73,7 @@ npm run validate:style:strict
 
 ## Intentional differences
 
-- `dependencies` keeps `js-yaml`. `mystmd` and `sharp` are in `devDependencies`.
+- `dependencies` keeps `js-yaml`. `mystmd`, `sharp`, and `@types/node` (`^26.1.1`) are in `devDependencies`. `@types/node` is direct so the lockfile resolves Node 26 types; Jest depends on `@types/node` with `*`.
 - Optional `package.json` keys: `keywords`, `repository`, `bugs`, `homepage`, `overrides` (pins `smol-toml` for `markdownlint-cli2`).
 - `build` optimizes images, generates exports, copies them into the site, injects scripts, and installs PWA assets through `npm run setup-pwa`. It does not call `scripts/setup-pwa.mjs`.
 - `verify` runs the optics lint, reference, label, image, style, and alt-text checks, then Jest.

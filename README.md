@@ -37,7 +37,7 @@ See [PWA_SETUP.md](doc/PWA_SETUP.md) for details on PWA features and usage.
 
 ## Build
 
-Use Node.js 22 and install the pinned dependencies from the lockfile:
+Use Node 26 and install the pinned dependencies from the lockfile:
 
 ```bash
 npm install
