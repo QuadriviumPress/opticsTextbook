@@ -35,8 +35,10 @@ const { ReportGenerator } = require('../report-utils');
 function getMystBuildReferences() {
   console.log('Running MyST build to identify referenced images...');
 
-  // Try to build and capture output
-  const { stdout, stderr } = runMystCommand(['npm', 'run', 'build']);
+  // HTML-only build: enough to surface image processing output, and avoids
+  // `npm run build`'s prebuild PDF export + PWA steps (those pulled in a
+  // mystmd 1.13 got/p-cancelable race under Node 26 in CI).
+  const { stdout, stderr } = runMystCommand(['npx', 'myst', 'build', '--html']);
   let output = stdout + stderr;
 
   // Extract image references from build output
