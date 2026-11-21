@@ -324,25 +324,28 @@ describe('PWA npm Scripts', () => {
 });
 
 describe('PWA Build Integration', () => {
-  const buildExists = fs.existsSync(BUILD_DIR);
+  // Gate on setup-pwa output, not merely `_build/html`. Verify runs
+  // `myst build --html` (no setup-pwa), which would otherwise make these
+  // tests fail against a bare MyST site tree.
+  const pwaInstalled = fs.existsSync(path.join(BUILD_DIR, 'manifest.json'));
 
-  describe('Built PWA Assets (when build exists)', () => {
-    (buildExists ? test : test.skip)('should have manifest.json in build', () => {
+  describe('Built PWA Assets (when setup-pwa has run)', () => {
+    (pwaInstalled ? test : test.skip)('should have manifest.json in build', () => {
       const manifestPath = path.join(BUILD_DIR, 'manifest.json');
       expect(fs.existsSync(manifestPath)).toBe(true);
     });
 
-    (buildExists ? test : test.skip)('should have service-worker.js in build', () => {
+    (pwaInstalled ? test : test.skip)('should have service-worker.js in build', () => {
       const swPath = path.join(BUILD_DIR, 'service-worker.js');
       expect(fs.existsSync(swPath)).toBe(true);
     });
 
-    (buildExists ? test : test.skip)('should have offline.html in build', () => {
+    (pwaInstalled ? test : test.skip)('should have offline.html in build', () => {
       const offlinePath = path.join(BUILD_DIR, 'offline.html');
       expect(fs.existsSync(offlinePath)).toBe(true);
     });
 
-    (buildExists ? test : test.skip)('HTML files should have PWA tags', () => {
+    (pwaInstalled ? test : test.skip)('HTML files should have PWA tags', () => {
       const indexPath = path.join(BUILD_DIR, 'index.html');
 
       if (fs.existsSync(indexPath)) {
