@@ -76,10 +76,10 @@
     "sharp": "0.35.5",
     "@types/jest": "^30.0.0",
     "@types/node": "^26.1.1",
-    "cspell": "^10.5.1",
+    "cspell": "^10.5.2",
     "husky": "^9.1.7",
     "jest": "^30.5.2",
-    "markdownlint-cli2": "^0.24.1",
+    "markdownlint-cli2": "^0.24.2",
     "write-good": "^1.0.8"
   },
   "dependencies": {
